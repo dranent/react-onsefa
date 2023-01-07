@@ -1,0 +1,787 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.left-box {
+  float: left;
+}
+
+.right-box {
+  float: right;
+}
+
+.mainImage {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/*개행 기능 \n*/
+.display-enter {
+  white-space: pre-line;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.imgMiddle {
+  max-width: 100%;
+  width: auto !important;
+  height: auto !important;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+.container-width {
+  width: 100% !important;
+}
+
+.justify-content {
+  justify-content: flex-end;
+}
+
+.banner {
+  margin-top: 100px;
+  background-color: white;
+  position: relative;
+  /* 핵심코드 */
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.triangl {
+  background-color: white;
+  position: relative;
+  /* 핵심코드 */
+  display: inline-block;
+  max-width: 50%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.define-area {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.define-introduction {
+  margin-top: 3em;
+  line-height: 2em;
+  margin-bottom: 10em;
+}
+
+
+.marginTop {
+  margin-top: 50px;
+}
+
+.padding-top {
+  padding-top: 100px;
+}
+
+.message {
+  padding-top: 100px;
+}
+
+
+.qna-area {
+  margin-top: 5em;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.padding-left {
+  padding-left: 2em;
+}
+
+.padding-right {
+  padding-right: 2em;
+}
+
+.padding-left-10px {
+  padding-left: 10px;
+}
+
+.margin-1em {
+  margin: 1em;
+}
+
+.margin-top-1em {
+  margin-top: 1em;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  list-style: none;
+  padding: 0;
+}
+
+.google-maps {
+  position: relative;
+  /* This is the aspect ratio */
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 80% !important;
+  height: 80% !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qna-q {
+  float: left;
+}
+
+.qna-arrow {
+  float: right;
+  transition: all ease 1s;
+}
+
+.float-left {
+  float: left;
+}
+
+.qna-arrow.open {
+  transform: rotate(180deg);
+  transition: all ease 1s;
+}
+
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.fixed_reserve_pc {
+  /* background-color: #F2EFEB; */
+  position: fixed;
+  right: 0;
+  /* 위치 */
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  padding: 1em;
+}
+
+.inner_fixed_reserve_pc {
+  position: relative;
+}
+
+
+.line_btn {
+  height: 60px;
+  width: 280px;
+  background-color: #4b4242;
+  border-radius: 25rem;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.line_btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #4b4242;
+}
+
+.line_txt {
+  line-height: 60px;
+  float: left;
+
+}
+
+.line-icon {
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.top-btn {
+  float: right;
+  background-color: rgba(218, 218, 218, 0.915);
+  border-radius: 50%;
+  border: 0;
+  color: #FFF;
+  height: 50px;
+  width: 50px;
+  vertical-align:middle;
+  font-size: 1.5em;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+}
+/* .top-btn:hover{
+  background-color: rgba(152, 152, 152, 0.915);
+}
+.top-btn:active {
+  background-color: rgba(152, 152, 152, 0.915) ;
+} */
+
+@media only screen and (min-width: 600px) {
+  .time-table {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  .price-table {
+    padding-left: 20%;
+    padding-right: 20%;
+
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .price-table {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0 !important;
+  }
+
+  .triangl {
+    background-color: white;
+    position: relative;
+    /* 핵심코드 */
+    display: inline-block;
+    max-width: 90%;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+
+  .curriculum {
+    margin-top: 5em;
+    max-width: 90%;
+  }
+  .qna-area {
+    margin-top: 0;
+  }
+}
+
+
+.price-table {
+  padding-top: 10em;
+}
+
+.access {
+  padding-top: 1em;
+}
+
+.just-for-you {
+  margin-top: 3em;
+}
+
+.ticket-img {
+  width: 300px;
+}
+
+.curriculum {
+  margin-top: 5em;
+  max-width: 70%;
+}
+
+.padding2em {
+  padding: 20em;
+}
+
+.main-logo {
+  background-color: white;
+  position: relative;
+  /* 핵심코드 */
+  display: inline-block;
+  max-width: 80%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.main-logo-are {
+  align-items: center;
+}
+
+.ticket-img-icon {
+  width: 30px;
+  padding: 3px;
+}
+@media only screen and (min-width: 600px) {
+.reserve {
+  padding: 10em;
+}
+}
+@media only screen and (max-width: 600px) {
+  .reserve {
+    padding: 1em;
+  }
+  }
+/* @media only screen and (min-width: 600px) {
+  .reserve {
+    margin-top: 5em;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+  }  
+}
+@media only screen and (max-width: 600px) {
+  .reserve {
+    margin-top: 5em;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+  }  
+} */
+
+.radio-btn-reservation {
+  padding-left: 2em;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.list-block {
+  display: block;
+}
+
+
+
+/*-------------------------------------------------------------------
+
+	form
+
+-------------------------------------------------------------------*/
+/*reset*/
+.form-data {
+  width: 100%;
+  
+}
+
+
+/*setting*/
+.must-icon::after {
+  content: "必須";
+  display: inline-block;
+  font-weight: 500;
+  color: #FFF;
+  border-radius: 4px;
+  padding: .3em .4em;
+  background: #f19e91;
+  font-size: 10px;
+  float: right;
+  font-family: "Noto Sans Japanese", "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+.reserve table td {
+  vertical-align: center;
+  display: table-cell;
+  margin-bottom: 1rem;
+  padding-left: 1em;
+
+  border: #4b4242 solid 1px;
+  border-spacing: 0;
+  border-radius: 5px;
+}
+
+.reserve table th {
+  vertical-align: center;
+  display: table-cell;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1em;
+  border: #4b4242 solid 1px;
+  border-spacing: 0;
+  border-radius: 5px;
+  white-space:nowrap;
+
+}
+@media only screen and (max-width: 600px) {
+  .reserve table td {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1em;
+    border: 0;
+    border-spacing: 0;
+    border-radius: 0;
+  }
+  .reserve table th {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1em;
+    border: 0;
+    border-spacing: 0;
+    border-radius: 0;
+    white-space:nowrap;
+  }
+  .form-data .name {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 580px){
+
+}
+.name {
+  display: block;
+}
+
+.submit-btn {
+  width: 10em !important;
+  margin-top: 2em;
+  height: 3em;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+}
+.submit-btn:hover {
+  color: white;
+  border-color: gray;
+  transition: all 1s ease-out;
+}
+.scroll {
+  overflow-y: scroll;
+}
+.form-privacy_inner {
+  height: 7em;
+
+}
+.form-privacy {
+  border: #4b4242 solid 1px;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+}
+.form-privacy_title {
+  border-bottom: #4b4242 solid 1px;
+}
+.input-datepicker {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.calendar-icon {
+  height: auto;
+  margin-right: 10px;
+}
+.datepicker-icon {
+  display: inline-flex;
+}
+
+.form-consent {
+  padding: 2em;
+  font-size: 1.4rem;
+}
+.wide {
+  width: 100%;
+}
+.form-data .name{
+  width: 40%;
+  height: 60px;
+  font-size: 1.4em;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.form-data .age {
+  height: 60px;
+  padding-left: 10px;
+}
+.form-data .telephone {
+  height: 60px;
+  padding-left: 10px;
+}
+.checkInTime {
+  height: 30px;
+  margin-top: 10px;
+}
+.hope-tr {
+  margin-top: 10px;
+}
+
+.label-radio-text {
+  margin-left: 10px;
+  font-size: 1.3em;
+}
+
+/* radio button start*/
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #F87DA9;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+/* radio button end */
+
+
+/* checkbox button start */
+input[type="checkbox"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: var(--form-background);
+  /* Not removed via appearance */
+  margin: 0;
+
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  background-color: CanvasText;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="checkbox"]:focus {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+}
+
+input[type="checkbox"]:disabled {
+  --form-control-color: var(--form-control-disabled);
+
+  color: var(--form-control-disabled);
+  cursor: not-allowed;
+}
+
+.u-check {
+  font-size: 1rem;
+  line-height: 1.4;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+/* checkbox button end */
+
+
+.round-img {
+  border-radius: 50%;
+}
+
+/* 流れ part start*/
+.img-resize {
+  width: 15em;
+  height: 10em;
+}
+.img-boder {
+  border: #666 solid 5px;
+}
+
+.flow-div {
+  display: flex;
+  margin-top: 30px;
+}
+.flow-contents {
+  flex: 1;
+}
+.flow-text {
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+.flow-step {
+  font-size: 1em;
+  color: #666;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+@media only screen and (max-width: 600px) { 
+  .flow-div {
+    display: block;
+  }
+  .flow-div { 
+    margin-top: 0;
+  }
+  .flow-contents {
+    margin-top: 20px;
+  }
+}
+/* 流れ part end */
+
+/* form 유효성 검사 start  */
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, rgba(225, 204, 221, 0.352));
+}
+
+input:valid {
+  border: 2px solid black;
+}
+/* form 유효성 검사 end */
+
+.draw-img {
+  max-width: 80px;
+  flex:1;
+  box-sizing: border-box;
+
+}
+
+.draw-img-bg {
+  background-color: rgba(230, 224, 224, 0.289);
+  margin: 0.5em;
+  border-radius: 20%;
+  padding: 0.5em;
+  align-items: center;
+}
+.draw-img-bg-area {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) { 
+  .draw-img {
+    max-width: 100px;
+  }
+  .draw-img-bg-area {
+  display: block;
+  }
+}
+
+.bottom-margin {
+  height: 6em;
+
+}

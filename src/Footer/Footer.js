@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 export default function Fixed_bottom() {
     return (
@@ -11,7 +11,7 @@ export default function Fixed_bottom() {
                         <div onClick={() => {
                             window.location.href = 'https://lin.ee/87QWTkV';
                         }}>
-                            <img src='/img/LINE_Brand_icon.png' className='line-icon'></img>
+                            <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
                             <h4 className='line_txt'>LINE相談はこちら</h4>
                             
                         </div>

@@ -1,9 +1,9 @@
 import './App.css';
-import { Container, Row, Col, Collapse, Button, Table } from 'react-bootstrap';
+import { Container, Row, Collapse, Button, Table } from 'react-bootstrap';
 import React, { useState, useRef } from "react";
 import Header2 from './Header/Header2.js';
 import Footer from './Footer/Footer.js'
-import { introEx, ceoName, ceoCv, define, defineIntroduction } from './StringData';
+import { define, defineIntroduction } from './StringData';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { AiFillPhone, AiFillCaretDown } from 'react-icons/ai';
 import emailjs from '@emailjs/browser';
@@ -995,6 +995,7 @@ function App() {
 
         <div className="google-maps">
           <iframe
+            title='googlemaps'
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12964.355608363963!2d139.7669851!3d35.6748129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e3ddd4bba87b7e1!2sSefa%20Artmake%20Clinic%20%26%20Academy!5e0!3m2!1sko!2sjp!4v1671517355220!5m2!1sko!2sjp"
             width="600"
             height="450"

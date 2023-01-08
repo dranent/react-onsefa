@@ -140,6 +140,8 @@
   margin-top: 5em;
 }
 
+
+
 .text-left {
   text-align: left;
 }
@@ -196,6 +198,10 @@ ul {
 
 .qna-q {
   float: left;
+}
+.qna-sub-title {
+  color: #666;
+  text-shadow: #FC0 1px 0 10px;
 }
 
 .qna-arrow {

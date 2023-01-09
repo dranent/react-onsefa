@@ -3,7 +3,7 @@ import { Container, Row, Collapse, Button, Table } from 'react-bootstrap';
 import React, { useState, useRef } from "react";
 import Header2 from './Header/Header2.js';
 import Footer from './Footer/Footer.js'
-import { define, defineIntroduction } from './StringData';
+import { define, defineIntroduction, defineSefa, defineIntroductionSefa } from './StringData';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { AiFillPhone, AiFillCaretDown } from 'react-icons/ai';
 import emailjs from '@emailjs/browser';
@@ -118,17 +118,6 @@ function App() {
         <h6 className='define-introduction'>
           {defineIntroduction}
         </h6>
-        {/* <h4 className='just-for-you'>
-          ”Just for You”デザイン
-        </h4> */}
-
-        {/* <Table responsive>
-          <tr>
-            <td>最新技術</td>
-            <td>東洋人向けオリジナル<br />安全な色素
-            </td>
-          </tr>
-        </Table> */}
       </div>
 
       <div className='text-center marginTop'>
@@ -383,25 +372,15 @@ function App() {
 
           </div>
         </div>
+      </div>
 
-
-        {/* <h4>Sefa Academy受講の流れ</h4>
-        <h6>
-          LINE相談
+      <div className='defineSefa-area' id='defineSefa'>
+        <h4 className='display-enter'>
+          {defineSefa}
+        </h4>
+        <h6 className='defineSefa-introduction'>
+          {defineIntroductionSefa}
         </h6>
-        <h6>
-          チケット購入
-        </h6>
-        <h6>
-          予約
-        </h6>
-        <h6>
-          受講スタート
-        </h6>
-        <h6>
-          次回の受講予約
-        </h6> */}
-
       </div>
 
 

@@ -16,7 +16,7 @@ function Header2() {
                         <Nav.Link href="#define">ON Clinicについて</Nav.Link>
                         <Nav.Link href="#artist">アーティスト</Nav.Link>
                         <Nav.Link href="#price">料金表</Nav.Link>
-                        <Nav.Link href="#define">SEFAについて</Nav.Link>
+                        <Nav.Link href="#defineSefa">SEFAについて</Nav.Link>
                         <Nav.Link href="#curriculum">カリキュラム</Nav.Link>
                         <Nav.Link href="#qna-a" >よくある質問</Nav.Link>
                         <Nav.Link href="#reserve" >予約</Nav.Link>

@@ -121,7 +121,18 @@
   line-height: 2em;
   margin-bottom: 10em;
 }
-
+.defineSefa-area {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+}
+.defineSefa-introduction {
+  padding-top: 3em;
+  line-height: 2em;
+  margin-bottom: 10em;
+}
 
 .marginTop {
   margin-top: 50px;

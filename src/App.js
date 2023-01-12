@@ -47,14 +47,25 @@ function App() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log(form.current);
 
-    emailjs.sendForm('service_o0z19lh', 'template_j7f29u8', form.current, 'GFIJ3U6YfAu9Ogia3')
+    // form 유효성 검사
+    if (form.current.checkInDate.value === '' || 
+      form.current.checkInDate2.value === '') {
+      alert('Please select');
+      console.log('Please select');
+      return false;
+    } else {
+      emailjs.sendForm('service_o0z19lh', 'template_j7f29u8', form.current, 'GFIJ3U6YfAu9Ogia3')
       .then((result) => {
         alert('ご予約をお受け付け完了致しました。');
         // console.log(result.text);
       }, (error) => {
         // console.log(error.text);
       });
+    }
+
+
   };
 
   const [selected, setSelected] = useState('');
@@ -775,7 +786,7 @@ function App() {
           <Collapse in={open} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-                A : はい、基本全てマシンを使います。
+                A : 眉毛の毛並みとヘアラインは手彫りを学びます。眉毛、アイライン、リップ、SMPはマシンです。
               </h6>
 
             </div>
@@ -965,11 +976,11 @@ function App() {
                 <td>
                   <ul className='list-inline'>
                     <li className='u-radio'>
-                      <input name="category" type="radio" id="category1" value="1" className="label-radio" required />
+                      <input name="category" type="radio" id="category1" value="1" className="label-radio"  />
                       <label htmlFor="category1" className='label-radio-text'>初めて</label>
                     </li>
                     <li className='u-radio'>
-                      <input name="category" type="radio" id="category2" value="2" className="label-radio" required />
+                      <input name="category" type="radio" id="category2" value="2" className="label-radio"  />
                       <label htmlFor="category2" className='label-radio-text'>2回目以降</label>
                     </li>
                   </ul>
@@ -980,8 +991,8 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="nameA" id="nameA" type="text" className="name wide" placeholder="姓" required />
-                  <input name="nameB" id="nameB" type="text" className="name wide" placeholder="名" required />
+                  <input name="nameA" id="nameA" type="text" className="name wide" placeholder="姓"  />
+                  <input name="nameB" id="nameB" type="text" className="name wide" placeholder="名"  />
                 </td>
               </tr>
               <tr>
@@ -990,8 +1001,8 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="kanaA" id="kanaA" type="text" className="name wide" placeholder="セイ" required />
-                  <input name="kanaB" id="kanaB" type="text" className="name wide" placeholder="メイ" required />
+                  <input name="kanaA" id="kanaA" type="text" className="name wide" placeholder="セイ"  />
+                  <input name="kanaB" id="kanaB" type="text" className="name wide" placeholder="メイ"  />
                 </td>
               </tr>
               <tr>
@@ -1016,7 +1027,7 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input type="number" name="age" className="age validate[required]" min="1" required />&nbsp;&nbsp;歳
+                  <input type="number" name="age" className="age validate[required]" min="1"  />&nbsp;&nbsp;歳
                   <p className="caption">※未成年の方は保護者同伴か同意書が必要となります。</p>
                 </td>
               </tr>
@@ -1026,7 +1037,7 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="tel" type="tel" className="wide telephone" placeholder="半角英数字" required />
+                  <input name="tel" type="tel" className="wide telephone" placeholder="半角英数字"  />
                   <p className="caption">※ご連絡可能な電話番号をご記入ください</p>
                 </td>
               </tr>
@@ -1036,7 +1047,7 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="email" id="email" type="email" className="wide validate[required,custom[email]]" required /></td>
+                  <input name="email" id="email" type="email" className="wide validate[required,custom[email]]"  /></td>
               </tr>
               <tr>
                 <th>
@@ -1057,12 +1068,12 @@ function App() {
                         onChange={(date) => setCheckInDate(date)}
                         placeholderText="クリックして日付を入力"
                         name="checkInDate"
-                        required
+                        
                       />
                       <BsCalendarCheck className='calendar-icon' />
                     </span>
                     <span>
-                      <select value={selected} onChange={handleChange} name="checkInTime" className='checkInTime' required>
+                      <select value={selected} onChange={handleChange} name="checkInTime" className='checkInTime' >
                         <option value="">時間を選択</option>
                         <option value="11:00">11:00</option>
                         <option value="11:30">11:30</option>
@@ -1095,12 +1106,12 @@ function App() {
                         onChange={(date) => setCheckInDate2(date)}
                         placeholderText="クリックして日付を入力"
                         name="checkInDate2"
-                        required
+                        
                       />
                       <BsCalendarCheck className='calendar-icon' />
                     </span>
                     <span>
-                      <select value={selected2} onChange={handleChange2} name="checkInTime2" className='checkInTime' required>
+                      <select value={selected2} onChange={handleChange2} name="checkInTime2" className='checkInTime' >
                         <option value="">時間を選択</option>
                         <option value="11:00">11:00</option>
                         <option value="11:30">11:30</option>
@@ -1133,13 +1144,13 @@ function App() {
                         placeholderText="クリックして日付を入力"
                         value={checkInDate3}
                         name="checkInDate3"
-                        required
+                        
                       />
                       <BsCalendarCheck className='calendar-icon' />
                     </span>
 
                     <span>
-                      <select value={selected3} onChange={handleChange3} name="checkInTime3" className='checkInTime' required>
+                      <select value={selected3} onChange={handleChange3} name="checkInTime3" className='checkInTime' >
                         <option value="">時間を選択</option>
                         <option value="11:00">11:00</option>
                         <option value="11:30">11:30</option>
@@ -1207,16 +1218,16 @@ function App() {
                 </th>
                 <td>
                   <ul className="list-block harf">
-                    <li className="u-radio"><input name="exp" type="radio" id="exp1" value="1" className='label-radio' required />
+                    <li className="u-radio"><input name="exp" type="radio" id="exp1" value="1" className='label-radio'  />
                       <label htmlFor="exp1" className='label-radio-text'>経験無し</label>
                     </li>
-                    <li className="u-radio"><input name="exp" type="radio" id="exp2" value="2" className='label-radio' required />
+                    <li className="u-radio"><input name="exp" type="radio" id="exp2" value="2" className='label-radio'  />
                       <label htmlFor="exp2" className='label-radio-text'>1年以内に経験</label>
                     </li>
-                    <li className="u-radio"><input name="exp" type="radio" id="exp3" value="3" className='label-radio' required />
+                    <li className="u-radio"><input name="exp" type="radio" id="exp3" value="3" className='label-radio'  />
                       <label htmlFor="exp3" className='label-radio-text'>1～3年前に経験</label>
                     </li>
-                    <li className="u-radio"><input name="exp" type="radio" id="exp4" value="4" className='label-radio' required />
+                    <li className="u-radio"><input name="exp" type="radio" id="exp4" value="4" className='label-radio'  />
                       <label htmlFor="exp4" className='label-radio-text'>3年以上前に経験</label>
                     </li>
                   </ul>
@@ -1280,7 +1291,7 @@ function App() {
             </label>
           </div> */}
 
-          <li className="u-check"><input name="Consentornot" type="checkbox" id="conf10" value="同意する" required />
+          <li className="u-check"><input name="Consentornot" type="checkbox" id="conf10" value="同意する"  />
             <label htmlFor="conf10">プライバシーポリシー及びキャンセルポリシーに同意する</label>
           </li>
 

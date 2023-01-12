@@ -42,28 +42,70 @@ function App() {
   const [open22, setOpen22] = useState(false);
   const [open23, setOpen23] = useState(false);
 
+  const [isChecked, setIsChecked] = useState(false);
 
   const form = useRef();
 
+
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(form.current);
 
-    // form 유효성 검사
-    if (form.current.checkInDate.value === '' || 
-      form.current.checkInDate2.value === '') {
-      alert('Please select');
-      console.log('Please select');
+
+    // form 유효성 검사 start 
+    if (form.current.category.value === '') {
+      alert('来院を選択して下さい。');
       return false;
-    } else {
-      emailjs.sendForm('service_o0z19lh', 'template_j7f29u8', form.current, 'GFIJ3U6YfAu9Ogia3')
-      .then((result) => {
-        alert('ご予約をお受け付け完了致しました。');
-        // console.log(result.text);
-      }, (error) => {
-        // console.log(error.text);
-      });
-    }
+    } 
+    if (form.current.nameA.value === '' || form.current.nameB.value === '') {
+      alert('お名前を入力して下さい。');
+      return false;
+    } 
+    if (form.current.kanaA.value === '' || form.current.kanaB.value === '') {
+      alert('フリガナを入力して下さい。');
+      return false;
+    } 
+    if (form.current.sex.value === '') {
+      alert('性別を選択して下さい。');
+      return false;
+    } 
+    if (form.current.age.value === '') {
+      alert('年齢を入力して下さい。');
+      return false;
+    } 
+    if (form.current.tel.value === '') {
+      alert('電話番号を入力して下さい。');
+      return false;
+    } 
+    if (form.current.email.value === '') {
+      alert('メールアドレスを入力して下さい。');
+      return false;
+    } 
+    if (form.current.checkInDate.value === '') {
+      alert('第1希望日を選択して下さい。');
+      return false;
+    } 
+    if (form.current.checkInTime.value === '') {
+      alert('第1希望日の時間を選択して下さい。');
+      return false;
+    } 
+    if (form.current.exp.value === '') {
+      alert('アートメイク経験を選択して下さい。');
+      return false;
+    }    
+    if (!isChecked) {
+      alert('「プライバシーポリシー及びキャンセルポリシーに同意する」チェックして下さい。');
+      return false;
+    }    
+    // form 유효성 검사 end
+
+    
+    emailjs.sendForm('service_o0z19lh', 'template_j7f29u8', form.current, 'GFIJ3U6YfAu9Ogia3')
+    .then((result) => {
+      alert('ご予約をお受け付け完了致しました。');
+    }, (error) => {
+      alert(error);
+    });
+    
 
 
   };
@@ -71,8 +113,8 @@ function App() {
   const [selected, setSelected] = useState('');
 
   const handleChange = event => {
-    console.log('Label 👉️', event.target.selectedOptions[0].label);
-    console.log(event.target.value);
+    // console.log('Label 👉️', event.target.selectedOptions[0].label);
+    // console.log(event.target.value);
     setSelected(event.target.value);
   };
 
@@ -80,8 +122,8 @@ function App() {
   const [selected2, setSelected2] = useState('');
 
   const handleChange2 = event => {
-    console.log('Label 👉️', event.target.selectedOptions[0].label);
-    console.log(event.target.value);
+    // console.log('Label 👉️', event.target.selectedOptions[0].label);
+    // console.log(event.target.value);
     setSelected2(event.target.value);
   };
 
@@ -89,8 +131,8 @@ function App() {
   const [selected3, setSelected3] = useState('');
 
   const handleChange3 = event => {
-    console.log('Label 👉️', event.target.selectedOptions[0].label);
-    console.log(event.target.value);
+    // console.log('Label 👉️', event.target.selectedOptions[0].label);
+    // console.log(event.target.value);
     setSelected3(event.target.value);
   };
 
@@ -1285,13 +1327,9 @@ function App() {
                 キャンセル及びご変更を希望される場合、規定のキャンセル料のご負担がございますのでご了承ください。ご連絡なしに10分以上の遅刻は当日キャンセルとさせて頂きます。</p>
             </div>
           </div>
-          {/* <div className="form-consent">
-            <label><input name="consent[]" type="checkbox" id="consent1" value="1" />
-              <label htmlFor="consent1" className='label-ch'>プライバシーポリシー及びキャンセルポリシーに同意する</label>
-            </label>
-          </div> */}
 
-          <li className="u-check"><input name="Consentornot" type="checkbox" id="conf10" value="同意する"  />
+
+          <li className="u-check"><input name="Consentornot" type="checkbox" id="conf10" value="同意する" onChange={(e)=>{setIsChecked(!isChecked)}}/>
             <label htmlFor="conf10">プライバシーポリシー及びキャンセルポリシーに同意する</label>
           </li>
 

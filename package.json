@@ -2,6 +2,7 @@
   "name": "sefa",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://onsefa.com/",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -52,4 +53,5 @@
       "last 1 safari version"
     ]
   }
+  
 }

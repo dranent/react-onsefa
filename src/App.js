@@ -631,7 +631,7 @@ function App() {
           <Collapse in={open16} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : はい、可能です。カウンセリング時に
+              A : はい、可能です。カウンセリング時に相談の上施術させて頂きます。
               </h6>
             </div>
           </Collapse>

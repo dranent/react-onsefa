@@ -331,7 +331,7 @@ function App() {
               <td>60,000</td>
             </tr>
             <tr>
-              <td><h6>Lip</h6>
+              <td><h6>Lip(準備中)</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
@@ -347,7 +347,7 @@ function App() {
               <td>90,000</td>
             </tr>
             <tr>
-              <td><h6>Hairline</h6>
+              <td><h6>Hairline(準備中)</h6>
               <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
@@ -1324,7 +1324,7 @@ function App() {
             <h3 className="form-privacy_title">キャンセルポリシー</h3>
             <div className="form-privacy_inner scroll">
               <p>ご予約のキャンセル及びご変更を希望される場合、3日前までに電話、メールにてご連絡をお願い致します。<br />
-                キャンセル及びご変更を希望される場合、規定のキャンセル料のご負担がございますのでご了承ください。ご連絡なしに10分以上の遅刻は当日キャンセルとさせて頂きます。</p>
+                当クリニックはキャンセル費は頂きません。施術当日10分以上遅れる場合はご連絡下さい。</p>
             </div>
           </div>
 

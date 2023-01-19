@@ -1117,6 +1117,8 @@ function App() {
                     <span>
                       <select value={selected} onChange={handleChange} name="checkInTime" className='checkInTime' >
                         <option value="">時間を選択</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
                         <option value="11:00">11:00</option>
                         <option value="11:30">11:30</option>
                         <option value="12:00">12:00</option>
@@ -1132,6 +1134,8 @@ function App() {
                         <option value="17:00">17:00</option>
                         <option value="17:30">17:30</option>
                         <option value="18:00">18:00</option>
+                        <option value="18:30">18:30</option>
+                        <option value="19:00">19:00</option>
                       </select>
 
                     </span></div>
@@ -1155,6 +1159,8 @@ function App() {
                     <span>
                       <select value={selected2} onChange={handleChange2} name="checkInTime2" className='checkInTime' >
                         <option value="">時間を選択</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
                         <option value="11:00">11:00</option>
                         <option value="11:30">11:30</option>
                         <option value="12:00">12:00</option>
@@ -1170,6 +1176,8 @@ function App() {
                         <option value="17:00">17:00</option>
                         <option value="17:30">17:30</option>
                         <option value="18:00">18:00</option>
+                        <option value="18:30">18:30</option>
+                        <option value="19:00">19:00</option>
                       </select>
                     </span></div>
                   <div className='hope-tr'>
@@ -1194,6 +1202,8 @@ function App() {
                     <span>
                       <select value={selected3} onChange={handleChange3} name="checkInTime3" className='checkInTime' >
                         <option value="">時間を選択</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
                         <option value="11:00">11:00</option>
                         <option value="11:30">11:30</option>
                         <option value="12:00">12:00</option>
@@ -1209,6 +1219,8 @@ function App() {
                         <option value="17:00">17:00</option>
                         <option value="17:30">17:30</option>
                         <option value="18:00">18:00</option>
+                        <option value="18:30">18:30</option>
+                        <option value="19:00">19:00</option>
                       </select></span></div>
                 </td>
               </tr>

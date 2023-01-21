@@ -134,6 +134,8 @@
   margin-bottom: 10em;
 }
 
+
+
 .marginTop {
   margin-top: 50px;
 }
@@ -349,6 +351,11 @@ a {
   .qna-area {
     margin-top: 0;
   }
+
+  .ticket-area-img {
+    width: 100%;
+  }
+
 }
 
 
@@ -800,4 +807,11 @@ input:valid {
 .bottom-margin {
   height: 6em;
 
+}
+
+.rsis-image {
+  max-width: 100%;
+}
+.gallery-area {
+  margin-top: 2em;
 }

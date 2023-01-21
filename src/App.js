@@ -12,6 +12,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { ja } from "date-fns/esm/locale";
 
 import { BsCalendarCheck } from "react-icons/bs";
+import SimpleImageSlider from "react-simple-image-slider";
 
 // smooth scroll 설정
 // scrollbar.init(document.querySelector('#smooth-scroll'));
@@ -46,6 +47,15 @@ function App() {
 
   const form = useRef();
 
+  // 사례 갤러리 이미지 배열
+  const images = [
+    { url: "/img/case-gallery/남자결2.png" },
+    { url: "/img/case-gallery/남자콤보2.png" },
+    { url: "/img/case-gallery/아이라인1.png" },
+    { url: "/img/case-gallery/자연결4.png" },
+    { url: "/img/case-gallery/콤보4.png" },
+    { url: "/img/case-gallery/SMP.png" },
+  ];
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -162,7 +172,7 @@ function App() {
 
       <center className='main-logo-are'>
         <LazyLoadImage className='main-logo'
-          src='/img/onclinic-logo.gif'></LazyLoadImage>
+          src='/img/onclinic-logo.gif' effect='blur'></LazyLoadImage>
       </center>
       <div className='define-area' id='define'>
         <h4 className='display-enter'>
@@ -427,6 +437,28 @@ function App() {
         </div>
       </div>
 
+
+      <div className='gallery-area'>
+        
+        <center>
+        <div className='flow-title'>
+            <h4>症例ギャラリー</h4>
+          </div>
+        <SimpleImageSlider
+        width={400}
+        height={400}
+        images={images}
+        showBullets={true}
+        showNavs={true}
+        loop={true}
+        autoPlay={true}
+        
+        />
+        </center>
+      </div>
+
+
+
       <div className='defineSefa-area' id='defineSefa'>
         <h4 className='display-enter'>
           {defineSefa}
@@ -436,6 +468,12 @@ function App() {
         </h6>
       </div>
 
+      <div className='ticket-area'>
+        <center>
+        <LazyLoadImage src='/img/チケットシステム.png' alt='' className='ticket-area-img' effect='blur'></LazyLoadImage>
+        </center>
+
+      </div>
 
       <Container className='qna-area padding-left padding-top padding-right' id='qna-a'>
         <Row className='margin-1em'><div>

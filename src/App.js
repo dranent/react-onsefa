@@ -301,7 +301,7 @@ function App() {
               <td><h6>Eyebrow</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
-                    <h6>shadow</h6>
+                    <h6>natural</h6>
                     <center>
                       <LazyLoadImage src='/img/draw/eyebrows-shadow.png' className='draw-img' /></center>
                   </div>
@@ -311,7 +311,7 @@ function App() {
                       <LazyLoadImage src='/img/draw/eyebrow-powder.png' className='draw-img' /></center>
                   </div>
                   <div className='draw-img-bg'>
-                    <h6>powder + shadow</h6>
+                    <h6>powder + natural</h6>
                     <center>
                       <LazyLoadImage src='/img/draw/Eyebrows-Powder-Shadow.png' className='draw-img' /></center>
                   </div>
@@ -439,7 +439,7 @@ function App() {
 
 
       <div className='gallery-area'>
-        
+
         <center>
         <div className='flow-title'>
             <h4>症例ギャラリー</h4>

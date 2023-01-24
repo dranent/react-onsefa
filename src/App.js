@@ -14,6 +14,7 @@ import { ja } from "date-fns/esm/locale";
 import { BsCalendarCheck } from "react-icons/bs";
 import SimpleImageSlider from "react-simple-image-slider";
 
+
 // smooth scroll 설정
 // scrollbar.init(document.querySelector('#smooth-scroll'));
 
@@ -65,57 +66,57 @@ function App() {
     if (form.current.category.value === '') {
       alert('来院を選択して下さい。');
       return false;
-    } 
+    }
     if (form.current.nameA.value === '' || form.current.nameB.value === '') {
       alert('お名前を入力して下さい。');
       return false;
-    } 
+    }
     if (form.current.kanaA.value === '' || form.current.kanaB.value === '') {
       alert('フリガナを入力して下さい。');
       return false;
-    } 
+    }
     if (form.current.sex.value === '') {
       alert('性別を選択して下さい。');
       return false;
-    } 
+    }
     if (form.current.age.value === '') {
       alert('年齢を入力して下さい。');
       return false;
-    } 
+    }
     if (form.current.tel.value === '') {
       alert('電話番号を入力して下さい。');
       return false;
-    } 
+    }
     if (form.current.email.value === '') {
       alert('メールアドレスを入力して下さい。');
       return false;
-    } 
+    }
     if (form.current.checkInDate.value === '') {
       alert('第1希望日を選択して下さい。');
       return false;
-    } 
+    }
     if (form.current.checkInTime.value === '') {
       alert('第1希望日の時間を選択して下さい。');
       return false;
-    } 
+    }
     if (form.current.exp.value === '') {
       alert('アートメイク経験を選択して下さい。');
       return false;
-    }    
+    }
     if (!isChecked) {
       alert('「プライバシーポリシー及びキャンセルポリシーに同意する」チェックして下さい。');
       return false;
-    }    
+    }
     // form 유효성 검사 end
 
-    
+
     emailjs.sendForm('service_o0z19lh', 'template_j7f29u8', form.current, 'GFIJ3U6YfAu9Ogia3')
-    .then((result) => {
-      alert('ご予約をお受け付け完了致しました。');
-    }, (error) => {
-      alert(error);
-    });
-    
+      .then((result) => {
+        alert('ご予約をお受け付け完了致しました。');
+      }, (error) => {
+        alert(error);
+      });
+
 
 
   };
@@ -182,6 +183,8 @@ function App() {
           {defineIntroduction}
         </h6>
       </div>
+
+
 
       <div className='text-center marginTop'>
         <LazyLoadImage className='triangl' src='/img/triangl.jpg'></LazyLoadImage>
@@ -281,6 +284,16 @@ function App() {
           </Table>
         </div>
       </center> */}
+      <center>
+      <div className='line_btn'>
+        <div onClick={() => {
+          window.location.href = 'https://lin.ee/87QWTkV';
+        }}>
+          <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
+          <h4 className='line_txt'>LINE相談はこちら</h4>
+        </div>
+      </div>
+      </center>
 
       <div className="price-table" id='price'>
         <div>
@@ -358,7 +371,7 @@ function App() {
             </tr>
             <tr>
               <td><h6>Hairline(準備中)</h6>
-              <div className='draw-img-bg-area'>
+                <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
                       <LazyLoadImage src='/img/draw/hairline.png' className='draw-img' /></center>
@@ -441,23 +454,32 @@ function App() {
       <div className='gallery-area'>
 
         <center>
-        <div className='flow-title'>
+          <div className='flow-title'>
             <h4>症例ギャラリー</h4>
           </div>
-        <SimpleImageSlider
-        width={400}
-        height={400}
-        images={images}
-        showBullets={true}
-        showNavs={true}
-        loop={true}
-        autoPlay={true}
-        
-        />
+          <SimpleImageSlider
+            width={400}
+            height={400}
+            images={images}
+            showBullets={true}
+            showNavs={true}
+            loop={true}
+            autoPlay={true}
+            className='simpleImageSlider'
+          />
         </center>
       </div>
 
-
+      <center>
+      <div className='line_btn'>
+        <div onClick={() => {
+          window.location.href = 'https://lin.ee/87QWTkV';
+        }}>
+          <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
+          <h4 className='line_txt'>LINE相談はこちら</h4>
+        </div>
+      </div>
+      </center>
 
       <div className='defineSefa-area' id='defineSefa'>
         <h4 className='display-enter'>
@@ -470,7 +492,7 @@ function App() {
 
       <div className='ticket-area'>
         <center>
-        <LazyLoadImage src='/img/チケットシステム.png' alt='' className='ticket-area-img' effect='blur'></LazyLoadImage>
+          <LazyLoadImage src='/img/チケットシステム.png' alt='' className='ticket-area-img' effect='blur'></LazyLoadImage>
         </center>
 
       </div>
@@ -481,7 +503,7 @@ function App() {
         </div>
         </Row>
         <Row className='margin-1em'><div>
-        <h5 className='qna-sub-title'>施術について</h5>
+          <h5 className='qna-sub-title'>施術について</h5>
         </div>
         </Row>
 
@@ -495,7 +517,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : どのくらい持続しますか？
+                Q : どのくらい持続しますか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open9 ? 'open' : ''}`} />
             </div>
@@ -503,7 +525,7 @@ function App() {
           <Collapse in={open9} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 個人差はありますが、大体1年から2年にかけて代謝と共に薄くなっていきます。
+                A : 個人差はありますが、大体1年から2年にかけて代謝と共に薄くなっていきます。
               </h6>
             </div>
           </Collapse>
@@ -519,7 +541,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : メイクはいつから大丈夫ですか？
+                Q : メイクはいつから大丈夫ですか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open10 ? 'open' : ''}`} />
             </div>
@@ -527,12 +549,12 @@ function App() {
           <Collapse in={open10} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : カサブタが取れたら可能です。7日から10日で取れます。
+                A : カサブタが取れたら可能です。7日から10日で取れます。
               </h6>
             </div>
           </Collapse>
         </Row>
-        
+
         <Row className='margin-1em'>
           <Button
             className='text-left'
@@ -543,7 +565,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 施術中の痛みはありますか？
+                Q : 施術中の痛みはありますか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open11 ? 'open' : ''}`} />
             </div>
@@ -551,7 +573,7 @@ function App() {
           <Collapse in={open11} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 痛みは個人差があります。その日の体調が影響しますので前日にアルコールを控えて睡眠をよくとることをおすすめします。
+                A : 痛みは個人差があります。その日の体調が影響しますので前日にアルコールを控えて睡眠をよくとることをおすすめします。
               </h6>
             </div>
           </Collapse>
@@ -566,7 +588,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 施術後は腫れますか？
+                Q : 施術後は腫れますか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open12 ? 'open' : ''}`} />
             </div>
@@ -574,7 +596,7 @@ function App() {
           <Collapse in={open12} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 眉毛の腫れはほぼありません。アイラインとリップは翌日まで腫れることがございます。
+                A : 眉毛の腫れはほぼありません。アイラインとリップは翌日まで腫れることがございます。
               </h6>
             </div>
           </Collapse>
@@ -589,7 +611,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 定着までに何回施術が必要ですか？
+                Q : 定着までに何回施術が必要ですか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open13 ? 'open' : ''}`} />
             </div>
@@ -597,7 +619,7 @@ function App() {
           <Collapse in={open13} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 施術は2回で定着になります。皮膚タイプや過去の残り具合によって3回目以降が必要な場合もございます。
+                A : 施術は2回で定着になります。皮膚タイプや過去の残り具合によって3回目以降が必要な場合もございます。
               </h6>
             </div>
           </Collapse>
@@ -613,7 +635,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 施術によるリスクはありますか？
+                Q : 施術によるリスクはありますか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open14 ? 'open' : ''}`} />
             </div>
@@ -621,7 +643,7 @@ function App() {
           <Collapse in={open14} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 色素は時間と共に70％から90％消えていきますが、100％消えるわけではありませんのでご了承ください。
+                A : 色素は時間と共に70％から90％消えていきますが、100％消えるわけではありませんのでご了承ください。
               </h6>
             </div>
           </Collapse>
@@ -637,7 +659,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : MRIは大丈夫ですか？
+                Q : MRIは大丈夫ですか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open15 ? 'open' : ''}`} />
             </div>
@@ -645,7 +667,7 @@ function App() {
           <Collapse in={open15} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : MRIを受けることは問題ありませんが、事前報告は必要になります。
+                A : MRIを受けることは問題ありませんが、事前報告は必要になります。
               </h6>
             </div>
           </Collapse>
@@ -661,7 +683,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 肌が弱いのですが施術は可能ですか？
+                Q : 肌が弱いのですが施術は可能ですか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open16 ? 'open' : ''}`} />
             </div>
@@ -669,7 +691,7 @@ function App() {
           <Collapse in={open16} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : はい、可能です。カウンセリング時に相談の上施術させて頂きます。
+                A : はい、可能です。カウンセリング時に相談の上施術させて頂きます。
               </h6>
             </div>
           </Collapse>
@@ -685,7 +707,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : アトピーでも施術は可能ですか？
+                Q : アトピーでも施術は可能ですか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open17 ? 'open' : ''}`} />
             </div>
@@ -693,7 +715,7 @@ function App() {
           <Collapse in={open17} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 予約前にご確認致します。ひどい方は施術を受けれない場合もございます。
+                A : 予約前にご確認致します。ひどい方は施術を受けれない場合もございます。
               </h6>
             </div>
           </Collapse>
@@ -709,7 +731,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 金属アレルギーでも施術は可能ですか
+                Q : 金属アレルギーでも施術は可能ですか
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open18 ? 'open' : ''}`} />
             </div>
@@ -717,7 +739,7 @@ function App() {
           <Collapse in={open18} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 基本的に問題はございませんが、アレルギーをお持ちの方は申し出てください。
+                A : 基本的に問題はございませんが、アレルギーをお持ちの方は申し出てください。
               </h6>
             </div>
           </Collapse>
@@ -733,7 +755,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 持病や飲んでいる薬によって施術が出来ない可能性はありますか？
+                Q : 持病や飲んでいる薬によって施術が出来ない可能性はありますか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open19 ? 'open' : ''}`} />
             </div>
@@ -741,7 +763,7 @@ function App() {
           <Collapse in={open19} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : はい、休薬が必要な成分がございますので飲んでる薬があれば予約前にご確認お願い致します。
+                A : はい、休薬が必要な成分がございますので飲んでる薬があれば予約前にご確認お願い致します。
               </h6>
             </div>
           </Collapse>
@@ -757,7 +779,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 妊娠中は施術を受けられますか？
+                Q : 妊娠中は施術を受けられますか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open20 ? 'open' : ''}`} />
             </div>
@@ -765,7 +787,7 @@ function App() {
           <Collapse in={open20} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 妊娠中の方は麻酔を使用しますので施術は受けれません。
+                A : 妊娠中の方は麻酔を使用しますので施術は受けれません。
               </h6>
             </div>
           </Collapse>
@@ -781,7 +803,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 男性も施術は可能ですか？
+                Q : 男性も施術は可能ですか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open21 ? 'open' : ''}`} />
             </div>
@@ -789,7 +811,7 @@ function App() {
           <Collapse in={open21} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : もちろんです。おすすめします。
+                A : もちろんです。おすすめします。
               </h6>
             </div>
           </Collapse>
@@ -805,7 +827,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : アフターケアですることはありますか？
+                Q : アフターケアですることはありますか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open22 ? 'open' : ''}`} />
             </div>
@@ -813,7 +835,7 @@ function App() {
           <Collapse in={open22} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 施術部位を触らないようご注意ください。
+                A : 施術部位を触らないようご注意ください。
               </h6>
             </div>
           </Collapse>
@@ -829,7 +851,7 @@ function App() {
           >
             <div className='text-center'>
               <h6 className='qna-q'>
-              Q : 洗顔・入浴はいつから大丈夫ですか？
+                Q : 洗顔・入浴はいつから大丈夫ですか？
               </h6>
               <AiFillCaretDown className={`qna-arrow ${open23 ? 'open' : ''}`} />
             </div>
@@ -837,17 +859,17 @@ function App() {
           <Collapse in={open23} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-              A : 3日間施術部位に水や洗顔など直接当たらないように気を付けてください。入浴、サウナ、プール等は5日間避けてください。（シャワーは大丈夫です。）
+                A : 3日間施術部位に水や洗顔など直接当たらないように気を付けてください。入浴、サウナ、プール等は5日間避けてください。（シャワーは大丈夫です。）
               </h6>
             </div>
           </Collapse>
         </Row>
 
         <Row className='margin-1em'><div>
-        <h5 className='qna-sub-title'>教育について</h5>
+          <h5 className='qna-sub-title'>教育について</h5>
         </div>
         </Row>
-        
+
         <Row className='margin-1em'>
           <Button
             className='text-left'
@@ -1040,6 +1062,16 @@ function App() {
         </Row>
       </Container>
 
+      <center>
+      <div className='line_btn'>
+        <div onClick={() => {
+          window.location.href = 'https://lin.ee/87QWTkV';
+        }}>
+          <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
+          <h4 className='line_txt'>LINE相談はこちら</h4>
+        </div>
+      </div>
+      </center>
 
       <div className='reserve' id='reserve'>
 
@@ -1048,6 +1080,28 @@ function App() {
 
           <Table>
             <tbody>
+
+              <tr>
+                <th>
+                  予約区分
+                  <span className='must-icon must-pos'></span>
+                </th>
+                <td>
+                  <ul className='list-inline'>
+                    <li className='u-radio'>
+                      <input name="res_category" type="radio" id="res_category1" value="Clinic" className="label-radio" />
+                      <label htmlFor="res_category1" className='label-radio-text'>Clinic</label>
+                    </li>
+                    <li className='u-radio'>
+                      <input name="res_category" type="radio" id="res_category2" value="Academy" className="label-radio" />
+                      <label htmlFor="res_category2" className='label-radio-text'>Academy</label>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+
+
+
               <tr>
                 <th>
                   来院
@@ -1056,11 +1110,11 @@ function App() {
                 <td>
                   <ul className='list-inline'>
                     <li className='u-radio'>
-                      <input name="category" type="radio" id="category1" value="1" className="label-radio"  />
+                      <input name="category" type="radio" id="category1" value="初めて" className="label-radio" />
                       <label htmlFor="category1" className='label-radio-text'>初めて</label>
                     </li>
                     <li className='u-radio'>
-                      <input name="category" type="radio" id="category2" value="2" className="label-radio"  />
+                      <input name="category" type="radio" id="category2" value="2回目以降" className="label-radio" />
                       <label htmlFor="category2" className='label-radio-text'>2回目以降</label>
                     </li>
                   </ul>
@@ -1071,8 +1125,8 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="nameA" id="nameA" type="text" className="name wide" placeholder="姓"  />
-                  <input name="nameB" id="nameB" type="text" className="name wide" placeholder="名"  />
+                  <input name="nameA" id="nameA" type="text" className="name wide" placeholder="姓" />
+                  <input name="nameB" id="nameB" type="text" className="name wide" placeholder="名" />
                 </td>
               </tr>
               <tr>
@@ -1081,8 +1135,8 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="kanaA" id="kanaA" type="text" className="name wide" placeholder="セイ"  />
-                  <input name="kanaB" id="kanaB" type="text" className="name wide" placeholder="メイ"  />
+                  <input name="kanaA" id="kanaA" type="text" className="name wide" placeholder="セイ" />
+                  <input name="kanaB" id="kanaB" type="text" className="name wide" placeholder="メイ" />
                 </td>
               </tr>
               <tr>
@@ -1107,7 +1161,7 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input type="number" name="age" className="age validate[required]" min="1"  />&nbsp;&nbsp;歳
+                  <input type="number" name="age" className="age validate[required]" min="1" />&nbsp;&nbsp;歳
                   <p className="caption">※未成年の方は保護者同伴か同意書が必要となります。</p>
                 </td>
               </tr>
@@ -1117,7 +1171,7 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="tel" type="tel" className="wide telephone" placeholder="半角英数字"  />
+                  <input name="tel" type="tel" className="wide telephone" placeholder="半角英数字" />
                   <p className="caption">※ご連絡可能な電話番号をご記入ください</p>
                 </td>
               </tr>
@@ -1127,7 +1181,7 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="email" id="email" type="email" className="wide validate[required,custom[email]]"  /></td>
+                  <input name="email" id="email" type="email" className="wide validate[required,custom[email]]" /></td>
               </tr>
               <tr>
                 <th>
@@ -1148,7 +1202,7 @@ function App() {
                         onChange={(date) => setCheckInDate(date)}
                         placeholderText="クリックして日付を入力"
                         name="checkInDate"
-                        
+
                       />
                       <BsCalendarCheck className='calendar-icon' />
                     </span>
@@ -1190,7 +1244,7 @@ function App() {
                         onChange={(date) => setCheckInDate2(date)}
                         placeholderText="クリックして日付を入力"
                         name="checkInDate2"
-                        
+
                       />
                       <BsCalendarCheck className='calendar-icon' />
                     </span>
@@ -1232,7 +1286,7 @@ function App() {
                         placeholderText="クリックして日付を入力"
                         value={checkInDate3}
                         name="checkInDate3"
-                        
+
                       />
                       <BsCalendarCheck className='calendar-icon' />
                     </span>
@@ -1271,31 +1325,31 @@ function App() {
                   <p className="caption"><span>あてはまるものにチェックしてください</span></p>
 
                   <ul className="list-block">
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf1" value="1" />
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf1" value="妊娠、または授乳中" />
                       <label htmlFor="conf1">妊娠、または授乳中</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf2" value="2" />
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf2" value="ケロイド体質" />
                       <label htmlFor="conf2">ケロイド体質</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf3" value="3" />
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf3" value="金属アレルギー" />
                       <label htmlFor="conf3">金属アレルギー</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf4" value="4" />
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf4" value="直近3週間前後に美容系サービスを受けた、または受ける予定がある" />
                       <label htmlFor="conf4">直近3週間前後に美容系サービスを受けた、または受ける予定がある</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf5" value="5" />
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf5" value="心療内科、メンタルクリニックを受診中、および受診予定" />
                       <label htmlFor="conf5">心療内科、メンタルクリニックを受診中、および受診予定</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf6" value="6" />
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf6" value="アーティストを指名したい（アーティスト名を備考欄にご記入ください。指名料：1500円）" />
                       <label htmlFor="conf6">アーティストを指名したい（アーティスト名を備考欄にご記入ください。指名料：1500円）</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf7" value="7" />
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf7" value="ユベラ・トコフェロール(ビタミンE)服用注" />
                       <label htmlFor="conf7">ユベラ・トコフェロール(ビタミンE)服用注</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf8" value="8" />
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf8" value="持病、皮膚疾患、アレルギー体質" />
                       <label htmlFor="conf8">持病、皮膚疾患、アレルギー体質</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf9" value="9" />
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf9" value="直近でのイベントがある(結婚式、卒業式など)" />
                       <label htmlFor="conf9">直近でのイベントがある(結婚式、卒業式など)</label>
                     </li>
                   </ul>
@@ -1310,16 +1364,16 @@ function App() {
                 </th>
                 <td>
                   <ul className="list-block harf">
-                    <li className="u-radio"><input name="exp" type="radio" id="exp1" value="1" className='label-radio'  />
+                    <li className="u-radio"><input name="exp" type="radio" id="exp1" value="経験無し" className='label-radio' />
                       <label htmlFor="exp1" className='label-radio-text'>経験無し</label>
                     </li>
-                    <li className="u-radio"><input name="exp" type="radio" id="exp2" value="2" className='label-radio'  />
+                    <li className="u-radio"><input name="exp" type="radio" id="exp2" value="1年以内に経験" className='label-radio' />
                       <label htmlFor="exp2" className='label-radio-text'>1年以内に経験</label>
                     </li>
-                    <li className="u-radio"><input name="exp" type="radio" id="exp3" value="3" className='label-radio'  />
+                    <li className="u-radio"><input name="exp" type="radio" id="exp3" value="1～3年前に経験" className='label-radio' />
                       <label htmlFor="exp3" className='label-radio-text'>1～3年前に経験</label>
                     </li>
-                    <li className="u-radio"><input name="exp" type="radio" id="exp4" value="4" className='label-radio'  />
+                    <li className="u-radio"><input name="exp" type="radio" id="exp4" value="3年以上前に経験" className='label-radio' />
                       <label htmlFor="exp4" className='label-radio-text'>3年以上前に経験</label>
                     </li>
                   </ul>
@@ -1379,7 +1433,7 @@ function App() {
           </div>
 
 
-          <li className="u-check"><input name="Consentornot" type="checkbox" id="conf10" value="同意する" onChange={(e)=>{setIsChecked(!isChecked)}}/>
+          <li className="u-check"><input name="Consentornot" type="checkbox" id="conf10" value="同意する" onChange={(e) => { setIsChecked(!isChecked) }} />
             <label htmlFor="conf10">プライバシーポリシー及びキャンセルポリシーに同意する</label>
           </li>
 

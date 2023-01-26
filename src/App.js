@@ -171,6 +171,21 @@ function App() {
         src={'/img/Sefa.jpg'} // use normal <img> attributes as props
       />
 
+      <div className='campaign'>
+
+        <center>
+          <h2 className='campaign-title'>CAMPAIGN</h2>
+          <h6>キャンペーン</h6>
+        </center>
+      </div>
+      <center className='campaign-banner-box-title '>
+        
+        <a className='campaign-banner-box' href="#price">
+        <img className='campaign-banner' src='img\grand_open_banner.jpg' ></img>
+        </a>
+      </center>
+
+
       <center className='main-logo-are'>
         <LazyLoadImage className='main-logo'
           src='/img/onclinic-logo.gif' effect='blur'></LazyLoadImage>
@@ -302,14 +317,25 @@ function App() {
         </div>
         <Table responsive striped bordered>
           <tbody>
+
+          <tr>
+              <td><h6>施術メニュー</h6></td>
+              <td>定価</td>
+              <td className='campaign-price'>OPEN CAMPAIGN 価格</td>
+            </tr>
+
+
             <tr>
-              <td><h6>Eybrow + Eyeline SET</h6></td>
-              <td>260,000</td>
+              <td><h6>Eyebrow + Eyeline SET</h6></td>
+              <td className='list-price'>260,000</td>
+              <td className='campaign-price'>234,000</td>
             </tr>
             <tr>
               <td>↳ monitor</td>
-              <td>130,000</td>
+              <td className='list-price'>130,000</td>
+              <td className='campaign-price'>117,000</td>
             </tr>
+
             <tr>
               <td><h6>Eyebrow</h6>
                 <div className='draw-img-bg-area'>
@@ -330,11 +356,13 @@ function App() {
                   </div>
                 </div>
               </td>
-              <td>150,000</td>
+              <td className='list-price'>150,000</td>
+              <td className='campaign-price'>135,000</td>
             </tr>
             <tr>
               <td>↳ monitor</td>
-              <td>80,000</td>
+              <td className='list-price'>75,000</td>
+              <td className='campaign-price'>67,500</td>
             </tr>
             <tr>
               <td><h6>Eyeline</h6>
@@ -347,11 +375,13 @@ function App() {
 
 
               </td>
-              <td>120,000</td>
+              <td className='list-price'>120,000</td>
+              <td className='campaign-price'>108,000</td>
             </tr>
             <tr>
               <td>↳ monitor</td>
-              <td>60,000</td>
+              <td className='list-price'>60,000</td>
+              <td className='campaign-price'>54,000</td>
             </tr>
             <tr>
               <td><h6>Lip(準備中)</h6>
@@ -363,11 +393,13 @@ function App() {
                 </div>
 
               </td>
-              <td>170,000</td>
+              <td className='list-price'>170,000</td>
+              <td className='campaign-price'>153,000</td>
             </tr>
             <tr>
               <td>↳ monitor</td>
-              <td>90,000</td>
+              <td className='list-price'>90,000</td>
+              <td className='campaign-price'>81,000</td>
             </tr>
             <tr>
               <td><h6>Hairline(準備中)</h6>
@@ -378,14 +410,18 @@ function App() {
                   </div>
                 </div>
               </td>
-              <td>170,000</td>
+              <td className='list-price'>170,000</td>
+              <td className='campaign-price'>153,000</td>
             </tr>
             <tr>
               <td>↳ monitor</td>
-              <td>90,000</td>
+              <td className='list-price'>90,000</td>
+              <td className='campaign-price'>81,000</td>
             </tr>
           </tbody>
         </Table>
+
+        <h6>OPEN CAMPAIGN 価格の有効期間 : 2023年3月20日~2024年3月19日</h6>
       </div>
 
       <div className='flow-area text-center'>

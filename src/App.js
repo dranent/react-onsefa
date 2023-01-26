@@ -395,12 +395,12 @@ function App() {
 
               </td>
               <td className='list-price'>170,000</td>
-              <td className='campaign-price'>153,000</td>
+              <td></td>
             </tr>
             <tr>
               <td>↳ monitor</td>
               <td className='list-price'>90,000</td>
-              <td className='campaign-price'>81,000</td>
+              <td></td>
             </tr>
             <tr>
               <td><h6>Hairline(準備中)</h6>
@@ -412,12 +412,12 @@ function App() {
                 </div>
               </td>
               <td className='list-price'>170,000</td>
-              <td className='campaign-price'>153,000</td>
+              <td></td>
             </tr>
             <tr>
               <td>↳ monitor</td>
               <td className='list-price'>90,000</td>
-              <td className='campaign-price'>81,000</td>
+              <td></td>
             </tr>
           </tbody>
         </Table>

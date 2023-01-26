@@ -11,7 +11,7 @@
     他クリニックと差別化を持つため「東洋人」向けのオリジナル色素を大切に選んでおります。技術はもちろん最新マシンを使用し時短を通してはれや痛みも最小限にし、直後の濃さも減らし定着はよりよくさせて頂きます。`;
 
     const defineSefa = `Sefa Artmake Academyは\n“ONLY FOR YOU”`;
-    const defineIntroductionSefa = `SEFA ARTMAKE ACADEMYでは受講生ひとりひとりの希望とお悩みに答えれるよう構造されております。
+    const defineIntroductionSefa = `SEFA ARTMAKE ACADEMYでは受講生ひとりひとりの希望とお悩みに答えれるよ構築されております。
     「SEFA Curriculum」をベースに初心者から経験者までわかりやすく指導を行い、練習します。
     「ちゃんとできてるのかな」「これで合ってるのかな」「もっと教えてもらいたい」「スキルアップしたい」の方はお任せください！
     SEFAでは韓国最新技術を日本に合った形で投入し教育を実施いたします。

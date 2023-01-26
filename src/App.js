@@ -182,7 +182,7 @@ function App() {
       <center className='campaign-banner-box-title '>
         
         <a className='campaign-banner-box' href="#price">
-        <img className='campaign-banner' src='img\grand_open_banner.jpg' alt='grand_open_banner'></img>
+        <img className='campaign-banner' src='img\grand_open_banner_1.jpg' alt='grand_open_banner'></img>
         </a>
       </center>
 

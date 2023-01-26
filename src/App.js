@@ -166,9 +166,10 @@ function App() {
                       /> */}
       {/* <DatePicker selected={startDate} onChange={date => setStartDate(date)} /> */}
 
-      <LazyLoadImage className='banner'
+      <img className='banner'
         effect="blur"
         src={'/img/Sefa.jpg'} // use normal <img> attributes as props
+        alt="main_banner"
       />
 
       <div className='campaign'>
@@ -181,7 +182,7 @@ function App() {
       <center className='campaign-banner-box-title '>
         
         <a className='campaign-banner-box' href="#price">
-        <img className='campaign-banner' src='img\grand_open_banner.jpg' ></img>
+        <img className='campaign-banner' src='img\grand_open_banner.jpg' alt='grand_open_banner'></img>
         </a>
       </center>
 

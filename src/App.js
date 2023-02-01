@@ -14,6 +14,8 @@ import { ja } from "date-fns/esm/locale";
 import { BsCalendarCheck } from "react-icons/bs";
 import SimpleImageSlider from "react-simple-image-slider";
 
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 // smooth scroll 설정
 // scrollbar.init(document.querySelector('#smooth-scroll'));
@@ -150,6 +152,24 @@ function App() {
   const [checkInDate, setCheckInDate] = useState('');
   const [checkInDate2, setCheckInDate2] = useState('');
   const [checkInDate3, setCheckInDate3] = useState('');
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCh5zuSChgQ1KP4Fmp1uNKQOY9e18HZ0lA",
+    authDomain: "sefa-1ed8e.firebaseapp.com",
+    projectId: "sefa-1ed8e",
+    storageBucket: "sefa-1ed8e.appspot.com",
+    messagingSenderId: "473592997038",
+    appId: "1:473592997038:web:0e88adc938aaeb83d7393f",
+    measurementId: "G-5CJQL1BVK2"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+
 
   return (
     <>
@@ -309,6 +329,10 @@ function App() {
           <h4 className='line_txt'>LINE相談はこちら</h4>
         </div>
       </div>
+
+      <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+        <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
+      </a>
       </center>
 
       <div className="price-table" id='price'>
@@ -516,6 +540,9 @@ function App() {
           <h4 className='line_txt'>LINE相談はこちら</h4>
         </div>
       </div>
+      <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+        <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
+      </a>
       </center>
 
       <div className='defineSefa-area' id='defineSefa'>
@@ -1107,7 +1134,13 @@ function App() {
           <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
           <h4 className='line_txt'>LINE相談はこちら</h4>
         </div>
+        
       </div>
+
+      <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+        <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
+      </a>
+
       </center>
 
       <div className='reserve' id='reserve'>

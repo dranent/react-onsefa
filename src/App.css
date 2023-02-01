@@ -955,3 +955,12 @@ input:valid {
 .gallery-area {
   margin-top: 2em;
 }
+
+#instagram-btn {
+  width: 50px;
+  height: 50px;
+}
+
+#instagram-btn:hover {
+  content: url(/public/img/instar-icon-hover.svg);
+}

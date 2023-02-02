@@ -14,8 +14,8 @@ import { ja } from "date-fns/esm/locale";
 import { BsCalendarCheck } from "react-icons/bs";
 import SimpleImageSlider from "react-simple-image-slider";
 
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
 
 // smooth scroll 설정
 // scrollbar.init(document.querySelector('#smooth-scroll'));
@@ -155,19 +155,19 @@ function App() {
 
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyCh5zuSChgQ1KP4Fmp1uNKQOY9e18HZ0lA",
-    authDomain: "sefa-1ed8e.firebaseapp.com",
-    projectId: "sefa-1ed8e",
-    storageBucket: "sefa-1ed8e.appspot.com",
-    messagingSenderId: "473592997038",
-    appId: "1:473592997038:web:0e88adc938aaeb83d7393f",
-    measurementId: "G-5CJQL1BVK2"
-  };
+  // const firebaseConfig = {
+  //   apiKey: "AIzaSyCh5zuSChgQ1KP4Fmp1uNKQOY9e18HZ0lA",
+  //   authDomain: "sefa-1ed8e.firebaseapp.com",
+  //   projectId: "sefa-1ed8e",
+  //   storageBucket: "sefa-1ed8e.appspot.com",
+  //   messagingSenderId: "473592997038",
+  //   appId: "1:473592997038:web:0e88adc938aaeb83d7393f",
+  //   measurementId: "G-5CJQL1BVK2"
+  // };
 
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  // const app = initializeApp(firebaseConfig);
+  // const analytics = getAnalytics(app);
 
 
 

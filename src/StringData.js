@@ -18,5 +18,8 @@
     独自チケット制度で受けたい項目を気楽に選択でき、クリニック内で行う「Demonstration」もいつでも見守りの元できます。
     本アカデミーは「Original」マシン、ニードル、色素等の販売を通して皆さんのアートメイクキャリアを応援します。`;
 
+    const profileName = `浅見 世和`;
+    const profileContent = `・2019年「国際協力専門」大学卒業\n・2019年から日本でアートメイクをスタート\n・2020年 韓国でアートメイクをスタート\n・カンナム "D" Beauty Clinic出身\n →前 "D" JAPAN 代表\n・韓国半永久化粧アカデミー多数卒業\n・韓国最新技術を日本へ取入中\n・2021年日本でアートメイクアカデミー設立\n・大阪の"T"クリニックで卒業生多数活動中\n→眉、アイライン、リップ\n・2023年 銀座 ON CLINIC OPEN\n・現 SEFA ACADEMY院長`;
 
-export {introEx, ceoName, ceoCv, define, defineIntroduction, defineSefa, defineIntroductionSefa};
+export {introEx, ceoName, ceoCv, define, defineIntroduction, defineSefa, defineIntroductionSefa
+        , profileContent, profileName};

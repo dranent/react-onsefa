@@ -3,7 +3,7 @@ import { Container, Row, Collapse, Button, Table } from 'react-bootstrap';
 import React, { useState, useRef } from "react";
 import Header2 from './Header/Header2.js';
 import Footer from './Footer/Footer.js'
-import { define, defineIntroduction, defineSefa, defineIntroductionSefa } from './StringData';
+import { define, defineIntroduction, defineSefa, defineIntroductionSefa, profileContent, profileName } from './StringData';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { AiFillPhone, AiFillCaretDown } from 'react-icons/ai';
 import emailjs from '@emailjs/browser';
@@ -413,7 +413,11 @@ function App() {
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
-                      <LazyLoadImage src='/img/draw/lip.png' className='draw-img' /></center>
+                      <LazyLoadImage src='/img/draw/tintlip.png' className='draw-img' /></center>
+                  </div>
+                  <div className='draw-img-bg'>
+                    <center>
+                      <LazyLoadImage src='/img/draw/fulllip.png' className='draw-img' /></center>
                   </div>
                 </div>
 
@@ -553,6 +557,19 @@ function App() {
           {defineIntroductionSefa}
         </h6>
       </div>
+
+      <div className='profile-container'>
+        
+        <div className='profile'>
+          <h4>{profileName}</h4>
+          <h6 className='display-enter'>{profileContent}</h6>
+        </div>
+        <div className='profile-img'>
+          <img src='./img/sefa-profile_75.png' className='profile-img' alt='asami-sefa' />
+        </div>
+      </div>
+
+
 
       <div className='ticket-area'>
         <center>
@@ -1491,7 +1508,7 @@ function App() {
                 <dd>個人情報を利用する必要がなくなったときは、遅滞なく消去するよう努めます。</dd>
               </dl>
               <p>個人情報の取扱いに関するご相談・苦情について<br />当クリニックの個人情報の取扱いに関するご相談や苦情等のお問い合わせについては、 下記の窓口までご連絡ください。</p>
-              <p>［お問い合わせ先］<br />On Clinic<br />電話：080-4763-0858　受付時間：10:00～19:00</p>
+              <p>［お問い合わせ先］<br />On Clinic<br />電話：06-6867-9797　受付時間：10:00～19:00</p>
             </div>
           </div>
           <div className="form-privacy">
@@ -1547,7 +1564,7 @@ function App() {
           <h6>営業時間 10:00-21:00</h6>
           <h2>
             <AiFillPhone />
-            <a href="tel:08047630858">080-4763-0858</a>
+            <a href="tel:08047630858">06-6867-9797</a>
           </h2>
         </Row>
 

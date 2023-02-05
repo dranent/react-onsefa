@@ -199,12 +199,23 @@ function App() {
           <h6>キャンペーン</h6>
         </center>
       </div>
+
+      <center className='campaign-banner-box-title '>
+        
+        {/* <a className='campaign-banner-box' href="#"> */}
+        <img className='campaign-banner' src='img/5peroff.png' alt='5peroff_banner'></img>
+        {/* </a> */}
+      </center>
+
       <center className='campaign-banner-box-title '>
         
         <a className='campaign-banner-box' href="#price">
-        <img className='campaign-banner' src='img\grand_open_banner_1.jpg' alt='grand_open_banner'></img>
+        <img className='campaign-banner' src='img/grand_open_banner_1.jpg' alt='grand_open_banner'></img>
         </a>
       </center>
+
+      
+
 
 
       <center className='main-logo-are'>

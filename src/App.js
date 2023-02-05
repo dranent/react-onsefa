@@ -350,16 +350,7 @@ function App() {
             </tr>
 
 
-            <tr>
-              <td><h6>Eyebrow + Eyeline SET</h6></td>
-              <td className='list-price'>260,000</td>
-              <td className='campaign-price'>234,000</td>
-            </tr>
-            <tr>
-              <td>↳ monitor</td>
-              <td className='list-price'>130,000</td>
-              <td className='campaign-price'>117,000</td>
-            </tr>
+
 
             <tr>
               <td><h6>Eyebrow</h6>
@@ -446,6 +437,17 @@ function App() {
               <td>↳ monitor</td>
               <td className='list-price'>90,000</td>
               <td></td>
+            </tr>
+
+            <tr>
+              <td><h6>Eyebrow + Eyeline SET</h6></td>
+              <td className='list-price'>260,000</td>
+              <td className='campaign-price'>234,000</td>
+            </tr>
+            <tr>
+              <td>↳ monitor</td>
+              <td className='list-price'>130,000</td>
+              <td className='campaign-price'>117,000</td>
             </tr>
           </tbody>
         </Table>

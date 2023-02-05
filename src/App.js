@@ -204,12 +204,6 @@ function App() {
         </center>
       </div>
 
-      <center className='campaign-banner-box-title '>
-        
-        {/* <a className='campaign-banner-box' href="#"> */}
-        <img className='campaign-banner' src='img/5peroff.png' alt='5peroff_banner'></img>
-        {/* </a> */}
-      </center>
 
       <center className='campaign-banner-box-title '>
         
@@ -218,7 +212,13 @@ function App() {
         </a>
       </center>
 
-      
+      <center className='campaign-banner-box-title '>
+        
+        {/* <a className='campaign-banner-box' href="#"> */}
+        <img className='campaign-banner' src='img/5peroff.png' alt='5peroff_banner'></img>
+        {/* </a> */}
+      </center>
+
 
 
 

@@ -65,6 +65,10 @@ function App() {
 
 
     // form 유효성 검사 start 
+    if (form.current.res_category.value === '') {
+      alert('予約区分を選択して下さい。');
+      return false;
+    }
     if (form.current.category.value === '') {
       alert('来院を選択して下さい。');
       return false;

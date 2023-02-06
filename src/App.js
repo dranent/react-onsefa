@@ -221,9 +221,9 @@ function App() {
 
       <center className='campaign-banner-box-title '>
         
-        {/* <a className='campaign-banner-box' href="#"> */}
+        <a className='campaign-banner-box' href="#ticket-area">
         <img className='campaign-banner' src='img/artmake-banner.png' alt='5peroff_banner'></img>
-        {/* </a> */}
+        </a>
       </center>
 
 
@@ -596,7 +596,7 @@ function App() {
 
 
 
-      <div className='ticket-area'>
+      <div className='ticket-area' id='ticket-area'>
         <center>
           <LazyLoadImage src='/img/チケットシステム.png' alt='' className='ticket-area-img' effect='blur'></LazyLoadImage>
         </center>

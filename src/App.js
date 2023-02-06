@@ -208,14 +208,14 @@ function App() {
       <center className='campaign-banner-box-title '>
         
         <a className='campaign-banner-box' href="#price">
-        <img className='campaign-banner' src='img/grand_open_banner_1.jpg' alt='grand_open_banner'></img>
+        <img className='campaign-banner' src='img/grand_open_banner_2.png' alt='grand_open_banner'></img>
         </a>
       </center>
 
       <center className='campaign-banner-box-title '>
         
         {/* <a className='campaign-banner-box' href="#"> */}
-        <img className='campaign-banner' src='img/5peroff.png' alt='5peroff_banner'></img>
+        <img className='campaign-banner' src='img/5peroff_1.png' alt='5peroff_banner'></img>
         {/* </a> */}
       </center>
 
@@ -238,7 +238,7 @@ function App() {
 
 
       <div className='text-center marginTop'>
-        <LazyLoadImage className='triangl' src='/img/triangl.jpg'></LazyLoadImage>
+        <LazyLoadImage className='triangl' src='/img/triangl_1.jpg'></LazyLoadImage>
       </div>
       {/* <center>
         <div className='curriculum' id='curriculum'>
@@ -388,7 +388,7 @@ function App() {
                 </div>
               </td>
               <td className='list-price'>150,000</td>
-              <td className='campaign-price'>135,000</td>
+              <td className='campaign-price'>100,000</td>
             </tr>
             <tr>
               <td>↳ monitor</td>
@@ -407,7 +407,7 @@ function App() {
 
               </td>
               <td className='list-price'>120,000</td>
-              <td className='campaign-price'>108,000</td>
+              <td className='campaign-price'>80,000</td>
             </tr>
             <tr>
               <td>↳ monitor</td>
@@ -576,14 +576,14 @@ function App() {
       </div>
 
       <div className='profile-container'>
-        
+      <div className='profile-img'>
+          <img src='./img/sefa-profile_75.png' className='profile-img' alt='asami-sefa' />
+        </div> 
         <div className='profile'>
-          <h4>{profileName}</h4>
+          <h4 className='profile-name'>{profileName}</h4>
           <h6 className='display-enter'>{profileContent}</h6>
         </div>
-        <div className='profile-img'>
-          <img src='./img/sefa-profile_75.png' className='profile-img' alt='asami-sefa' />
-        </div>
+
       </div>
 
 
@@ -1444,9 +1444,9 @@ function App() {
                     <li className="u-check"><input name="conf[]" type="checkbox" id="conf5" value="心療内科、メンタルクリニックを受診中、および受診予定" />
                       <label htmlFor="conf5">心療内科、メンタルクリニックを受診中、および受診予定</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf6" value="アーティストを指名したい（アーティスト名を備考欄にご記入ください。指名料：1500円）" />
+                    {/* <li className="u-check"><input name="conf[]" type="checkbox" id="conf6" value="アーティストを指名したい（アーティスト名を備考欄にご記入ください。指名料：1500円）" />
                       <label htmlFor="conf6">アーティストを指名したい（アーティスト名を備考欄にご記入ください。指名料：1500円）</label>
-                    </li>
+                    </li> */}
                     <li className="u-check"><input name="conf[]" type="checkbox" id="conf7" value="ユベラ・トコフェロール(ビタミンE)服用注" />
                       <label htmlFor="conf7">ユベラ・トコフェロール(ビタミンE)服用注</label>
                     </li>

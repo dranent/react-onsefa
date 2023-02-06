@@ -8,7 +8,7 @@
 
     const define = `ON Clinicは\n“Just for you” を目指すクリニックです。`;
     const defineIntroduction = `ON Clinicは韓国技術を基盤としたアートメイク専門クリニックです。こだわりPOINTは日本にあったデザインやオリジナル色素を使用しお客様のニーズに合わせた技術をご提供いたします。
-    他クリニックと差別化を持つため「東洋人」向けのオリジナル色素を大切に選んでおります。技術はもちろん最新マシンを使用し時短を通してはれや痛みも最小限にし、直後の濃さも減らし定着はよりよくさせて頂きます。`;
+    他クリニックと差別化を持つため「東洋人」向けのオリジナル色素を大切に選んでおります。最新技術と最新マシンを使って濃さ、はれ、痛みを最小限にし、定着はよりよくさせて頂きます。`;
 
     const defineSefa = `Sefa Artmake Academyは\n“ONLY FOR YOU”`;
     const defineIntroductionSefa = `SEFA ARTMAKE ACADEMYでは受講生ひとりひとりの希望とお悩みに答えれるよ構築されております。
@@ -19,7 +19,22 @@
     本アカデミーは「Original」マシン、ニードル、色素等の販売を通して皆さんのアートメイクキャリアを応援します。`;
 
     const profileName = `浅見 世和`;
-    const profileContent = `・2019年「国際協力専門」大学卒業\n・2019年から日本でアートメイクをスタート\n・2020年 韓国でアートメイクをスタート\n・カンナム "D" Beauty Clinic出身\n →前 "D" JAPAN 代表\n・韓国半永久化粧アカデミー多数卒業\n・韓国最新技術を日本へ取入中\n・2021年日本でアートメイクアカデミー設立\n・大阪の"T"クリニックで卒業生多数活動中\n→眉、アイライン、リップ\n・2023年 銀座 ON CLINIC OPEN\n・現 SEFA ACADEMY院長`;
+    const profileContent = `\n・2013年 International Christian School UJB 卒業\n
+    ・MANILAボランティア多数活動\n
+    ・2017年YMCA活動\n
+    ・2017年PHD協会CHIANGMAIボランティア活動\n
+    ・2019年大阪女学院大学「国際協力専門」卒業\n
+    ・2019年韓国と日本でアートメイクスタート\n
+    ・カンナム DVORA Beauty Clinic卒業\n
+    ・DVORA JAPAN 代表\n
+    ・MBC Academy Beauty School 卒業\n
+    ・韓国半永久化粧アカデミー多数卒業(DVORA, Meijiu, ImBeauty 等)\n
+    ・2021年日本でアートメイクアカデミー設立\n
+    ・2021年箕面クリニックでドクターと看護師アートメイク教育開始\n
+    ・大阪美容クリニックでDVORA JAPAN生徒多数活動中\n
+    ・2023年 銀座 ON CLINIC OPEN\n
+    ・現 SEFA ACADEMY院長\n
+    ・2023年ヨロッパ進出準備中`;
 
 export {introEx, ceoName, ceoCv, define, defineIntroduction, defineSefa, defineIntroductionSefa
         , profileContent, profileName};

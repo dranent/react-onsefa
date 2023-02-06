@@ -224,13 +224,15 @@ html, body {
   height: auto;
   /* margin-left: 1em; */
   border-radius: 3em;
-  display: flex;
+  /* display: flex; */
   margin-right: 2em;
+  text-align: center;
 }
 
 .profile-name {
   color: #666;
   text-shadow: #FC0 1px 0 10px;
+  display: block;
 }
 
 @media only screen and (max-width: 600px) { 
@@ -799,7 +801,7 @@ a {
     cursor: pointer;
     line-height: 20px;
     display: inline-block;
-    color: #666;
+    color: black;
 }
 [type="radio"]:checked + label:before,
 [type="radio"]:not(:checked) + label:before {

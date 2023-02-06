@@ -18,7 +18,7 @@
     独自チケット制度で受けたい項目を気楽に選択でき、クリニック内で行う「Demonstration」もいつでも見守りの元できます。
     本アカデミーは「Original」マシン、ニードル、色素等の販売を通して皆さんのアートメイクキャリアを応援します。`;
 
-    const profileName = `浅見 世和`;
+    const profileName = `Asami Seiwa`;
     const profileContent = `\n・2013年 International Christian School UJB 卒業\n
     ・MANILAボランティア多数活動\n
     ・2017年YMCA活動\n

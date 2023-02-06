@@ -219,7 +219,12 @@ function App() {
         {/* </a> */}
       </center>
 
-
+      <center className='campaign-banner-box-title '>
+        
+        {/* <a className='campaign-banner-box' href="#"> */}
+        <img className='campaign-banner' src='img/artmake-banner.png' alt='5peroff_banner'></img>
+        {/* </a> */}
+      </center>
 
 
       <center className='main-logo-are'>
@@ -457,7 +462,7 @@ function App() {
             <tr>
               <td><h6>Eyebrow + Eyeline SET</h6></td>
               <td className='list-price'>260,000</td>
-              <td className='campaign-price'>234,000</td>
+              <td className='campaign-price'>180,000</td>
             </tr>
             <tr>
               <td>↳ monitor</td>
@@ -576,11 +581,14 @@ function App() {
       </div>
 
       <div className='profile-container'>
+      
+      
       <div className='profile-img'>
+        <h4 className='profile-name'>{profileName}</h4>
           <img src='./img/sefa-profile_75.png' className='profile-img' alt='asami-sefa' />
         </div> 
         <div className='profile'>
-          <h4 className='profile-name'>{profileName}</h4>
+          
           <h6 className='display-enter'>{profileContent}</h6>
         </div>
 

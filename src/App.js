@@ -12,7 +12,11 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { ja } from "date-fns/esm/locale";
 
 import { BsCalendarCheck } from "react-icons/bs";
-import SimpleImageSlider from "react-simple-image-slider";
+// import SimpleImageSlider from "react-simple-image-slider";
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
@@ -49,16 +53,6 @@ function App() {
   const [isChecked, setIsChecked] = useState(false);
 
   const form = useRef();
-
-  // 사례 갤러리 이미지 배열
-  const images = [
-    { url: "/img/case-gallery/남자결2.png" },
-    { url: "/img/case-gallery/남자콤보2.png" },
-    { url: "/img/case-gallery/아이라인1.png" },
-    { url: "/img/case-gallery/자연결4.png" },
-    { url: "/img/case-gallery/콤보4.png" },
-    { url: "/img/case-gallery/SMP.png" },
-  ];
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -157,6 +151,43 @@ function App() {
   const [checkInDate2, setCheckInDate2] = useState('');
   const [checkInDate3, setCheckInDate3] = useState('');
 
+  var settings = {
+    dots: true,
+    infinite: true,
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 6,
+    slidesToScroll: 6,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  };
+
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   // const firebaseConfig = {
@@ -206,23 +237,23 @@ function App() {
 
 
       <center className='campaign-banner-box-title '>
-        
+
         <a className='campaign-banner-box' href="#price">
-        <img className='campaign-banner' src='img/grand_open_banner_2.png' alt='grand_open_banner'></img>
+          <img className='campaign-banner' src='img/grand_open_banner_2.png' alt='grand_open_banner'></img>
         </a>
       </center>
 
       <center className='campaign-banner-box-title '>
-        
+
         {/* <a className='campaign-banner-box' href="#"> */}
         <img className='campaign-banner' src='img/5peroff_1.png' alt='5peroff_banner'></img>
         {/* </a> */}
       </center>
 
       <center className='campaign-banner-box-title '>
-        
+
         <a className='campaign-banner-box' href="#ticket-area">
-        <img className='campaign-banner' src='img/artmake-banner.png' alt='5peroff_banner'></img>
+          <img className='campaign-banner' src='img/artmake-banner.png' alt='5peroff_banner'></img>
         </a>
       </center>
 
@@ -341,18 +372,18 @@ function App() {
         </div>
       </center> */}
       <center>
-      <div className='line_btn'>
-        <div onClick={() => {
-          window.location.href = 'https://lin.ee/87QWTkV';
-        }}>
-          <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
-          <h4 className='line_txt'>LINE相談はこちら</h4>
+        <div className='line_btn'>
+          <div onClick={() => {
+            window.location.href = 'https://lin.ee/87QWTkV';
+          }}>
+            <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
+            <h4 className='line_txt'>LINE相談はこちら</h4>
+          </div>
         </div>
-      </div>
 
-      <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
-        <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
-      </a>
+        <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+          <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
+        </a>
       </center>
 
       <div className="price-table" id='price'>
@@ -363,15 +394,11 @@ function App() {
         <Table responsive striped bordered>
           <tbody>
 
-          <tr>
+            <tr>
               <td><h6>施術メニュー</h6></td>
               <td>定価</td>
               <td className='campaign-price'>OPEN CAMPAIGN 価格</td>
             </tr>
-
-
-
-
             <tr>
               <td><h6>Eyebrow</h6>
                 <div className='draw-img-bg-area'>
@@ -544,7 +571,66 @@ function App() {
           <div className='flow-title'>
             <h4>症例ギャラリー</h4>
           </div>
-          <SimpleImageSlider
+          <Slider {...settings}>
+          <div>
+            <img className='case-gallery-img' src='/img/case-gallery/case1.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case2.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case3.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case4.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case5.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case6.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case7.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case8.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case9.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case10.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case11.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case12.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case13.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case14.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case15.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case16.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case17.jpg' alt=''></img>
+          </div>
+          <div>
+          <img className='case-gallery-img' src='/img/case-gallery/case18.jpg' alt=''></img>
+          </div>
+          </Slider>
+
+
+          
+          {/* <SimpleImageSlider
             width={400}
             height={400}
             images={images}
@@ -553,22 +639,22 @@ function App() {
             loop={true}
             autoPlay={true}
             className='simpleImageSlider'
-          />
+          /> */}
         </center>
       </div>
 
       <center>
-      <div className='line_btn'>
-        <div onClick={() => {
-          window.location.href = 'https://lin.ee/87QWTkV';
-        }}>
-          <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
-          <h4 className='line_txt'>LINE相談はこちら</h4>
+        <div className='line_btn'>
+          <div onClick={() => {
+            window.location.href = 'https://lin.ee/87QWTkV';
+          }}>
+            <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
+            <h4 className='line_txt'>LINE相談はこちら</h4>
+          </div>
         </div>
-      </div>
-      <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
-        <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
-      </a>
+        <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+          <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
+        </a>
       </center>
 
       <div className='defineSefa-area' id='defineSefa'>
@@ -581,14 +667,14 @@ function App() {
       </div>
 
       <div className='profile-container'>
-      
-      
-      <div className='profile-img'>
-        <h4 className='profile-name'>{profileName}</h4>
-        <img src='./img/sefa-profile_75.png' className='profile-img' alt='asami-sefa' />
-      </div> 
 
-        <div className='profile'>  
+
+        <div className='profile-img'>
+          <h4 className='profile-name'>{profileName}</h4>
+          <img src='./img/sefa-profile_75.png' className='profile-img' alt='asami-sefa' />
+        </div>
+
+        <div className='profile'>
           <h6 className='display-enter'>{profileContent}</h6>
         </div>
 
@@ -602,6 +688,58 @@ function App() {
         </center>
 
       </div>
+
+
+      <div className="price-table" id='price'>
+        <div>
+          <h4>SEFA Artmake Academy 料金表</h4>
+          <h6>(単位:円(税込))</h6>
+        </div>
+        <Table responsive striped bordered>
+          <tbody>
+
+            <tr>
+              <td><h6>チケット数</h6></td>
+              <td >価格</td>
+              <td className='campaign-price'>OPEN CAMPAIGN 価格</td>
+            </tr>
+            <tr>
+              <td><h6>1数</h6>
+              </td>
+              <td className='list-price-academy'>30,000</td>
+              {/* <td className='campaign-price'>100,000</td> */}
+              <td></td>
+            </tr>
+            <tr>
+              <td><h6>6数</h6></td>
+              <td className='list-price-academy'>180,000</td>
+              <td className='campaign-price'>171,000(5%OFF)</td>
+            </tr>
+            <tr>
+              <td><h6>18数</h6></td>
+              <td className='list-price'>460,000</td>
+              <td className='campaign-price'>414,000(10%OFF)</td>
+            </tr>
+            <tr>
+              <td><h6>24数</h6></td>
+              <td className='list-price'>720,000</td>
+              <td className='campaign-price'>612,000(15%OFF)</td>
+            </tr>
+            <tr>
+              <td><h6>36数</h6></td>
+              <td className='list-price'>1,080,000</td>
+              <td className='campaign-price'>864,000(20%OFF)</td>
+            </tr>
+            <tr>
+              <td><h6>48数</h6></td>
+              <td className='list-price'>1,440,000</td>
+              <td className='campaign-price'>1,080,000(25%OFF)</td>
+            </tr>
+          </tbody>
+        </Table>
+      </div>
+
+
 
       <Container className='qna-area padding-left padding-top padding-right' id='qna-a'>
         <Row className='margin-1em'><div>
@@ -1169,19 +1307,19 @@ function App() {
       </Container>
 
       <center>
-      <div className='line_btn'>
-        <div onClick={() => {
-          window.location.href = 'https://lin.ee/87QWTkV';
-        }}>
-          <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
-          <h4 className='line_txt'>LINE相談はこちら</h4>
-        </div>
-        
-      </div>
+        <div className='line_btn'>
+          <div onClick={() => {
+            window.location.href = 'https://lin.ee/87QWTkV';
+          }}>
+            <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
+            <h4 className='line_txt'>LINE相談はこちら</h4>
+          </div>
 
-      <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
-        <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
-      </a>
+        </div>
+
+        <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+          <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
+        </a>
 
       </center>
 
@@ -1624,7 +1762,8 @@ function App() {
         <div className="google-maps">
           <iframe
             title='googlemaps'
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12964.355608363963!2d139.7669851!3d35.6748129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e3ddd4bba87b7e1!2sSefa%20Artmake%20Clinic%20%26%20Academy!5e0!3m2!1sko!2sjp!4v1671517355220!5m2!1sko!2sjp"
+            // src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12964.355608363963!2d139.7669851!3d35.6748129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e3ddd4bba87b7e1!2sSefa%20Artmake%20Clinic%20%26%20Academy!5e0!3m2!1sko!2sjp!4v1671517355220!5m2!1sko!2sjp"
+            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0889028952465!2d139.7647964151112!3d35.67481288019577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b7938443b71%3A0x5e3ddd4bba87b7e1!2sON%20Clinic%20%26%20Sefa%20Artmake%20Academy!5e0!3m2!1sja!2sjp!4v1675678797270!5m2!1sja!2sjp'
             width="600"
             height="450"
             frameBorder="0"

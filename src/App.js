@@ -17,6 +17,7 @@ import { BsCalendarCheck } from "react-icons/bs";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import TicketContainer from './curriculum.js'
 
 // import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
@@ -274,7 +275,7 @@ function App() {
 
 
       <div className='text-center marginTop'>
-        <LazyLoadImage className='triangl' src='/img/triangl_1.jpg'></LazyLoadImage>
+        <img className='triangl' src='/img/triangl_1.jpg' alt='triangl'></img>
       </div>
       {/* <center>
         <div className='curriculum' id='curriculum'>
@@ -405,17 +406,17 @@ function App() {
                   <div className='draw-img-bg'>
                     <h6>natural</h6>
                     <center>
-                      <LazyLoadImage src='/img/draw/eyebrows-shadow.png' className='draw-img' /></center>
+                      <img src='/img/draw/eyebrows-shadow.png' className='draw-img' alt='eyebrows-shadow'/></center>
                   </div>
                   <div className='draw-img-bg'>
                     <h6>powder</h6>
                     <center>
-                      <LazyLoadImage src='/img/draw/eyebrow-powder.png' className='draw-img' /></center>
+                      <img src='/img/draw/eyebrow-powder.png' className='draw-img' alt='eyebrow-powder'/></center>
                   </div>
                   <div className='draw-img-bg'>
                     <h6>powder + natural</h6>
                     <center>
-                      <LazyLoadImage src='/img/draw/Eyebrows-Powder-Shadow.png' className='draw-img' /></center>
+                      <img src='/img/draw/Eyebrows-Powder-Shadow.png' className='draw-img' alt='powder-shadow'/></center>
                   </div>
                 </div>
               </td>
@@ -432,7 +433,7 @@ function App() {
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
-                      <LazyLoadImage src='/img/draw/eyeline.png' className='draw-img' /></center>
+                      <img src='/img/draw/eyeline.png' className='draw-img' alt='eyeline'/></center>
                   </div>
                 </div>
 
@@ -451,11 +452,11 @@ function App() {
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
-                      <LazyLoadImage src='/img/draw/tintlip.png' className='draw-img' /></center>
+                      <img src='/img/draw/tintlip.png' className='draw-img' alt='tintlip'/></center>
                   </div>
                   <div className='draw-img-bg'>
                     <center>
-                      <LazyLoadImage src='/img/draw/fulllip.png' className='draw-img' /></center>
+                      <img src='/img/draw/fulllip.png' className='draw-img' alt='fulllip'/></center>
                   </div>
                 </div>
 
@@ -473,7 +474,7 @@ function App() {
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
-                      <LazyLoadImage src='/img/draw/hairline.png' className='draw-img' /></center>
+                      <img src='/img/draw/hairline.png' className='draw-img' alt='hairline'/></center>
                   </div>
                 </div>
               </td>
@@ -512,7 +513,7 @@ function App() {
           <div className='flow-div'>
             <div className='flow-contents'>
               <h5 className='flow-step'>STEP 1</h5>
-              <LazyLoadImage src='/img/on-flow/電話相談.jpeg' alt='' className='img-boder img-resize' />
+              <img src='/img/on-flow/電話相談.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
                 LINE、電話相談、予約
               </h6>
@@ -520,7 +521,7 @@ function App() {
 
             <div className='flow-contents'>
               <h5 className='flow-step'>STEP 2</h5>
-              <LazyLoadImage src='/img/on-flow/カウンセリング1.jpeg' alt='' className='img-boder img-resize' />
+              <img src='/img/on-flow/カウンセリング1.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
                 当日カウンセリング
               </h6>
@@ -528,7 +529,7 @@ function App() {
 
             <div className='flow-contents'>
               <h5 className='flow-step'>STEP 3</h5>
-              <LazyLoadImage src='/img/on-flow/決済.jpeg' alt='' className='img-boder img-resize' />
+              <img src='/img/on-flow/決済.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
                 決済
               </h6>
@@ -538,7 +539,7 @@ function App() {
           <div className='flow-div'>
             <div className='flow-contents'>
               <h5 className='flow-step'>STEP 4</h5>
-              <LazyLoadImage src='/img/on-flow/デザイン1.jpeg' alt='' className='img-boder img-resize' />
+              <img src='/img/on-flow/デザイン1.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
                 診察、デザイン
               </h6>
@@ -546,7 +547,7 @@ function App() {
 
             <div className='flow-contents'>
               <h5 className='flow-step'>STEP 5</h5>
-              <LazyLoadImage src='/img/on-flow/施術.jpeg' alt='' className='img-boder img-resize' />
+              <img src='/img/on-flow/施術.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
                 施術
               </h6>
@@ -554,7 +555,7 @@ function App() {
 
             <div className='flow-contents'>
               <h5 className='flow-step'>STEP 6</h5>
-              <LazyLoadImage src='/img/on-flow/アフターケアー.jpeg' alt='' className='img-boder img-resize' />
+              <img src='/img/on-flow/アフターケアー.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
                 アフターケア
               </h6>
@@ -684,11 +685,82 @@ function App() {
 
       <div className='ticket-area' id='ticket-area'>
         <center>
-          <LazyLoadImage src='/img/チケットシステム.png' alt='' className='ticket-area-img' effect='blur'></LazyLoadImage>
+          <img src='/img/チケットシステム.png' alt='' className='ticket-area-img' effect='blur'/>
         </center>
 
       </div>
 
+      <TicketContainer/>
+
+      {/* <div className='ticket-description'>
+        <div class="ticket-container">
+        <h1>必要チケット数</h1>
+        <div class="content">
+          <div class="ticket-item">
+            <div class="ticket-name">眉毛 パウダー 理論 有</div>
+            <div class="ticket-number">6枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">眉毛 パウダー 理論 無</div>
+            <div class="ticket-number">4枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">眉毛 ナチュラル 理論 有</div>
+            <div class="ticket-number">6枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">眉毛 パウダー 理論 無</div>
+            <div class="ticket-number">4枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">眉毛 COMBO 理論 有</div>
+            <div class="ticket-number">6枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">眉毛 COMBO 理論 無</div>
+            <div class="ticket-number">4枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">リップ 理論 有</div>
+            <div class="ticket-number">6枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">リップ 理論 無</div>
+            <div class="ticket-number">4枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">ヘア 理論 有</div>
+            <div class="ticket-number">6枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">ヘア 理論 無</div>
+            <div class="ticket-number">4枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">SMP 理論 有</div>
+            <div class="ticket-number">6枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">SMP 理論 無</div>
+            <div class="ticket-number">4枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">アイライン 理論 有</div>
+            <div class="ticket-number">6枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">アイライン 理論 無</div>
+            <div class="ticket-number">4枚</div>
+          </div>
+          <div class="ticket-item">
+            <div class="ticket-name">見守りモニター人につき</div>
+            <div class="ticket-number">2枚</div>
+          </div>
+          <div class="ticket-info">(1枚に2時間、1:1の授業)</div>
+        </div>
+      </div>
+
+      </div> */}
 
       <div className="price-table" id='price'>
         <div>

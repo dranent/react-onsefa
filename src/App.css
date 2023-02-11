@@ -518,6 +518,8 @@ a {
     width: 100%;
   }
 
+
+
   .simpleImageSlider {
     width: 200px;
     height: 200px;
@@ -1016,4 +1018,103 @@ input:valid {
 
 #instagram-btn:hover {
   content: url(/public/img/instar-icon-hover.svg);
+}
+
+/* 티켓 필요 수 설명 부분 */
+.ticket-area {
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ticket-description {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+.ticket-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  
+}
+
+.ticket-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content {
+  width: 80%;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+}
+
+.ticket-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+.ticket-name {
+  font-size: 18px;
+}
+
+.ticket-number {
+  font-size: 18px;
+}
+
+.show-more-btn {
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.show-more-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.show-more-btn::after {
+  transition: .2s;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  
+  .ticket-item {
+    flex-direction: column;
+  }
+  
+  .ticket-name {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-number {
+    text-align: center;
+    width: 100%;
+  }
+
+  .ticket-area {
+    width: 100%;
+  }
+
+
 }

@@ -158,7 +158,21 @@ html, body {
   .campaign-banner:hover {
     transform: scale(1.2);
   }
+  .time-table {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
 
+  .price-table {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .reserve {
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 10em;
+    padding-top: 5em;
+  }
 }
 
 .list-price {
@@ -235,20 +249,6 @@ html, body {
   display: block;
 }
 
-@media only screen and (max-width: 600px) { 
-  .profile-container { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .profile-img { 
-    /* padding-top: 1em; */
-    display: block;
-    margin-bottom: 1em;
-    width: 250px;
-    height: auto;
-  }
-}
 
 
 
@@ -447,11 +447,6 @@ a {
   margin-right: 10px;
 }
 
-
-
-
-
-
 .top-btn {
   float: right;
   background-color: rgba(218, 218, 218, 0.915);
@@ -467,81 +462,6 @@ a {
   text-align: center;
   vertical-align: center;
 }
-/* .top-btn:hover{
-  background-color: rgba(152, 152, 152, 0.915);
-}
-.top-btn:active {
-  background-color: rgba(152, 152, 152, 0.915) ;
-} */
-
-@media only screen and (min-width: 600px) {
-  .time-table {
-    padding-left: 30%;
-    padding-right: 30%;
-  }
-
-  .price-table {
-    padding-left: 20%;
-    padding-right: 20%;
-
-  }
-
-}
-
-/* mobile */
-@media only screen and (max-width: 600px) {
-  .price-table {
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 4em !important;
-  }
-
-  .triangl {
-    background-color: white;
-    position: relative;
-    /* 핵심코드 */
-    display: inline-block;
-    max-width: 90%;
-    height: auto;
-    background-repeat: no-repeat;
-  }
-
-  .curriculum {
-    margin-top: 5em;
-    max-width: 90%;
-  }
-  .qna-area {
-    margin-top: 0;
-  }
-
-  .ticket-area-img {
-    width: 100%;
-  }
-
-
-
-  .simpleImageSlider {
-    width: 200px;
-    height: 200px;
-  }
-  /* .res_btn {
-    left: 30%;
-    width: 7em;
-  }
-  .line_btn {
-    left: 70%;
-    width: 7em;
-  }
-  .res_txt {
-    display: none;
-  }
-  .line_txt {
-    display: none;
-  } */
-
-}
-
-
 .price-table {
   padding-top: 10em;
 }
@@ -585,37 +505,6 @@ a {
   width: 30px;
   padding: 3px;
 }
-@media only screen and (min-width: 600px) {
-.reserve {
-  padding-left: 10em;
-  padding-right: 10em;
-  padding-bottom: 10em;
-  padding-top: 5em;
-}
-}
-@media only screen and (max-width: 600px) {
-  .reserve {
-    padding: 1em;
-  }
-  }
-/* @media only screen and (min-width: 600px) {
-  .reserve {
-    margin-top: 5em;
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2em;
-  }  
-}
-@media only screen and (max-width: 600px) {
-  .reserve {
-    margin-top: 5em;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2em;
-  }  
-} */
 
 .radio-btn-reservation {
   padding-left: 2em;
@@ -679,34 +568,8 @@ a {
   white-space:nowrap;
 
 }
-@media only screen and (max-width: 600px) {
-  .reserve table td {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 1em;
-    border: 0;
-    border-spacing: 0;
-    border-radius: 0;
-  }
-  .reserve table th {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 1em;
-    border: 0;
-    border-spacing: 0;
-    border-radius: 0;
-    white-space:nowrap;
-  }
-  .form-data .name {
-    width: 100% !important;
-  }
-}
 
-@media screen and (max-width: 580px){
 
-}
 .name {
   display: block;
 }
@@ -935,17 +798,7 @@ input[type="checkbox"]:disabled {
   text-shadow: #FC0 1px 0 10px;
 }
 
-@media only screen and (max-width: 600px) { 
-  .flow-div {
-    display: block;
-  }
-  .flow-div { 
-    margin-top: 0;
-  }
-  .flow-contents {
-    margin-top: 20px;
-  }
-}
+
 /* 流れ part end */
 
 /* form 유효성 검사 start  */
@@ -988,6 +841,102 @@ input:valid {
   .draw-img-bg-area {
   display: block;
   }
+  .flow-div {
+    display: block;
+  }
+  .flow-div { 
+    margin-top: 0;
+  }
+  .flow-contents {
+    margin-top: 20px;
+  }
+  .container {
+    width: 100%;
+  }
+  
+  .ticket-item {
+    flex-direction: column;
+  }
+  .ticket-name {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .ticket-number {
+    text-align: center;
+    width: 100%;
+  }
+  .ticket-area {
+    width: 100%;
+  }
+  .profile-container { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile-img { 
+    /* padding-top: 1em; */
+    display: block;
+    margin-bottom: 1em;
+    width: 250px;
+    height: auto;
+  }
+  .reserve {
+    padding: 1em;
+  }
+  .reserve table td {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1em;
+    border: 0;
+    border-spacing: 0;
+    border-radius: 0;
+  }
+  .reserve table th {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1em;
+    border: 0;
+    border-spacing: 0;
+    border-radius: 0;
+    white-space:nowrap;
+  }
+  .form-data .name {
+    width: 100% !important;
+  }
+  .price-table {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 4em !important;
+  }
+
+  .triangl {
+    background-color: white;
+    position: relative;
+    /* 핵심코드 */
+    display: inline-block;
+    max-width: 90%;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+  .curriculum {
+    margin-top: 5em;
+    max-width: 90%;
+  }
+  .qna-area {
+    margin-top: 0;
+  }
+
+  .ticket-area-img {
+    width: 100%;
+  }
+  .simpleImageSlider {
+    width: 200px;
+    height: 200px;
+  }
+
 }
 
 .bottom-margin {
@@ -1092,29 +1041,3 @@ input:valid {
 }
 
 
-@media only screen and (max-width: 600px) {
-  .container {
-    width: 100%;
-  }
-  
-  .ticket-item {
-    flex-direction: column;
-  }
-  
-  .ticket-name {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  .ticket-number {
-    text-align: center;
-    width: 100%;
-  }
-
-  .ticket-area {
-    width: 100%;
-  }
-
-
-}

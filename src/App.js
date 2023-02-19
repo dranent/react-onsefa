@@ -406,17 +406,17 @@ function App() {
                   <div className='draw-img-bg'>
                     <h6>natural</h6>
                     <center>
-                      <img src='/img/draw/eyebrows-shadow.png' className='draw-img' alt='eyebrows-shadow'/></center>
+                      <img src='/img/draw/eyebrows-shadow.png' className='draw-img' alt='eyebrows-shadow' /></center>
                   </div>
                   <div className='draw-img-bg'>
                     <h6>powder</h6>
                     <center>
-                      <img src='/img/draw/eyebrow-powder.png' className='draw-img' alt='eyebrow-powder'/></center>
+                      <img src='/img/draw/eyebrow-powder.png' className='draw-img' alt='eyebrow-powder' /></center>
                   </div>
                   <div className='draw-img-bg'>
                     <h6>powder + natural</h6>
                     <center>
-                      <img src='/img/draw/Eyebrows-Powder-Shadow.png' className='draw-img' alt='powder-shadow'/></center>
+                      <img src='/img/draw/Eyebrows-Powder-Shadow.png' className='draw-img' alt='powder-shadow' /></center>
                   </div>
                 </div>
               </td>
@@ -433,7 +433,7 @@ function App() {
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
-                      <img src='/img/draw/eyeline.png' className='draw-img' alt='eyeline'/></center>
+                      <img src='/img/draw/eyeline.png' className='draw-img' alt='eyeline' /></center>
                   </div>
                 </div>
 
@@ -452,11 +452,11 @@ function App() {
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
-                      <img src='/img/draw/tintlip.png' className='draw-img' alt='tintlip'/></center>
+                      <img src='/img/draw/tintlip.png' className='draw-img' alt='tintlip' /></center>
                   </div>
                   <div className='draw-img-bg'>
                     <center>
-                      <img src='/img/draw/fulllip.png' className='draw-img' alt='fulllip'/></center>
+                      <img src='/img/draw/fulllip.png' className='draw-img' alt='fulllip' /></center>
                   </div>
                 </div>
 
@@ -474,7 +474,7 @@ function App() {
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
-                      <img src='/img/draw/hairline.png' className='draw-img' alt='hairline'/></center>
+                      <img src='/img/draw/hairline.png' className='draw-img' alt='hairline' /></center>
                   </div>
                 </div>
               </td>
@@ -573,64 +573,64 @@ function App() {
             <h4>症例ギャラリー</h4>
           </div>
           <Slider {...settings}>
-          <div>
-            <img className='case-gallery-img' src='/img/case-gallery/case1.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case2.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case3.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case4.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case5.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case6.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case7.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case8.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case9.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case10.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case11.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case12.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case13.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case14.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case15.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case16.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case17.jpg' alt=''></img>
-          </div>
-          <div>
-          <img className='case-gallery-img' src='/img/case-gallery/case18.jpg' alt=''></img>
-          </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case1.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case2.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case3.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case4.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case5.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case6.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case7.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case8.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case9.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case10.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case11.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case12.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case13.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case14.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case15.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case16.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case17.jpg' alt=''></img>
+            </div>
+            <div>
+              <img className='case-gallery-img' src='/img/case-gallery/case18.jpg' alt=''></img>
+            </div>
           </Slider>
 
 
-          
+
           {/* <SimpleImageSlider
             width={400}
             height={400}
@@ -685,12 +685,12 @@ function App() {
 
       <div className='ticket-area' id='ticket-area'>
         <center>
-          <img src='/img/チケットシステム.png' alt='' className='ticket-area-img' effect='blur'/>
+          <img src='/img/チケットシステム.png' alt='' className='ticket-area-img' effect='blur' />
         </center>
 
       </div>
 
-      <TicketContainer/>
+      <TicketContainer />
 
       {/* <div className='ticket-description'>
         <div class="ticket-container">

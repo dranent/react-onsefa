@@ -5,7 +5,7 @@ const TicketContainer = () => {
     { name: '眉毛 パウダー 理論 有', number: 6 },
     { name: '眉毛 パウダー 理論 無', number: 4 },
     { name: '眉毛 ナチュラル 理論 有', number: 6 },
-    { name: '眉毛 パウダー 理論 無', number: 4 },
+    { name: '眉毛 ナチュラル 理論 無', number: 4 },
     { name: '眉毛 COMBO 理論 有', number: 6 },
     { name: '眉毛 COMBO 理論 無', number: 4 },
     { name: 'リップ 理論 有', number: 6 },

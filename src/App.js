@@ -153,7 +153,7 @@ function App() {
   const [checkInDate3, setCheckInDate3] = useState('');
 
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     centerMode: true,
     centerPadding: '60px',
@@ -258,6 +258,14 @@ function App() {
         </a>
       </center>
 
+      <div class="special-offer white-bg">
+  <h2 class="brown-text">2月中にご予約の方限定</h2>
+  <h1 class="black-text">韓国コスメ<br/>プレゼント！</h1>
+</div>
+<div class="reservation-message black-text">
+  <p>3月22日から予約可能！</p>
+  <p>ご予約はお早めに！</p>
+</div>
 
       <center className='main-logo-are'>
         <LazyLoadImage className='main-logo'

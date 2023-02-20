@@ -18,6 +18,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TicketContainer from './curriculum.js'
+import TryFilterButton from './instagram.js';
 
 // import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
@@ -414,7 +415,9 @@ function App() {
                   <div className='draw-img-bg'>
                     <h6>natural</h6>
                     <center>
-                      <img src='/img/draw/eyebrows-shadow.png' className='draw-img' alt='eyebrows-shadow' /></center>
+                      <img src='/img/draw/eyebrows-shadow.png' className='draw-img' alt='eyebrows-shadow' />
+                      <TryFilterButton/>
+                      </center>
                   </div>
                   <div className='draw-img-bg'>
                     <h6>powder</h6>

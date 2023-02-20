@@ -8,7 +8,7 @@ function Header2() {
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed='top'>
             <Container className="container-width">
                 {/* <Image src="/sefa-logo.svg" width={"100px"}></Image> */}
-                <Navbar.Brand href="#home">On Clinic & Sefa Academy</Navbar.Brand>
+                <Navbar.Brand href="#sefa-top">On Clinic & Sefa Academy</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

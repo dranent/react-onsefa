@@ -260,7 +260,7 @@ function App() {
       </center>
 
       <div class="special-offer white-bg">
-  <h2 class="brown-text">2月中にご予約の方限定</h2>
+  <h2 class="brown-text">2月中にご予約の方もれなく</h2>
   <h1 class="black-text">韓国コスメ<br/>プレゼント！</h1>
 </div>
 <div class="reservation-message black-text">

@@ -19,6 +19,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TicketContainer from './curriculum.js'
 import TryFilterButton from './instagram.js';
+import Countdown from './countdown';
 
 // import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
@@ -264,9 +265,29 @@ function App() {
   <h1 class="black-text">韓国コスメ<br/>プレゼント！</h1>
 </div>
 <div class="reservation-message black-text">
-  <p>3月22日から予約可能！</p>
+  <p>ご一緒にオープンイベントにどうぞ！</p>
+  <h2>3月22日オープン</h2>
   <p>ご予約はお早めに！</p>
 </div>
+
+    <div className='countdown-area'>
+      <Countdown />
+    </div>
+
+    <center>
+        <div className='line_btn'>
+          <div onClick={() => {
+            window.location.href = 'https://lin.ee/87QWTkV';
+          }}>
+            <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
+            <h4 className='line_txt'>LINE相談はこちら</h4>
+          </div>
+        </div>
+
+        <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+          <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
+        </a>
+      </center>
 
       <center className='main-logo-are'>
         <LazyLoadImage className='main-logo'
@@ -286,101 +307,7 @@ function App() {
       <div className='text-center marginTop'>
         <img className='triangl' src='/img/triangl_1.jpg' alt='triangl'></img>
       </div>
-      {/* <center>
-        <div className='curriculum' id='curriculum'>
 
-          <LazyLoadImage className='ticket-img' src='/img/ticket.png'></LazyLoadImage>
-          <h2 className='marginTop'>Academy カリキュラム</h2>
-
-          <Table responsive className='marginTop padding2em'>
-            <tbody>
-              <tr>
-                <td colSpan={2}><h4>眉毛コース</h4></td>
-              </tr>
-              <tr>
-                <td>1Day Class</td>
-                <td>1日４時間 体験コース</td>
-              </tr>
-              <tr>
-                <td colSpan={2}>未経験者：SEFAの眉毛の基礎を勉強し、毛並みとマシンのタッチを経験します。
-                  <br></br>
-                  経験者：SEFA眉毛の基礎を勉強し、SEFAのエンボとマシンの違いを練習します。
-                </td>
-              </tr>
-
-              <tr>
-                <td colSpan={2}><h5>1 Day クラスの費用 </h5></td>
-              </tr>
-              <tr>
-                <td>チケット2枚<LazyLoadImage className='ticket-img-icon' src='/img/ticket.png'></LazyLoadImage>
-                  ※別当購入材料費の1万円(税抜)は含まれておりません。 </td>
-                <td>6 Times Class 一回６時間</td>
-              </tr>
-              <tr>
-                <td colSpan={2}>6回のカリキュラムで終了致します。 <br></br>
-                  お早めに終わらせたい方は週2回まで受講可能です。 <br></br>
-                  ただし、練習と課題に関しては厳しくチェックを行います。
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  未経験者：SEFAの眉毛の基礎を勉強し、毛並みとマシーンのタッチを練習します。 <br></br>
-                  経験者：SEFA眉毛の基礎を勉強し眉毛3種類の悩みと修正と練習を行いま す。
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>教育 内容</h5>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  ①基礎の座学＋毛並み基礎練習<br></br>
-                  ②ゴムシート練習（毛並みと毛並み用シャドウ）<br></br>
-                  ③色素座学＋マシン（シャドウ）<br></br>
-                  ④デザイン座学＋デザイン練習<br></br>
-                  ⑤全体練習→タッチの違い<br></br>
-                  ⑥まとめ練習、ディプロマ<br></br>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>6回クラス費用
-                  </h5>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  チケット18枚
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  ※別当購入材料費 5万円(税抜)は含まれておりません 、マシンはレンタル可能。<br></br>
-                  ※スケジュールはチケットでスピード変更可能です。<br></br>
-                  例）週2回3週間で終わるコースと週1回1.5ヶ月で終わるコース調節可能。
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>無料モニターデモ施術</h5>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  1回4時間<br></br>
-                  ①デザイン<br></br>
-                  ②麻酔<br></br>
-                  ③施術<br></br>
-                  ④片付け<br></br>
-                  ※医療従事者のみクリニックにて施術を行います。<br></br>
-                  DVORAはDIPLOMAの習得後も2回の補講（チケット2枚）が付きます。
-                </td>
-              </tr>
-            </tbody>
-          </Table>
-        </div>
-      </center> */}
       <center>
         <div className='line_btn'>
           <div onClick={() => {

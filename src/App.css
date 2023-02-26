@@ -991,6 +991,88 @@ input:valid
   margin-right: 0.5rem;
 }
 
+.countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fc4949;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.timer.running {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.timer .remaining {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timer {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+  }
+
+  .timer .remaining {
+    font-size: 0.6rem;
+    margin-top: 0.25rem;
+  }
+  /* .countdown {
+    width: 50%;
+  } */
+}
+
+@media screen and (max-width: 480px) {
+  .timer {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .timer .remaining {
+    font-size: 0.5rem;
+    margin-top: 0.25rem;
+  }
+  /* .countdown {
+    width: 70%;
+  } */
+  .countdown-area {
+    width: auto;
+  }
+}
+
+
+
+
 @media (max-width: 768px) {
   .try-filter-btn {
     font-size: 1rem;

@@ -20,7 +20,7 @@ import "slick-carousel/slick/slick-theme.css";
 import TicketContainer from './curriculum.js'
 import TryFilterButton from './instagram.js';
 import Countdown from './countdown';
-
+import Treatment from './treatment'
 // import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
 
@@ -268,6 +268,7 @@ function App() {
   <p>ご一緒にオープンイベントにどうぞ！</p>
   <h2>3月22日オープン</h2>
   <p>ご予約はお早めに！</p>
+  <Treatment></Treatment>
 </div>
 
     <div className='countdown-area'>

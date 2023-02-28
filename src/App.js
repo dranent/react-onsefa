@@ -260,10 +260,10 @@ function App() {
         </a>
       </center>
 
-      <div class="special-offer white-bg">
-  <h2 class="brown-text">2月中にご予約の方もれなく</h2>
-  <h1 class="black-text">韓国コスメ<br/>プレゼント！</h1>
-</div>
+      {/* <div class="special-offer white-bg"> */}
+  {/* <h2 class="brown-text">2月中にご予約の方もれなく</h2> */}
+  {/* <h1 class="black-text">韓国コスメ<br/>プレゼント！</h1> */}
+{/* </div> */}
 <div class="reservation-message black-text">
   <p>ご一緒にオープンイベントにどうぞ！</p>
   <h2>3月22日オープン</h2>

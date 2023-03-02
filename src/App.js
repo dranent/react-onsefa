@@ -20,6 +20,7 @@ import "slick-carousel/slick/slick-theme.css";
 import TicketContainer from './curriculum.js'
 import TryFilterButton from './instagram.js';
 import Countdown from './countdown';
+import NoticesList from './notice';
 // import Treatment from './treatment'
 // import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
@@ -261,21 +262,21 @@ function App() {
       </center>
 
       {/* <div class="special-offer white-bg"> */}
-  {/* <h2 class="brown-text">2月中にご予約の方もれなく</h2> */}
-  {/* <h1 class="black-text">韓国コスメ<br/>プレゼント！</h1> */}
-{/* </div> */}
-<div class="reservation-message black-text">
-  <p>ご一緒にオープンイベントにどうぞ！</p>
-  <h2>3月22日オープン</h2>
-  <p>ご予約はお早めに！</p>
-  {/* <Treatment></Treatment> */}
-</div>
+      {/* <h2 class="brown-text">2月中にご予約の方もれなく</h2> */}
+      {/* <h1 class="black-text">韓国コスメ<br/>プレゼント！</h1> */}
+      {/* </div> */}
+      <div class="reservation-message black-text">
+        <p>ご一緒にオープンイベントにどうぞ！</p>
+        <h2>3月22日オープン</h2>
+        <p>ご予約はお早めに！</p>
+        {/* <Treatment></Treatment> */}
+      </div>
 
-    <div className='countdown-area'>
-      <Countdown />
-    </div>
+      <div className='countdown-area'>
+        <Countdown />
+      </div>
 
-    <center>
+      <center>
         <div className='line_btn'>
           <div onClick={() => {
             window.location.href = 'https://lin.ee/87QWTkV';
@@ -289,6 +290,12 @@ function App() {
           <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
         </a>
       </center>
+
+      <NoticesList />
+      {/* <center>
+        <p>GLAMで紹介していただきました。</p>
+      </center> */}
+
 
       <center className='main-logo-are'>
         <LazyLoadImage className='main-logo'
@@ -344,8 +351,8 @@ function App() {
                     <h6>natural</h6>
                     <center>
                       <img src='/img/draw/eyebrows-shadow.png' className='draw-img' alt='eyebrows-shadow' />
-                      <TryFilterButton/>
-                      </center>
+                      <TryFilterButton />
+                    </center>
                   </div>
                   <div className='draw-img-bg'>
                     <h6>powder</h6>
@@ -568,18 +575,6 @@ function App() {
             </div>
           </Slider>
 
-
-
-          {/* <SimpleImageSlider
-            width={400}
-            height={400}
-            images={images}
-            showBullets={true}
-            showNavs={true}
-            loop={true}
-            autoPlay={true}
-            className='simpleImageSlider'
-          /> */}
         </center>
       </div>
 
@@ -630,76 +625,6 @@ function App() {
       </div>
 
       <TicketContainer />
-
-      {/* <div className='ticket-description'>
-        <div class="ticket-container">
-        <h1>必要チケット数</h1>
-        <div class="content">
-          <div class="ticket-item">
-            <div class="ticket-name">眉毛 パウダー 理論 有</div>
-            <div class="ticket-number">6枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">眉毛 パウダー 理論 無</div>
-            <div class="ticket-number">4枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">眉毛 ナチュラル 理論 有</div>
-            <div class="ticket-number">6枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">眉毛 パウダー 理論 無</div>
-            <div class="ticket-number">4枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">眉毛 COMBO 理論 有</div>
-            <div class="ticket-number">6枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">眉毛 COMBO 理論 無</div>
-            <div class="ticket-number">4枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">リップ 理論 有</div>
-            <div class="ticket-number">6枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">リップ 理論 無</div>
-            <div class="ticket-number">4枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">ヘア 理論 有</div>
-            <div class="ticket-number">6枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">ヘア 理論 無</div>
-            <div class="ticket-number">4枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">SMP 理論 有</div>
-            <div class="ticket-number">6枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">SMP 理論 無</div>
-            <div class="ticket-number">4枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">アイライン 理論 有</div>
-            <div class="ticket-number">6枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">アイライン 理論 無</div>
-            <div class="ticket-number">4枚</div>
-          </div>
-          <div class="ticket-item">
-            <div class="ticket-name">見守りモニター人につき</div>
-            <div class="ticket-number">2枚</div>
-          </div>
-          <div class="ticket-info">(1枚に2時間、1:1の授業)</div>
-        </div>
-      </div>
-
-      </div> */}
 
       <div className="price-table" id='price'>
         <div>
@@ -1698,26 +1623,6 @@ function App() {
             <label htmlFor="conf10">プライバシーポリシー及びキャンセルポリシーに同意する</label>
           </li>
 
-          {/* <InputGroup className="mb-3">
-        <InputGroup.Text id="basic-addon1">Email</InputGroup.Text>
-        <Form.Control
-          type='email'
-          placeholder="@.com"
-          aria-label="email"
-          aria-describedby="basic-addon1"
-          name='user_email'
-        />
-      </InputGroup>
-      <InputGroup className="mb-3">
-        <InputGroup.Text id="basic-addon2">お名前</InputGroup.Text>
-        <Form.Control
-          type='text'
-          placeholder="田中　幸弘"
-          aria-label="user_name"
-          aria-describedby="basic-addon1"
-          name='user_name'
-        />
-      </InputGroup> */}
           <center>
             <Button variant="outline-secondary" type="submit" value="Send" className='submit-btn'>
               ご予約

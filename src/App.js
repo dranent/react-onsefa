@@ -1639,7 +1639,7 @@ function App() {
         <Row>
           <h4>ACCESS</h4>
           <h4>On Clinic & Sefa Artmake Academy</h4>
-          <h6>東京都中央区銀座1-5-13 ZX銀座ビル4F</h6>
+          <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6>
           <h6>営業時間 10:00-21:00</h6>
           <h2>
             <AiFillPhone />

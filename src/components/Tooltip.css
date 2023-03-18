@@ -1,0 +1,30 @@
+/* .tooltip {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+   */
+  /* Hide the tooltip by default */
+  .tooltip {
+    opacity: 1 !important;
+    /* visibility: hidden; */
+    transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+  }
+  
+  /* Show the tooltip when the icon is hovered or touched */
+  /* .icon:hover + .tooltip,
+  .icon:focus + .tooltip,
+  .icon:active + .tooltip {
+    opacity: 1;
+    visibility: visible;
+  } */
+

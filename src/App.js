@@ -3,7 +3,7 @@ import { Container, Row, Collapse, Button, Table } from 'react-bootstrap';
 import React, { useState, useRef } from "react";
 import Header2 from './Header/Header2.js';
 import Footer from './Footer/Footer.js'
-import { define, defineIntroduction, defineSefa, defineIntroductionSefa, profileContent, profileName } from './StringData';
+import { monitorPrice, define, defineIntroduction, defineSefa, defineIntroductionSefa, profileContent, profileName } from './StringData';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { AiFillPhone, AiFillCaretDown } from 'react-icons/ai';
 import emailjs from '@emailjs/browser';
@@ -21,6 +21,8 @@ import TicketContainer from './curriculum.js'
 import TryFilterButton from './instagram.js';
 import Countdown from './countdown';
 import NoticesList from './notice';
+import Tooltip from './components/tooltip';
+
 // import Treatment from './treatment'
 // import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
@@ -285,10 +287,10 @@ function App() {
             <h4 className='line_txt'>LINE相談はこちら</h4>
           </div>
         </div>
-
+        {/* 
         <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
           <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
-        </a>
+        </a> */}
       </center>
 
       <NoticesList />
@@ -313,7 +315,7 @@ function App() {
 
 
       <div className='text-center marginTop'>
-        <img className='triangl' src='/img/triangl_1.jpg' alt='triangl'></img>
+        <img className='triangl' src='/img/triangle3point.png' alt='triangl'></img>
       </div>
 
       <center>
@@ -326,15 +328,15 @@ function App() {
           </div>
         </div>
 
-        <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+        {/* <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
           <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
-        </a>
+        </a> */}
       </center>
 
       <div className="price-table" id='price'>
         <div>
           <h4>ON CLINIC 施術料金表</h4>
-          <h6>2回セット価格(単位:円(税込))</h6>
+          <h6>単位:円(税込)</h6>
         </div>
         <Table responsive striped bordered>
           <tbody>
@@ -345,37 +347,98 @@ function App() {
               <td className='campaign-price'>OPEN CAMPAIGN 価格</td>
             </tr>
             <tr>
-              <td><h6>Eyebrow</h6>
+              <td>1部位 (モニター1回価格) 3分割
+                <Tooltip text={monitorPrice}>
+                  <button className='tooltip-btn'>モニターとは?</button>
+                </Tooltip>
+                <div className="price-container">
+                  <img src='/img/price/3part.png' className='price-img' alt='3part-img' /></div>
+              </td>
+              <td className='list-price'>16,000(税込)</td>
+              <td className='campaign-price'>15,000(税込)</td>
+            </tr>
+            <tr>
+              <td>1部位 (モニター1回価格) 2分割
+                <Tooltip text={monitorPrice}>
+                  <button className='tooltip-btn'>モニターとは?</button>
+                </Tooltip>
+                <div className="price-container">
+                  <img src='/img/price/2part.png' className='price-img' alt='3part-img' /></div>
+              </td>
+              <td className='list-price'>27,000(税込)</td>
+              <td className='campaign-price'>25,000(税込)</td>
+            </tr>
+
+            <tr>
+              <td>眉毛(モニター2回セット価格)
+                <Tooltip text={monitorPrice}>
+                  <button className='tooltip-btn'>モニターとは?</button>
+                </Tooltip>
+                <div className="price-container">
+                  <img src='/img/price/1part.png' className='price-img' alt='3part-img' /></div>
+              </td>
+              <td className='list-price'>75,000(税込)</td>
+              <td className='campaign-price'>67,500(税込)</td>
+            </tr>
+            <tr>
+              <td><h6>眉毛 (2回セット価格)</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
-                    <h6>natural</h6>
+                    <h6>ナチュラル</h6>
                     <center>
                       <img src='/img/draw/eyebrows-shadow.png' className='draw-img' alt='eyebrows-shadow' />
                       <TryFilterButton />
                     </center>
                   </div>
                   <div className='draw-img-bg'>
-                    <h6>powder</h6>
+                    <h6>パウダー</h6>
                     <center>
                       <img src='/img/draw/eyebrow-powder.png' className='draw-img' alt='eyebrow-powder' /></center>
                   </div>
                   <div className='draw-img-bg'>
-                    <h6>powder + natural</h6>
+                    <h6>コンボ</h6>
                     <center>
                       <img src='/img/draw/Eyebrows-Powder-Shadow.png' className='draw-img' alt='powder-shadow' /></center>
                   </div>
+                  {/* <div className='draw-img-bg'>
+                    <h6>ハーフ＆ハーフ</h6>
+                    <center>
+                      <img src='/img/draw/Eyebrows-Powder-Shadow.png' className='draw-img' alt='powder-shadow' /></center>
+                  </div> */}
                 </div>
               </td>
-              <td className='list-price'>150,000</td>
-              <td className='campaign-price'>100,000</td>
+              <td className='list-price'>150,000(税込)</td>
+              <td className='campaign-price'>100,000(税込)</td>
+            </tr>
+
+            <tr>
+              <td>
+                他院の施術リタッチ
+                <Tooltip text='他院にて施術された方で、軽い修正や色を足したい方の特別１回メンテナンスメニューです。'>
+                  <button className='tooltip-btn'>他院のリタッチとは?</button>
+                </Tooltip>
+              </td>
+              <td className='list-price'>45,000(税込)</td>
+              <td className='campaign-price'>28,000(税込)</td>
             </tr>
             <tr>
-              <td>↳ monitor</td>
-              <td className='list-price'>75,000</td>
-              <td className='campaign-price'>67,500</td>
+              <td>
+                他院の施術修正
+                <Tooltip text='こちらのメニューは1回施術価格です。他院でされた方のメンテナンスメニューでございます。'>
+                  <button className='tooltip-btn'>他院の修正とは?</button>
+                </Tooltip>
+              </td>
+              <td className='list-price'>75,000(税込)</td>
+              <td className='campaign-price'>38,000(税込)</td>
             </tr>
+            {/* </tbody>
+        </Table>
+
+
+        <Table responsive striped bordered>
+          <tbody> */}
             <tr>
-              <td><h6>Eyeline</h6>
+              <td><h6>アイライン</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
@@ -385,16 +448,16 @@ function App() {
 
 
               </td>
-              <td className='list-price'>120,000</td>
-              <td className='campaign-price'>80,000</td>
+              <td className='list-price'>120,000(税込)</td>
+              <td className='campaign-price'>80,000(税込)</td>
             </tr>
             <tr>
-              <td>↳ monitor</td>
-              <td className='list-price'>60,000</td>
-              <td className='campaign-price'>54,000</td>
+              <td>↳ モニター</td>
+              <td className='list-price'>60,000(税込)</td>
+              <td className='campaign-price'>54,000(税込)</td>
             </tr>
             <tr>
-              <td><h6>Lip(準備中)</h6>
+              <td><h6>リップ(準備中)</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
@@ -407,16 +470,16 @@ function App() {
                 </div>
 
               </td>
-              <td className='list-price'>170,000</td>
+              <td className='list-price'>170,000(税込)</td>
               <td></td>
             </tr>
             <tr>
-              <td>↳ monitor</td>
-              <td className='list-price'>90,000</td>
+              <td>↳ モニター</td>
+              <td className='list-price'>90,000(税込)</td>
               <td></td>
             </tr>
             <tr>
-              <td><h6>Hairline(準備中)</h6>
+              <td><h6>ヘアライン(準備中)</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
@@ -424,24 +487,24 @@ function App() {
                   </div>
                 </div>
               </td>
-              <td className='list-price'>170,000</td>
+              <td className='list-price'>170,000(税込)</td>
               <td></td>
             </tr>
             <tr>
-              <td>↳ monitor</td>
-              <td className='list-price'>90,000</td>
+              <td>↳ モニター</td>
+              <td className='list-price'>90,000(税込)</td>
               <td></td>
             </tr>
 
             <tr>
-              <td><h6>Eyebrow + Eyeline SET</h6></td>
-              <td className='list-price'>260,000</td>
-              <td className='campaign-price'>180,000</td>
+              <td><h6>眉毛 + アイライン SET</h6></td>
+              <td className='list-price'>260,000(税込)</td>
+              <td className='campaign-price'>180,000(税込)</td>
             </tr>
             <tr>
-              <td>↳ monitor</td>
-              <td className='list-price'>130,000</td>
-              <td className='campaign-price'>117,000</td>
+              <td>↳ モニター</td>
+              <td className='list-price'>130,000(税込)</td>
+              <td className='campaign-price'>117,000(税込)</td>
             </tr>
           </tbody>
         </Table>
@@ -587,9 +650,9 @@ function App() {
             <h4 className='line_txt'>LINE相談はこちら</h4>
           </div>
         </div>
-        <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+        {/* <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
           <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
-        </a>
+        </a> */}
       </center>
 
       <div className='defineSefa-area' id='defineSefa'>
@@ -619,7 +682,7 @@ function App() {
 
       <div className='ticket-area' id='ticket-area'>
         <center>
-          <img src='/img/チケットシステム.png' alt='' className='ticket-area-img' effect='blur' />
+          <img src='/img/チケットシステム2.png' alt='' className='ticket-area-img' width={950} />
         </center>
 
       </div>
@@ -1253,9 +1316,9 @@ function App() {
 
         </div>
 
-        <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+        {/* <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
           <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
-        </a>
+        </a> */}
 
       </center>
 
@@ -1285,8 +1348,6 @@ function App() {
                   </ul>
                 </td>
               </tr>
-
-
 
               <tr>
                 <th>
@@ -1503,6 +1564,50 @@ function App() {
                 </td>
               </tr>
 
+
+              <tr>
+                <th>
+                  ご希望の施術
+                </th>
+                <td>
+                  <p className="caption">
+                    {/* <span>あてはまるものにチェックしてください</span> */}
+                  </p>
+                  <ul className="list-block">
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu1" value="1部位 (モニター1回価格) 3分割" />
+                      <label htmlFor="kibou-sizyutsu1">1部位 (モニター1回価格) 3分割</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu2" value="1部位 (モニター1回価格) 2分割" />
+                      <label htmlFor="kibou-sizyutsu2">1部位 (モニター1回価格) 2分割</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu3" value="眉毛(モニター2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu3">眉毛(モニター2回セット価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu4" value="眉毛 (2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu4">眉毛 (2回セット価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu5" value="他院の施術リタッチ" />
+                      <label htmlFor="kibou-sizyutsu5">他院の施術リタッチ</label>
+                    </li>
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="kibou-sizyutsu6" value="アイライン" />
+                      <label htmlFor="kibou-sizyutsu6">アイライン</label>
+                    </li>
+                    {/* <li className="u-check"><input name="conf[]" type="checkbox" id="conf1" value="妊娠、または授乳中" />
+                      <label htmlFor="conf1">他院の施術修正</label>
+                    </li>
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf1" value="妊娠、または授乳中" />
+                      <label htmlFor="conf1">他院の施術修正</label>
+                    </li>
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf1" value="妊娠、または授乳中" />
+                      <label htmlFor="conf1">他院の施術修正</label>
+                    </li> */}
+                  </ul>
+                </td>
+              </tr>
+
+
+
+
               <tr>
                 <th>
                   確認事項
@@ -1607,7 +1712,7 @@ function App() {
                 <dd>個人情報を利用する必要がなくなったときは、遅滞なく消去するよう努めます。</dd>
               </dl>
               <p>個人情報の取扱いに関するご相談・苦情について<br />当クリニックの個人情報の取扱いに関するご相談や苦情等のお問い合わせについては、 下記の窓口までご連絡ください。</p>
-              <p>［お問い合わせ先］<br />On Clinic<br />電話：06-6867-9797　受付時間：10:00～19:00</p>
+              <p>［お問い合わせ先］<br />On Clinic<br />電話：06-6867-9797　受付時間：日月火水木10:00～19:00、金土10:00～19:00</p>
             </div>
           </div>
           <div className="form-privacy">
@@ -1640,7 +1745,9 @@ function App() {
           <h4>ACCESS</h4>
           <h4>On Clinic & Sefa Artmake Academy</h4>
           <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6>
-          <h6>営業時間 10:00-21:00</h6>
+          <h6>営業時間 </h6>
+          <h6>日月火水木：10:00-21:00</h6>
+          <h6>金土：10:00-21:00</h6>
           <h2>
             <AiFillPhone />
             <a href="tel:0668679797">06-6867-9797</a>
@@ -1661,14 +1768,25 @@ function App() {
                 <td key={6}>日/祝</td>
               </tr>
               <tr>
-                <td>11:00 - 21:00</td>
+                <td>11:00 - 20:00</td>
                 <td key={0}>●</td>
                 <td key={1}>●</td>
                 <td key={2}>●</td>
                 <td key={3}>●</td>
+                <td key={4}></td>
+                <td key={5}></td>
+                <td key={6}>●</td>
+
+              </tr>
+              <tr>
+                <td>10:00 - 20:00</td>
+                <td key={0}></td>
+                <td key={1}></td>
+                <td key={2}></td>
+                <td key={3}></td>
                 <td key={4}>●</td>
                 <td key={5}>●</td>
-                <td key={6}>●</td>
+                <td key={6}></td>
 
               </tr>
             </tbody>

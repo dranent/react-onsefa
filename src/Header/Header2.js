@@ -9,6 +9,9 @@ function Header2() {
             <Container className="container-width">
                 {/* <Image src="/sefa-logo.svg" width={"100px"}></Image> */}
                 <Navbar.Brand href="#sefa-top">On Clinic & Sefa Academy</Navbar.Brand>
+                <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+                    <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
+                </a>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

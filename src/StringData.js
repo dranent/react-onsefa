@@ -7,8 +7,8 @@
     const ceoCv = `・DVORA BEAUTY CLINIC出身 \n・前DVORA JAPAN代表 \n・現Sefa beauty academy代表`;
 
     const define = `ON Clinicは\n“Just for you” を目指すクリニックです。`;
-    const defineIntroduction = `ON Clinicは韓国技術を基盤としたアートメイク専門クリニックです。こだわりPOINTは日本にあったデザインやオリジナル色素を使用しお客様のニーズに合わせた技術をご提供いたします。
-    他クリニックと差別化を持つため「東洋人」向けのオリジナル色素を大切に選んでおります。最新技術と最新マシンを使って濃さ、はれ、痛みを最小限にし、定着はよりよくさせて頂きます。`;
+    const defineIntroduction = `ON Clinicは韓国技術を基盤としたアートメイク専門クリニックです。こだわりPOINTは日本人にあったデザインやオリジナル色素を使用しお客様のニーズに合わせた技術をご提供いたします。
+    他クリニックと差別化を持つため東洋人肌に合うオリジナル色素を大切に選んでおります。最新技術と最新マシンを使って濃さ、はれ、痛みを最小限にし、定着はよりよくさせて頂きます。`;
 
     const defineSefa = `Sefa Artmake Academyは\n“ONLY FOR YOU”`;
     const defineIntroductionSefa = `SEFA ARTMAKE ACADEMYでは受講生ひとりひとりの希望とお悩みに答えれるよ構築されております。
@@ -36,5 +36,7 @@
     ・現 SEFA ACADEMY院長\n
     ・2023年ヨロッパ進出準備中`;
 
-export {introEx, ceoName, ceoCv, define, defineIntroduction, defineSefa, defineIntroductionSefa
+    const monitorPrice = `SNSや公式サイトに目元の写真や動画を使用する目的としてご協力頂くお値段になります。
+    `;
+export {monitorPrice, introEx, ceoName, ceoCv, define, defineIntroduction, defineSefa, defineIntroductionSefa
         , profileContent, profileName};

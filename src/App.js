@@ -413,7 +413,7 @@ function App() {
 
             <tr>
               <td>
-                他院の施術リタッチ
+              <h4 className='another-hospital-txt'>他院の施術リタッチ</h4>
                 <Tooltip text='他院にて施術された方で、軽い修正や色を足したい方の特別１回メンテナンスメニューです。'>
                   <button className='tooltip-btn'>他院のリタッチとは?</button>
                 </Tooltip>
@@ -423,7 +423,7 @@ function App() {
             </tr>
             <tr>
               <td>
-                他院の施術修正
+                <h4 className='another-hospital-txt'>他院の施術修正</h4>
                 <Tooltip text='こちらのメニューは1回施術価格です。他院でされた方のメンテナンスメニューでございます。'>
                   <button className='tooltip-btn'>他院の修正とは?</button>
                 </Tooltip>

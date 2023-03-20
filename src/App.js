@@ -413,7 +413,7 @@ function App() {
 
             <tr>
               <td>
-              <h4 className='another-hospital-txt'>他院の施術リタッチ</h4>
+              <h4 className='another-hospital-txt'>他院の施術リタッチ(1回価格)</h4>
                 <Tooltip text='他院にて施術された方で、軽い修正や色を足したい方の特別１回メンテナンスメニューです。'>
                   <button className='tooltip-btn'>他院のリタッチとは?</button>
                 </Tooltip>
@@ -423,7 +423,7 @@ function App() {
             </tr>
             <tr>
               <td>
-                <h4 className='another-hospital-txt'>他院の施術修正</h4>
+                <h4 className='another-hospital-txt'>他院の施術修正(1回価格)</h4>
                 <Tooltip text='こちらのメニューは1回施術価格です。他院でされた方のメンテナンスメニューでございます。'>
                   <button className='tooltip-btn'>他院の修正とは?</button>
                 </Tooltip>
@@ -438,7 +438,7 @@ function App() {
         <Table responsive striped bordered>
           <tbody> */}
             <tr>
-              <td><h6>アイライン</h6>
+              <td><h6>アイラインモニター(2回セット価格)</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
@@ -448,16 +448,17 @@ function App() {
 
 
               </td>
+              <td className='list-price'>60,000(税込)</td>
+              <td className='campaign-price'>54,000(税込)</td>
+              
+            </tr>
+            <tr>
+              <td>アイライン(2回セット価格)</td>
               <td className='list-price'>120,000(税込)</td>
               <td className='campaign-price'>80,000(税込)</td>
             </tr>
             <tr>
-              <td>↳ モニター</td>
-              <td className='list-price'>60,000(税込)</td>
-              <td className='campaign-price'>54,000(税込)</td>
-            </tr>
-            <tr>
-              <td><h6>リップ(準備中)</h6>
+              <td><h6>リップお試し(1回価格)</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
@@ -468,18 +469,22 @@ function App() {
                       <img src='/img/draw/fulllip.png' className='draw-img' alt='fulllip' /></center>
                   </div>
                 </div>
-
               </td>
-              <td className='list-price'>170,000(税込)</td>
-              <td></td>
+              <td className='list-price'>42,000(税込)</td>
+              <td className='campaign-price'>33,000(税込)</td>
             </tr>
             <tr>
-              <td>↳ モニター</td>
-              <td className='list-price'>90,000(税込)</td>
-              <td></td>
+              <td>リップモニター</td>
+              <td className='list-price'>75,000(税込)</td>
+              <td className='campaign-price'>67,500(税込)</td>
             </tr>
             <tr>
-              <td><h6>ヘアライン(準備中)</h6>
+            <td>リップ</td>
+            <td className='list-price'>170,000(税込)</td>
+              <td className='campaign-price'>153,000(税込)</td>
+            </tr>
+            <tr>
+              <td><h6>ヘアラインモニター(準備中)</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
@@ -487,13 +492,14 @@ function App() {
                   </div>
                 </div>
               </td>
-              <td className='list-price'>170,000(税込)</td>
-              <td></td>
+              <td className='list-price'>85,000(税込)</td>
+              <td className='campaign-price'>76,500(税込)</td>
             </tr>
             <tr>
-              <td>↳ モニター</td>
-              <td className='list-price'>90,000(税込)</td>
-              <td></td>
+              <td>ヘアライン(準備中)</td>
+
+              <td className='list-price'>170,000(税込)</td>
+              <td className='campaign-price'>80,000(税込)</td>
             </tr>
 
             <tr>

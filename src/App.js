@@ -354,7 +354,7 @@ function App() {
                 <div className="price-container">
                   <img src='/img/price/3part.png' className='price-img' alt='3part-img' /></div>
               </td>
-              <td className='list-price'>16,000(税込)</td>
+              <td className='campaign-price'>初めての方におすすめ！</td>
               <td className='campaign-price'>15,000(税込)</td>
             </tr>
             <tr>
@@ -470,7 +470,7 @@ function App() {
                   </div>
                 </div>
               </td>
-              <td className='list-price'>42,000(税込)</td>
+              <td className='campaign-price'>初めての方におすすめ！</td>
               <td className='campaign-price'>33,000(税込)</td>
             </tr>
             <tr>
@@ -499,7 +499,7 @@ function App() {
               <td>ヘアライン(準備中)</td>
 
               <td className='list-price'>170,000(税込)</td>
-              <td className='campaign-price'>80,000(税込)</td>
+              <td className='campaign-price'>153,000(税込)</td>
             </tr>
 
             <tr>

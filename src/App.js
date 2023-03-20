@@ -480,8 +480,8 @@ function App() {
             </tr>
             <tr>
             <td>リップ</td>
-            <td className='list-price'>170,000(税込)</td>
-              <td className='campaign-price'>153,000(税込)</td>
+            <td className='list-price'>150,000(税込)</td>
+              <td className='campaign-price'>100,000(税込)</td>
             </tr>
             <tr>
               <td><h6>ヘアラインモニター(準備中)</h6>

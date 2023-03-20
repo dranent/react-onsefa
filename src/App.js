@@ -958,7 +958,7 @@ function App() {
           <Collapse in={open17} className='margin-top-1em'>
             <div id="example-collapse-text">
               <h6>
-                A : 予約前にご確認致します。ひどい方は施術を受けれない場合もございます。
+                A : 予約前にご確認致します。重度の症状をお持ちの方の場合は施術をお断りさせて頂くケースがございます。予めご相談頂けますと幸いです。
               </h6>
             </div>
           </Collapse>
@@ -1746,8 +1746,8 @@ function App() {
           <h4>On Clinic & Sefa Artmake Academy</h4>
           <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6>
           <h6>営業時間 </h6>
-          <h6>日月火水木：10:00-21:00</h6>
-          <h6>金土：10:00-21:00</h6>
+          <h6>日月火水木：10:00-20:00</h6>
+          <h6>金土：10:00-20:00</h6>
           <h2>
             <AiFillPhone />
             <a href="tel:0668679797">06-6867-9797</a>

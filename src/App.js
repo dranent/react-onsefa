@@ -474,17 +474,17 @@ function App() {
               <td className='campaign-price'>33,000(税込)</td>
             </tr>
             <tr>
-              <td>リップモニター</td>
+              <td>リップモニター(2回セット価格)</td>
               <td className='list-price'>75,000(税込)</td>
               <td className='campaign-price'>67,500(税込)</td>
             </tr>
             <tr>
-            <td>リップ</td>
+            <td>リップ(2回セット価格)</td>
             <td className='list-price'>150,000(税込)</td>
               <td className='campaign-price'>100,000(税込)</td>
             </tr>
             <tr>
-              <td><h6>ヘアラインモニター(準備中)</h6>
+              <td><h6>ヘアラインモニター(2回セット価格)(準備中)</h6>
                 <div className='draw-img-bg-area'>
                   <div className='draw-img-bg'>
                     <center>
@@ -496,22 +496,22 @@ function App() {
               <td className='campaign-price'>76,500(税込)</td>
             </tr>
             <tr>
-              <td>ヘアライン(準備中)</td>
+              <td>ヘアライン(2回セット価格)(準備中)</td>
 
               <td className='list-price'>170,000(税込)</td>
               <td className='campaign-price'>120,000(税込)</td>
             </tr>
-
             <tr>
-              <td><h6>眉毛 + アイライン SET</h6></td>
-              <td className='list-price'>260,000(税込)</td>
-              <td className='campaign-price'>180,000(税込)</td>
-            </tr>
-            <tr>
-              <td>↳ モニター</td>
+              <td>眉毛 + アイライン SETモニター(2回セット価格)</td>
               <td className='list-price'>130,000(税込)</td>
               <td className='campaign-price'>117,000(税込)</td>
             </tr>
+            <tr>
+              <td><h6>眉毛 + アイライン SET(2回セット価格)</h6></td>
+              <td className='list-price'>260,000(税込)</td>
+              <td className='campaign-price'>180,000(税込)</td>
+            </tr>
+
           </tbody>
         </Table>
 

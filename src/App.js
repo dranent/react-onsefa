@@ -499,7 +499,7 @@ function App() {
               <td>ヘアライン(準備中)</td>
 
               <td className='list-price'>170,000(税込)</td>
-              <td className='campaign-price'>153,000(税込)</td>
+              <td className='campaign-price'>120,000(税込)</td>
             </tr>
 
             <tr>

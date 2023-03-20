@@ -424,7 +424,7 @@ function App() {
             <tr>
               <td>
                 <h4 className='another-hospital-txt'>他院の施術修正(1回価格)</h4>
-                <Tooltip text='こちらのメニューは1回施術価格です。他院でされた方のメンテナンスメニューでございます。'>
+                <Tooltip text='他院で施術してデザインの変更または色改善をしたい方の1回料金です。'>
                   <button className='tooltip-btn'>他院の修正とは?</button>
                 </Tooltip>
               </td>

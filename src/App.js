@@ -1601,6 +1601,9 @@ function App() {
                     <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu3" value="眉毛(モニター2回セット価格)" />
                       <label htmlFor="kibou-sizyutsu3">眉毛(モニター2回セット価格)</label>
                     </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu12" value="眉毛お試し(モニター1回価格)" />
+                      <label htmlFor="kibou-sizyutsu12">眉毛お試し(モニター1回価格)</label>
+                    </li>
                     <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu4" value="眉毛 (2回セット価格)" />
                       <label htmlFor="kibou-sizyutsu4">眉毛 (2回セット価格)</label>
                     </li>

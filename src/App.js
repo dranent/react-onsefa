@@ -1592,21 +1592,27 @@ function App() {
                     <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu4" value="眉毛 (2回セット価格)" />
                       <label htmlFor="kibou-sizyutsu4">眉毛 (2回セット価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu5" value="他院の施術リタッチ" />
-                      <label htmlFor="kibou-sizyutsu5">他院の施術リタッチ</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu5" value="他院の施術リタッチ(1回価格)" />
+                      <label htmlFor="kibou-sizyutsu5">他院の施術リタッチ(1回価格)</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="kibou-sizyutsu6" value="アイライン" />
-                      <label htmlFor="kibou-sizyutsu6">アイライン</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu6" value="他院の施術修正(1回価格)" />
+                      <label htmlFor="kibou-sizyutsu6">他院の施術修正(1回価格)</label>
                     </li>
-                    {/* <li className="u-check"><input name="conf[]" type="checkbox" id="conf1" value="妊娠、または授乳中" />
-                      <label htmlFor="conf1">他院の施術修正</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu7" value="アイラインモニター(2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu7">アイラインモニター(2回セット価格)</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf1" value="妊娠、または授乳中" />
-                      <label htmlFor="conf1">他院の施術修正</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu8" value="アイライン(2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu8">アイライン(2回セット価格)</label>
                     </li>
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf1" value="妊娠、または授乳中" />
-                      <label htmlFor="conf1">他院の施術修正</label>
-                    </li> */}
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu9" value="リップお試し(1回価格)" />
+                      <label htmlFor="kibou-sizyutsu9">リップお試し(1回価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu10" value="リップモニター(2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu10">リップモニター(2回セット価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu11" value="リップ(2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu11">リップ(2回セット価格)</label>
+                    </li>
                   </ul>
                 </td>
               </tr>

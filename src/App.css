@@ -1140,14 +1140,14 @@ input:valid {
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
 }
-.another-hospital-txt::before {
+/* .another-hospital-txt::before {
   background-color: #FF3D3D;
   mix-blend-mode: overlay;
 }
 .another-hospital-txt::after {
   background-color: #FFAB40;
   mix-blend-mode: overlay;
-}
+} */
 .another-hospital-txt:hover::before,
 .another-hospital-txt:hover::after {
   width: 150%;

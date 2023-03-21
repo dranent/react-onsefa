@@ -251,15 +251,15 @@ function App() {
 
       <center className='campaign-banner-box-title '>
 
-        {/* <a className='campaign-banner-box' href="#"> */}
-        <img className='campaign-banner' src='img/5peroff_1.png' alt='5peroff_banner'></img>
-        {/* </a> */}
+        <a className='campaign-banner-box' href="#price">
+        <img className='campaign-banner' src='img/campaign/banner1.jpg' alt='5peroff_banner'></img>
+        </a>
       </center>
 
       <center className='campaign-banner-box-title '>
 
-        <a className='campaign-banner-box' href="#ticket-area">
-          <img className='campaign-banner' src='img/artmake-banner.png' alt='5peroff_banner'></img>
+      <a className='campaign-banner-box' href="#price">
+          <img className='campaign-banner' src='img/campaign/banner2.jpg' alt='5peroff_banner'></img>
         </a>
       </center>
 
@@ -367,6 +367,18 @@ function App() {
               </td>
               <td className='list-price'>27,000(税込)</td>
               <td className='campaign-price'>25,000(税込)</td>
+            </tr>
+
+            <tr>
+              <td>眉毛お試し(モニター1回価格)
+                <Tooltip text={monitorPrice}>
+                  <button className='tooltip-btn'>モニターとは?</button>
+                </Tooltip>
+                <div className="price-container">
+                  <img src='/img/price/1part.png' className='price-img' alt='3part-img' /></div>
+              </td>
+              <td className='campaign-price'>初めての方におすすめ！	</td>
+              <td className='campaign-price'>33,000(税込)</td>
             </tr>
 
             <tr>

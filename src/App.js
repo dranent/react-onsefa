@@ -1490,6 +1490,7 @@ function App() {
                         onChange={(date) => setCheckInDate(date)}
                         placeholderText="クリックして日付を入力"
                         name="checkInDate"
+                        onFocus={e => e.target.blur()}
                         excludeDates={[
                           new Date('2023-03-24'),
                           new Date('2023-03-25'),
@@ -1545,6 +1546,7 @@ function App() {
                         onChange={(date) => setCheckInDate2(date)}
                         placeholderText="クリックして日付を入力"
                         name="checkInDate2"
+                        onFocus={e => e.target.blur()}
                         excludeDates={[
                           new Date('2023-03-24'),
                           new Date('2023-03-25'),
@@ -1600,6 +1602,7 @@ function App() {
                         placeholderText="クリックして日付を入力"
                         value={checkInDate3}
                         name="checkInDate3"
+                        onFocus={e => e.target.blur()}
                         excludeDates={[
                           new Date('2023-03-24'),
                           new Date('2023-03-25'),

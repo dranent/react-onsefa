@@ -1485,7 +1485,7 @@ function App() {
                         dateFormat="yyyy年MM月dd日"    // 날짜 형식 설정
                         className="input-datepicker"    // 클래스 명 지정 css주기 위해
                         minDate={new Date()}
-                        closeOnScroll={true}
+                        closeOnScroll={false}
                         selected={checkInDate}    // value
                         onChange={(date) => setCheckInDate(date)}
                         placeholderText="クリックして日付を入力"
@@ -1540,7 +1540,7 @@ function App() {
                         dateFormat="yyyy年MM月dd日"    // 날짜 형식 설정
                         className="input-datepicker"    // 클래스 명 지정 css주기 위해
                         minDate={new Date()}
-                        closeOnScroll={true}
+                        closeOnScroll={false}
                         selected={checkInDate2}    // value
                         onChange={(date) => setCheckInDate2(date)}
                         placeholderText="クリックして日付を入力"
@@ -1594,7 +1594,7 @@ function App() {
                         dateFormat="yyyy年MM月dd日"    // 날짜 형식 설정
                         className="input-datepicker"    // 클래스 명 지정 css주기 위해
                         minDate={new Date()}
-                        closeOnScroll={true}
+                        closeOnScroll={false}
                         selected={checkInDate3}    // value
                         onChange={(date) => setCheckInDate3(date)}
                         placeholderText="クリックして日付を入力"

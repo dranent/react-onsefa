@@ -586,7 +586,7 @@ function App() {
               <h5 className='flow-step'>STEP 3</h5>
               <img src='/img/on-flow/決済.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
-                デザイン
+                カウンセリング
               </h6>
             </div>
 
@@ -596,7 +596,7 @@ function App() {
               <h5 className='flow-step'>STEP 4</h5>
               <img src='/img/on-flow/デザイン1.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
-                施術
+              デザイン
               </h6>
             </div>
 
@@ -604,7 +604,7 @@ function App() {
               <h5 className='flow-step'>STEP 5</h5>
               <img src='/img/on-flow/施術.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
-                決済
+              施術
               </h6>
             </div>
 
@@ -612,7 +612,7 @@ function App() {
               <h5 className='flow-step'>STEP 6</h5>
               <img src='/img/on-flow/アフターケアー.jpeg' alt='' className='img-boder img-resize' />
               <h6 className='flow-text'>
-                アフターケア
+              決済
               </h6>
             </div>
 

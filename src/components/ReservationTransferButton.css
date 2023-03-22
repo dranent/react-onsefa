@@ -8,11 +8,11 @@
   }
   
   .reservation:hover {
-    background-color: #f9dd60;
+    background-color: #8c5931;
   }
   
   .confirmed {
-    background-color: #fbb573;
+    background-color: #fb9573;
     animation: pulse 1s ease-in-out infinite;
   }
   

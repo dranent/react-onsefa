@@ -1,0 +1,28 @@
+.reservation-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: reservation-spinner 0.8s ease-in-out infinite;
+  }
+  
+  @keyframes reservation-spinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .reservation-button.submitting {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .reservation-button.submitting .reservation-spinner {
+    display: inline-block;
+  }
+  

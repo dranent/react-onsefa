@@ -19,9 +19,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TicketContainer from './curriculum.js'
 import TryFilterButton from './instagram.js';
-import Countdown from './countdown';
+// import Countdown from './countdown';
 import NoticesList from './notice';
 import Tooltip from './components/tooltip';
+// import ReservationTransferButton from './components/reservationTransferButton.js';
 
 // import Treatment from './treatment'
 // import { initializeApp } from "firebase/app";
@@ -274,9 +275,9 @@ function App() {
         {/* <Treatment></Treatment> */}
       </div>
 
-      <div className='countdown-area'>
+      {/* <div className='countdown-area'>
         <Countdown />
-      </div>
+      </div> */}
 
       <center>
         <div className='line_btn'>
@@ -1467,7 +1468,20 @@ function App() {
                         onChange={(date) => setCheckInDate(date)}
                         placeholderText="クリックして日付を入力"
                         name="checkInDate"
-
+                        excludeDates={[
+                          new Date('2023-03-24'),
+                          new Date('2023-03-25'),
+                          new Date('2023-03-29'),
+                          new Date('2023-03-30'),
+                          new Date('2023-04-06'),
+                          new Date('2023-04-07'),
+                          new Date('2023-04-10'),
+                          new Date('2023-04-11'),
+                          new Date('2023-04-18'),
+                          new Date('2023-04-19'),
+                          new Date('2023-04-25'),
+                          new Date('2023-04-26'),
+                       ]}
                       />
                       <BsCalendarCheck className='calendar-icon' />
                     </span>
@@ -1509,7 +1523,20 @@ function App() {
                         onChange={(date) => setCheckInDate2(date)}
                         placeholderText="クリックして日付を入力"
                         name="checkInDate2"
-
+                        excludeDates={[
+                          new Date('2023-03-24'),
+                          new Date('2023-03-25'),
+                          new Date('2023-03-29'),
+                          new Date('2023-03-30'),
+                          new Date('2023-04-06'),
+                          new Date('2023-04-07'),
+                          new Date('2023-04-10'),
+                          new Date('2023-04-11'),
+                          new Date('2023-04-18'),
+                          new Date('2023-04-19'),
+                          new Date('2023-04-25'),
+                          new Date('2023-04-26'),
+                       ]}
                       />
                       <BsCalendarCheck className='calendar-icon' />
                     </span>
@@ -1551,7 +1578,20 @@ function App() {
                         placeholderText="クリックして日付を入力"
                         value={checkInDate3}
                         name="checkInDate3"
-
+                        excludeDates={[
+                          new Date('2023-03-24'),
+                          new Date('2023-03-25'),
+                          new Date('2023-03-29'),
+                          new Date('2023-03-30'),
+                          new Date('2023-04-06'),
+                          new Date('2023-04-07'),
+                          new Date('2023-04-10'),
+                          new Date('2023-04-11'),
+                          new Date('2023-04-18'),
+                          new Date('2023-04-19'),
+                          new Date('2023-04-25'),
+                          new Date('2023-04-26'),
+                       ]}
                       />
                       <BsCalendarCheck className='calendar-icon' />
                     </span>
@@ -1760,6 +1800,9 @@ function App() {
               ご予約
             </Button>
           </center>
+
+            {/* <ReservationTransferButton/> */}
+
         </form>
       </div>
 

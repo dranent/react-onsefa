@@ -22,8 +22,7 @@ import TryFilterButton from './instagram.js';
 // import Countdown from './countdown';
 import NoticesList from './notice';
 import Tooltip from './components/tooltip';
-// import ReservationTransferButton from './components/reservationTransferButton.js';
-
+import ReservationButton from './components/ReservationButton';
 // import Treatment from './treatment'
 // import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
@@ -59,6 +58,17 @@ function App() {
 
   const [isChecked, setIsChecked] = useState(false);
 
+  const [isConfirm, setIsConfirm] = useState(false);
+
+  const handleConfirm = () => {
+    setIsConfirm(true);
+  };
+
+  const handleReservationComplete = () => {
+    setIsConfirm(false);
+    form.current.reset();
+  };
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -68,50 +78,62 @@ function App() {
     // form 유효성 검사 start 
     if (form.current.res_category.value === '') {
       alert('予約区分を選択して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.category.value === '') {
       alert('来院を選択して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.nameA.value === '' || form.current.nameB.value === '') {
       alert('お名前を入力して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.kanaA.value === '' || form.current.kanaB.value === '') {
       alert('フリガナを入力して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.sex.value === '') {
       alert('性別を選択して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.age.value === '') {
       alert('年齢を入力して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.tel.value === '') {
       alert('電話番号を入力して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.email.value === '') {
       alert('メールアドレスを入力して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.checkInDate.value === '') {
       alert('第1希望日を選択して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.checkInTime.value === '') {
       alert('第1希望日の時間を選択して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (form.current.exp.value === '') {
       alert('アートメイク経験を選択して下さい。');
+      setIsConfirm(false);
       return false;
     }
     if (!isChecked) {
       alert('「プライバシーポリシー及びキャンセルポリシーに同意する」チェックして下さい。');
+      setIsConfirm(false);
       return false;
     }
     // form 유효성 검사 end
@@ -119,8 +141,13 @@ function App() {
 
     emailjs.sendForm('service_o0z19lh', 'template_j7f29u8', form.current, 'GFIJ3U6YfAu9Ogia3')
       .then((result) => {
+        handleConfirm();
         alert('ご予約をお受け付け完了致しました。');
+        
+
+        handleReservationComplete();
       }, (error) => {
+        setIsConfirm(false);
         alert(error);
       });
 
@@ -1334,11 +1361,6 @@ function App() {
           </div>
 
         </div>
-
-        {/* <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
-          <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
-        </a> */}
-
       </center>
 
       <div className='reserve' id='reserve'>
@@ -1447,7 +1469,7 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="email" id="email" type="email" className="wide validate[required,custom[email]]" /></td>
+                  <input name="email" id="email" type="text" className="wide validate[required,custom[email]]" /></td>
               </tr>
               <tr>
                 <th>
@@ -1796,13 +1818,17 @@ function App() {
           </li>
 
           <center>
-            <Button variant="outline-secondary" type="submit" value="Send" className='submit-btn'>
+            {/* <Button variant="outline-secondary" type="submit" value="Send" className='submit-btn'>
               ご予約
-            </Button>
-          </center>
+            </Button> */}
+          
 
-            {/* <ReservationTransferButton/> */}
-
+            <ReservationButton
+              isConfirm={isConfirm}
+              onConfirm={handleConfirm}
+              confirmedClassName="confirmed"
+            />
+            </center>
         </form>
       </div>
 

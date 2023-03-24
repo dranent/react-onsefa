@@ -71,6 +71,27 @@ function App() {
 
   const form = useRef();
 
+  /*이메일 같은지 검사*/
+  const [email1, setEmail1] = useState('');
+  const [email2, setEmail2] = useState('');
+
+  const handleEmailChange = (event) => {
+    const { id, value } = event.target;
+    if (id === 'email1') {
+      setEmail1(value);
+    } else if (id === 'email2') {
+      setEmail2(value);
+    }
+  };
+
+  const checkEmails = () => {
+    if (email1 === email2) {
+      return 'wide';
+    } else {
+      return 'wide different';
+    }
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -111,8 +132,13 @@ function App() {
       setIsConfirm(false);
       return false;
     }
-    if (form.current.email.value === '') {
+    if (form.current.email1.value === '') {
       alert('メールアドレスを入力して下さい。');
+      setIsConfirm(false);
+      return false;
+    }
+    if (form.current.email2.value === '') {
+      alert('メールアドレス再確認を入力して下さい。');
       setIsConfirm(false);
       return false;
     }
@@ -1469,7 +1495,15 @@ function App() {
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input name="email" id="email" type="text" className="wide validate[required,custom[email]]" /></td>
+                  <input name="email" id="email1" value={email1} type="text" onChange={handleEmailChange}  className={checkEmails()} /></td>
+              </tr>
+              <tr>
+                <th>
+                  メールアドレス再確認
+                  <span className='must-icon must-pos'></span>
+                </th>
+                <td>
+                  <input name="email" id="email2" type="text" value={email2} onChange={handleEmailChange} className={checkEmails()}  /></td>
               </tr>
               <tr>
                 <th>

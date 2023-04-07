@@ -69,6 +69,14 @@ to {
   justify-content: flex-end;
 }
 
+.nav-bg {
+  text-shadow: #FC0 1px 0 10px;
+  backdrop-filter: blur(500px);
+}
+.opacity{
+  opacity: 0.5;
+}
+
 .banner {
   margin-top: 100px;
   background-color: #FFF;
@@ -422,7 +430,7 @@ a {
   background-repeat: no-repeat;
 }
 
-.main-logo-are {
+.main-logo-area {
   align-items: center;
 }
 
@@ -756,6 +764,15 @@ input:valid {
 
 #instagram-btn:hover {
   content: url(/public/img/instar-icon-hover.svg);
+}
+
+#instagram-mens-btn {
+  width: 50px;
+  height: 50px;
+}
+
+#instagram-mens-btn:hover {
+  content: url(/public/img/instar-icon-mens-hover.svg);
 }
 
 .ticket-area {
@@ -1170,47 +1187,6 @@ input:valid {
   opacity: 0;
 }
 
-/* .another-hospital-txt {
-  position: relative;
-  display: inline-block;
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding: 10px;
-  border-radius: 5px;
-  overflow: hidden;
-}
-.another-hospital-txt::before,
-.another-hospital-txt::after {
-  content: "";
-  position: absolute;
-  top: -50%;
-  bottom: -50%;
-  width: 100%;
-  z-index: -1;
-}
-.another-hospital-txt::before {
-  left: -100%;
-  background-color: #c6c6c6;
-  animation: before-animation 1s infinite;
-}
-.another-hospital-txt::after {
-  right: -100%;
-  background-color: #fdddb9;
-  animation: after-animation 1s infinite;
-}
-@keyframes before-animation {
-  0% { left: -100%; }
-  50% { left: 100%; }
-  100% { left: 100%; }
-}
-@keyframes after-animation {
-  0% { right: -100%; }
-  50% { right: 100%; }
-  100% { right: 100%; }
-} */
-
-
-
 
 @media (max-width: 768px) {
   .try-filter-btn {
@@ -1223,6 +1199,9 @@ input:valid {
     width: 30px;
     height: 30px;
     margin-right: 0.4rem;
+  }
+  .defineSefa-area {
+    margin-top: 10em;
   }
 }
 

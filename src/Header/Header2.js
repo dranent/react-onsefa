@@ -13,7 +13,7 @@ function Header2() {
       if (location.pathname === '/') {
         setOnClinicBrandClass('nav-bg');
         setSefaAcademyBrandClass('opacity');
-      } else if (location.pathname === '/academy') {
+      } else if (location.pathname === '/academy/') {
         setOnClinicBrandClass('opacity');
         setSefaAcademyBrandClass('nav-bg');
       } else {

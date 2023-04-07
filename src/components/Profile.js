@@ -5,7 +5,7 @@ function CEOProfile() {
         <div className='profile-container'>
             <div className='profile-img'>
                 <h4 className='profile-name'>{profileName}</h4>
-                <img src='./img/sefa-profile_75_edit.png' className='profile-img' alt='asami-sefa' />
+                <img src='../img/sefa-profile_75_edit.png' className='profile-img' alt='asami-sefa' />
             </div>
 
             <div className='profile'>

@@ -526,6 +526,9 @@ function App() {
                     {/* <span>あてはまるものにチェックしてください</span> */}
                   </p>
                   <ul className="list-block">
+                  <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu0" value="ホクロ(モニター1回価格)" />
+                      <label htmlFor="kibou-sizyutsu0">ホクロ(モニター1回価格)</label>
+                    </li>
                     <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu1" value="1部位 (モニター1回価格) 3分割" />
                       <label htmlFor="kibou-sizyutsu1">1部位 (モニター1回価格) 3分割</label>
                     </li>

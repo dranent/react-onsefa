@@ -31,9 +31,15 @@ function Campaign() {
                 </a>
             </center>
 
+            <center className='campaign-banner-box-title '>
+
+                <a className='campaign-banner-box' href="#price">
+                    <img className='campaign-banner' src='img/campaign/hokuro.jpeg' alt='hokuro_event_banner'></img>
+                </a>
+            </center>
+
             <div class="reservation-message black-text">
                 <p>ご一緒にオープンイベントにどうぞ！</p>
-                <h2>3月22日オープン</h2>
                 <p>ご予約はお早めに！</p>
                 {/* <Treatment></Treatment> */}
             </div>

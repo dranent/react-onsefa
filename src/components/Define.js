@@ -1,4 +1,4 @@
-import { define, defineIntroduction, defineSefa, defineIntroductionSefa } from "../StringData";
+import { define,otherClinic, defineIntroduction, defineSefa, defineIntroductionSefa } from "../StringData";
 
 function DefineClinic() {
     return (
@@ -22,7 +22,13 @@ function DefineAcademy() {
             <h6 className='defineSefa-introduction'>
                 {defineIntroductionSefa}
             </h6>
+
+
+            <h6 className='other-clinic'>{otherClinic}</h6>
+
         </div>
+
+
     )
 }
 

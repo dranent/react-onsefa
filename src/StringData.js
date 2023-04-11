@@ -18,6 +18,8 @@
     独自チケット制度で受けたい項目を気楽に選択でき、クリニック内で行う「Demonstration」もいつでも見守りの元できます。
     本アカデミーは「Original」マシーン、ニードル、色素等の販売を通して皆さんのアートメイクキャリアを応援します。`;
 
+    const otherClinic = `他の病院への出張教育も可能です。`;
+
     const profileName = `Asami Seiwa`;
     const profileContent = `\n・2013年 International Christian School UJB 卒業\n
     ・MANILAボランティア多数活動\n
@@ -39,4 +41,4 @@
     const monitorPrice = `SNSや公式サイトに目元の写真や動画を使用する目的としてご協力頂くお値段になります。
     `;
 export {monitorPrice, introEx, ceoName, ceoCv, define, defineIntroduction, defineSefa, defineIntroductionSefa
-        , profileContent, profileName};
+        , profileContent, profileName, otherClinic};

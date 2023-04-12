@@ -19,12 +19,12 @@ function DefineAcademy() {
             <h4 className='display-enter'>
                 {defineSefa}
             </h4>
-            <h6 className='defineSefa-introduction'>
+            <h6 className='defineSefa-introduction display-enter'>
                 {defineIntroductionSefa}
             </h6>
 
 
-            <h6 className='other-clinic'>{otherClinic}</h6>
+            <h6 className='other-clinic display-enter'>{otherClinic}</h6>
 
         </div>
 

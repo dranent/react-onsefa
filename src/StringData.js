@@ -18,7 +18,10 @@
     独自チケット制度で受けたい項目を気楽に選択でき、クリニック内で行う「Demonstration」もいつでも見守りの元できます。
     本アカデミーは「Original」マシーン、ニードル、色素等の販売を通して皆さんのアートメイクキャリアを応援します。`;
 
-    const otherClinic = `他の病院への出張教育も可能です。`;
+    const otherClinic = `これからアートメイク運営を考えている病院に出張教育可能です。\n
+    ★実際の実例も持っています。\n
+    手彫りアートメイクをマシーン施術に変えれます。皮膚に負担の少ない施術、完成度の高い短時間施術が可能な教育です。\n
+    病院運営にお悩みの方々は気軽にご連絡下さい。`;
 
     const profileName = `Asami Seiwa`;
     const profileContent = `\n・2013年 International Christian School UJB 卒業\n

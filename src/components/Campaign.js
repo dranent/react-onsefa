@@ -34,7 +34,7 @@ function Campaign() {
             <center className='campaign-banner-box-title '>
 
                 <a className='campaign-banner-box' href="#price">
-                    <img className='campaign-banner' src='img/campaign/hokuro.jpeg' alt='hokuro_event_banner'></img>
+                    <img className='campaign-banner' src='img/campaign/banner3.png' alt='hokuro_event_banner'></img>
                 </a>
             </center>
 

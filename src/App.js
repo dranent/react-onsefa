@@ -5,16 +5,10 @@ import Header2 from './Header/Header2.js';
 import Footer from './Footer/Footer.js'
 
 import 'react-datepicker/dist/react-datepicker.css';
-
-
-
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TicketContainer from './curriculum.js'
 import NoticesList from './notice';
-
-
 import { Routes, Route } from 'react-router-dom'
 import Campaign from './components/Campaign';
 import LineButton from './components/LineButton';
@@ -41,7 +35,7 @@ function App() {
         <Route path="/" element={<div>
           <img className='banner'
             effect="blur"
-            src={'/img/Sefa.jpg'} // use normal <img> attributes as props
+            src={'/img/onclinic_main.png'} // use normal <img> attributes as props
             alt="main_banner"
           />
           <Campaign />

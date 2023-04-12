@@ -27,7 +27,7 @@ function PriceClinic() {
                             <div className="price-container">
                                 <img src='/img/price/hokuro.png' className='price-img' alt='3part-img' /></div>
                         </td>
-                        <td className='campaign-price'></td>
+                        <td className='list-price'>15,000(税込)</td>
                         <td className='campaign-price'>10,000(税込)</td>
                     </tr>
 

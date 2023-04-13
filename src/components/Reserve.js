@@ -71,7 +71,17 @@ function ReserveClinic() {
         return false;
       }
       if (form.current.age.value === '') {
-        alert('年齢を入力して下さい。');
+        alert('生年月日を入力して下さい。');
+        setIsConfirm(false);
+        return false;
+      }
+      if (form.current.age2.value === '') {
+        alert('生年月日を入力して下さい。');
+        setIsConfirm(false);
+        return false;
+      }
+      if (form.current.age3.value === '') {
+        alert('生年月日を入力して下さい。');
         setIsConfirm(false);
         return false;
       }
@@ -236,11 +246,13 @@ function ReserveClinic() {
               </tr>
               <tr>
                 <th>
-                  年齢
+                  生年月日
                   <span className='must-icon must-pos'></span>
                 </th>
                 <td>
-                  <input type="number" name="age" className="age validate[required]" min="1" />&nbsp;&nbsp;歳
+                  <input type="number" name="age" className="age validate[required]" min="1" style={{textAlign: "right"}}/>&nbsp;&nbsp;年
+                  <input type="number" name="age2" className="age validate[required]" min="1" style={{textAlign: "right"}}/>&nbsp;&nbsp;月
+                  <input type="number" name="age3" className="age validate[required]" min="1" style={{textAlign: "right"}}/>&nbsp;&nbsp;日
                   <p className="caption">※未成年の方は保護者同伴か同意書が必要となります。</p>
                 </td>
               </tr>

@@ -48,6 +48,12 @@ function App() {
           </div>
           <LineButton />
           <PriceClinic />
+
+          <div className='text-center marginTop'>
+            <img className='triangl' src='/img/doctor.jpg' alt='triangl'></img>
+          </div>
+
+
           <FlowClinic />
           <GalleryClinic />
           <LineButton />

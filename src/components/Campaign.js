@@ -13,28 +13,28 @@ function Campaign() {
             <center className='campaign-banner-box-title '>
 
                 <a className='campaign-banner-box' href="#price">
-                    <img className='campaign-banner' src='img/grand_open_banner_2.png' alt='grand_open_banner'></img>
+                    <img className='campaign-banner' src='img/campaign/banner4.jpeg' alt='grand_open_banner'></img>
                 </a>
             </center>
 
             <center className='campaign-banner-box-title '>
 
                 <a className='campaign-banner-box' href="#price">
-                    <img className='campaign-banner' src='img/campaign/banner1.jpg' alt='5peroff_banner'></img>
+                    <img className='campaign-banner' src='img/campaign/banner1.jpeg' alt='5peroff_banner'></img>
                 </a>
             </center>
 
             <center className='campaign-banner-box-title '>
 
                 <a className='campaign-banner-box' href="#price">
-                    <img className='campaign-banner' src='img/campaign/banner2.jpg' alt='5peroff_banner'></img>
+                    <img className='campaign-banner' src='img/campaign/banner2.jpeg' alt='5peroff_banner'></img>
                 </a>
             </center>
 
             <center className='campaign-banner-box-title '>
 
                 <a className='campaign-banner-box' href="#price">
-                    <img className='campaign-banner' src='img/campaign/banner3.png' alt='hokuro_event_banner'></img>
+                    <img className='campaign-banner' src='img/campaign/banner3.jpeg' alt='hokuro_event_banner'></img>
                 </a>
             </center>
 

@@ -635,11 +635,6 @@ function ReserveClinic() {
           </li>
 
           <center>
-            {/* <Button variant="outline-secondary" type="submit" value="Send" className='submit-btn'>
-              ご予約
-            </Button> */}
-
-
             <ReservationButton
               isConfirm={isConfirm}
               onConfirm={handleConfirm}

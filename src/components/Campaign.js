@@ -13,7 +13,7 @@ function Campaign() {
             <center className='campaign-banner-box-title '>
 
                 <a className='campaign-banner-box' href="#price">
-                    <img className='campaign-banner' src='img/campaign/banner4.jpeg' alt='grand_open_banner'></img>
+                    <img className='campaign-banner' src='img/campaign/banner5.png' alt='grand_open_banner'></img>
                 </a>
             </center>
 
@@ -27,7 +27,7 @@ function Campaign() {
             <center className='campaign-banner-box-title '>
 
                 <a className='campaign-banner-box' href="#price">
-                    <img className='campaign-banner' src='img/campaign/banner2.jpeg' alt='5peroff_banner'></img>
+                    <img className='campaign-banner' src='img/campaign/banner2.png' alt='5peroff_banner'></img>
                 </a>
             </center>
 

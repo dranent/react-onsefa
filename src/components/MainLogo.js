@@ -1,11 +1,10 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function MainLogo () {
     return (
         <div>
         <center className='main-logo-area'>
-          <LazyLoadImage className='main-logo'
-            src='/img/onclinic-logo.gif' effect='blur'></LazyLoadImage>
+          <img className='main-logo'
+            src='/img/onclinic-logo.gif' alt='on_clinic_main_logo'></img>
         </center>
       </div>
     ) 

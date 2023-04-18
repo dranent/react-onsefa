@@ -431,6 +431,7 @@ a {
 }
 
 .main-logo-area {
+  margin-top: 5em;
   align-items: center;
 }
 
@@ -1217,6 +1218,9 @@ input:valid {
 }
 
 @media only screen and (min-width: 600px) {
+
+
+
   .campaign-banner {
     width: 40%;
     transition: all .2s linear;
@@ -1234,6 +1238,7 @@ input:valid {
   .price-table {
     padding-left: 20%;
     padding-right: 20%;
+    
   }
 
   .reserve {
@@ -1245,6 +1250,18 @@ input:valid {
 
 
 @media only screen and (max-width: 600px) {
+  .main-logo {
+    margin-top: 3em;
+  }
+  .campaign,
+  .notice-signboard {
+    width: 50% !important;
+  }
+  .campaign-title,
+  .notice-signboard-title{
+    font-size: large;
+  }
+
   .draw-img {
     max-width: 100px;
   }
@@ -1329,7 +1346,10 @@ input:valid {
   .price-table {
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 4em !important;
+    padding-top: 2em !important;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
   }
 
   .triangl {

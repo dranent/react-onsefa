@@ -33,15 +33,17 @@ function App() {
       <Routes>
         {/*--- 클리닉 페이지 ---*/}
         <Route path="/" element={<div>
-          <img className='banner'
+
+          <MainLogo />
+          {/* <img className='banner'
             effect="blur"
             src={'/img/onclinic_main.png'} // use normal <img> attributes as props
             alt="main_banner"
-          />
+          /> */}
           <Campaign />
           <LineButton />
           <NoticesList />
-          <MainLogo />
+
           <DefineClinic />
           <div className='text-center marginTop'>
             <img className='triangl' src='/img/triangle3point.png' alt='triangl'></img>

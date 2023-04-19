@@ -8,7 +8,7 @@
 
     const define = `ON Clinicは\n“Just for you” を目指すクリニックです。`;
     const defineIntroduction = `ON Clinicは韓国技術を基盤としたアートメイク専門クリニックです。こだわりPOINTは日本人にあったデザインやオリジナル色素を使用しお客様のニーズに合わせた技術をご提供いたします。
-    他クリニックとの差別化を図って東洋人の肌に合うオリジナル色素を大切に選んでおります。最新技術と最新マシーンを使って痛みやダウンタイムを最小限にし、定着はより良くさせて頂きます。`;
+    他クリニックとの差別化を図って東洋人の肌に合うオリジナル色素を大切に選んでおります。最新技術と最新マシーンを使って痛みやダウンタイムを最小限にし、定着をより良くさせて頂きます。`;
 
     const defineSefa = `Sefa Artmake Academyは\n“ONLY FOR YOU”`;
     const defineIntroductionSefa = `SEFA ARTMAKE ACADEMYでは受講生ひとりひとりの希望とお悩みに答えれるよう構築されております。

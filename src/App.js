@@ -11,7 +11,7 @@ import TicketContainer from './curriculum.js'
 import NoticesList from './notice';
 import { Routes, Route } from 'react-router-dom'
 import Campaign from './components/Campaign';
-import LineButton from './components/LineButton';
+// import LineButton from './components/LineButton';
 import { DefineClinic, DefineAcademy } from './components/Define';
 import MainLogo from './components/MainLogo';
 import { PriceClinic, PriceAcademy  } from './components/Price'
@@ -41,14 +41,14 @@ function App() {
             alt="main_banner"
           /> */}
           <Campaign />
-          <LineButton />
+          {/* <LineButton /> */}
           <NoticesList />
 
           <DefineClinic />
           <div className='text-center marginTop'>
             <img className='triangl' src='/img/triangle3point.png' alt='triangl'></img>
           </div>
-          <LineButton />
+          {/* <LineButton /> */}
           <PriceClinic />
 
           <div className='text-center marginTop'>
@@ -58,7 +58,7 @@ function App() {
 
           <FlowClinic />
           <GalleryClinic />
-          <LineButton />
+          {/* <LineButton /> */}
 
           <ReserveClinic/>
 
@@ -78,7 +78,7 @@ function App() {
             <TicketContainer/>
             <PriceAcademy/>
             <QnAAcademy/>
-            <LineButton/>
+            {/* <LineButton/> */}
           </div>}>
         </Route>
       </Routes>
@@ -87,7 +87,7 @@ function App() {
 
       <Access/>
 
-      {Footer()}
+      <Footer/>
       <div className='bottom-margin'>
         <h6> </h6>
       </div>

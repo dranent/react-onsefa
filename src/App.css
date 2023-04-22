@@ -341,14 +341,14 @@ a {
   color: #000;
 }
 
-.fixed_reserve_pc {
+/* .fixed_reserve_pc {
   position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
   height: 80px;
   padding: 1em;
-}
+} */
 
 .line_btn {
   height: 60px;
@@ -367,7 +367,7 @@ a {
   margin-bottom: 2em;
 }
 
-.res_btn {
+/* .res_btn {
   height: 60px;
   width: 280px;
   background-color: #f8f9fa;
@@ -383,9 +383,9 @@ a {
   transform: translate(-50%, -50%);
   cursor: pointer;
   border: 1px solid #4b4242;
-}
+} */
 
-.top-btn {
+/* .top-btn {
   float: right;
   background-color: rgba(218, 218, 218, 0.915);
   border-radius: 50%;
@@ -398,7 +398,7 @@ a {
   align-items: center;
   text-align: center;
   vertical-align: center;
-}
+} */
 
 .price-table {
   padding-top: 10em;
@@ -868,10 +868,12 @@ input:valid {
   max-width: 100%;
 }
 
-.relative,
-.inner_fixed_reserve_pc {
+.relative {
   position: relative;
 }
+/* .inner_fixed_reserve_pc {
+  position: relative;
+} */
 
 .flow-area,
 .just-for-you {
@@ -1193,8 +1195,119 @@ input:valid {
   opacity: 0;
 }
 
+/*FOOTER START*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.WebBookingButton,
+.LineConsultationButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  margin: 0px 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.WebBookingButton:hover,
+.LineConsultationButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.WebBookingIcon,
+.LineConsultationIcon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.WebBookingText,
+.LineConsultationText {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #4A4A4A;
+}
+
+.TextContainer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* width: 100%; */
+  font-size: 13px;
+  color: #4A4A4A;
+}
+
+.LeftText {
+  margin-left: 20px;
+}
+
+.RightText {
+  margin-right: 20px;
+}
+
+.BackToTopButton {
+  position: fixed;
+  bottom: 170px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #4A4A4A;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.BackToTopButton:hover {
+  background-color: #333333;
+}
+
+.fa-angle-up {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/*FOOTER END*/
+
 
 @media (max-width: 768px) {
+  /*FOOTER MOBILE START*/
+  .WebBookingButton,
+  .LineConsultationButton {
+    flex-direction: column;
+  }
+  /*FOOTER MOBILE END*/
+  
+
   .try-filter-btn {
     font-size: 1rem;
     padding: 5px;

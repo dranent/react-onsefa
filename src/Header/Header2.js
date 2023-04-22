@@ -39,13 +39,16 @@ function Header2() {
                     <Nav className="me-auto">
                         <Nav.Link href="/">Top</Nav.Link>
                         <Nav.Link href="/#define">ON Clinicについて</Nav.Link>
+                        
                         {/* <Nav.Link href="#artist">アーティスト</Nav.Link> */}
                         <Nav.Link href="#price">料金表</Nav.Link>
-                        <Nav.Link href="/academy">SEFAについて</Nav.Link>
+
                         {/* <Nav.Link href="#curriculum">カリキュラム</Nav.Link> */}
-                        <Nav.Link href="#qna-a" >よくある質問</Nav.Link>
+                        
                         <Nav.Link href="#reserve" >予約</Nav.Link>
+                        <Nav.Link href="#qna-a" >よくある質問</Nav.Link>
                         <Nav.Link href="#access">ACCESS</Nav.Link>
+                        <Nav.Link href="/academy/">SEFAについて</Nav.Link>
                         {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">

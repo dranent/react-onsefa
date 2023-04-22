@@ -27,7 +27,7 @@ function Header2() {
             <Container className="container-width">
                 {/* <Image src="/sefa-logo.svg" width={"100px"}></Image> */}
                 <Navbar.Brand href="/" className={onClinicBrandClass}>On Clinic</Navbar.Brand>&　
-                <Navbar.Brand href="/academy" className={sefaAcademyBrandClass}>Sefa Academy</Navbar.Brand>
+                <Navbar.Brand href="/academy/" className={sefaAcademyBrandClass}>Sefa Academy</Navbar.Brand>
                 <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
                     <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
                 </a>

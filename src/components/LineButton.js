@@ -14,5 +14,3 @@ function LineButton () {
         </div>
     ); 
 }
-
-export default LineButton;

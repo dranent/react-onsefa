@@ -45,11 +45,11 @@ function Footer() {
               window.location.href = 'https://lin.ee/87QWTkV';
             }}>
           <img className="LineConsultationIcon" src="/img/LINE_Brand_icon.png" alt="Line Consultation Icon" />
-          <span className="LineConsultationText">LINE 予約</span>
+          <span className="LineConsultationText">LINE 相談</span>
         </button>
       </div>
       <div className="TextContainer">
-        <span className="LeftText">ご相談はLINEで気楽にお問合せくださいませ。</span>
+        <span className="LeftText">アートメイクに関する質問にスタッフが直接お答えします！</span>
         {/* <span className="RightText"></span> */}
       </div>
     </div>

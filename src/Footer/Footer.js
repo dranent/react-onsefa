@@ -32,7 +32,7 @@ function Footer() {
   return (
     <div className="footer">
       <button className="BackToTopButton" onClick={scrollTop} style={{display: showScroll ? 'flex' : 'none'} }>
-      <img src="/img/arrow-up.svg" alt="to the top Button" />
+        <img src="/img/arrow-up.svg" alt="to the top Button" />
       </button>
       <div className="ButtonContainer">
         <button className="WebBookingButton" onClick={() => scrollTop("reserve")} >

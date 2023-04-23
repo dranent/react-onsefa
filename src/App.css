@@ -1287,17 +1287,10 @@ input:valid {
   display: none;
   align-items: center;
 }
-
-
-.fa-angle-up {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
 /*FOOTER END*/
 
-
 @media (max-width: 768px) {
+
   /*FOOTER MOBILE START*/
   .WebBookingButton,
   .LineConsultationButton {

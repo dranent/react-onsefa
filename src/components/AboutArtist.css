@@ -1,0 +1,101 @@
+.AboutArtist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* background-color: #f2f2f2; */
+}
+
+.AboutArtistHeader {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.AboutArtistPhotosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutArtistPhotoContainer {
+    padding: 3em;
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.AboutArtistPhotoContainer:nth-child(1) .AboutArtistOverlay {
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.AboutArtistPhotoContainer:hover .AboutArtistOverlay {
+    opacity: 1;
+}
+
+.AboutArtistSpecial {
+    border: 4px solid #FFD700;
+}
+
+.AboutArtistPhoto {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 5px rgb(134, 134, 134);
+}
+
+.AboutArtistPhoto:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.AboutArtistPhoto:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(250, 250, 250, 0.8);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.AboutArtistPhoto:hover:before {
+    opacity: 1;
+  }
+
+
+.AboutArtistTextContainer {
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .AboutArtistPhotoContainer {
+        width: 50%;
+    }
+    .AboutArtist {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .AboutArtistPhotoContainer {
+        padding: 1em;
+        margin-bottom: 0;
+    }
+}

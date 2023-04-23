@@ -99,6 +99,9 @@ function GalleryClinic () {
           <div>
             <img className='case-gallery-img' src='/img/case-gallery/case18.jpg' alt=''></img>
           </div>
+          <div>
+            <img className='case-gallery-img' src='/img/case-gallery/case19.jpg' alt=''></img>
+          </div>
         </Slider>
 
       </center>

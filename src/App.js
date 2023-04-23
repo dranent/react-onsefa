@@ -21,6 +21,7 @@ import { CEOProfile } from './components/Profile';
 import { QnAAcademy, QnAClinic} from './components/QnA';
 import Access from './components/Access';
 import { ReserveClinic } from './components/Reserve';
+import AboutArtist from './components/AboutArtist';
 
 function App() {
 
@@ -33,35 +34,21 @@ function App() {
       <Routes>
         {/*--- 클리닉 페이지 ---*/}
         <Route path="/" element={<div>
-
           <MainLogo />
-          {/* <img className='banner'
-            effect="blur"
-            src={'/img/onclinic_main.png'} // use normal <img> attributes as props
-            alt="main_banner"
-          /> */}
           <Campaign />
-          {/* <LineButton /> */}
           <NoticesList />
-
           <DefineClinic />
           <div className='text-center marginTop'>
             <img className='triangl' src='/img/triangle3point.png' alt='triangl'></img>
           </div>
-          {/* <LineButton /> */}
           <PriceClinic />
-
           <div className='text-center marginTop'>
             <img className='triangl' src='/img/doctor.jpg' alt='triangl'></img>
           </div>
-
-
-          <FlowClinic />
+          <AboutArtist/>
           <GalleryClinic />
-          {/* <LineButton /> */}
-
+          <FlowClinic />
           <ReserveClinic/>
-
           <QnAClinic/>
         </div>}></Route>
 

@@ -32,19 +32,17 @@ function Footer() {
   return (
     <div className="footer">
       <button className="BackToTopButton" onClick={scrollTop} style={{display: showScroll ? 'flex' : 'none'} }>
-      <svg className="BackToTopIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <path fill="#ffffff" d="M12 2L1 12h6v10h10V12h6L12 2z"/>
-  </svg>
+      <img src="/img/arrow-up.svg" alt="to the top Button" />
       </button>
       <div className="ButtonContainer">
         <button className="WebBookingButton" onClick={() => scrollTop("reserve")} >
-          <img className="WebBookingIcon" src="/img/icon-calendar.png" alt="Web Booking Icon" />
+          <img className="WebBookingIcon" src="/img/calendar.svg" alt="Web Booking Icon" />
           <span className="WebBookingText">WEB 予約</span>
         </button>
         <button className="LineConsultationButton" onClick={() => {
               window.location.href = 'https://lin.ee/87QWTkV';
             }}>
-          <img className="LineConsultationIcon" src="/img/LINE_Brand_icon.png" alt="Line Consultation Icon" />
+          <img className="LineConsultationIcon" src="/img/line.svg" alt="Line Consultation Icon" />
           <span className="LineConsultationText">LINE 相談</span>
         </button>
       </div>

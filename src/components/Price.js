@@ -88,19 +88,19 @@ function PriceClinic() {
                                 <div className='draw-img-bg'>
                                     <h6>ナチュラル</h6>
                                     <center>
-                                        <img src='/img/draw/eyebrows-shadow.png' className='draw-img' alt='eyebrows-shadow' />
+                                        <img src='/img/draw/eyebrows-shadow.webp' className='draw-img' alt='eyebrows-shadow' />
                                         <TryFilterButton />
                                     </center>
                                 </div>
                                 <div className='draw-img-bg'>
                                     <h6>パウダー</h6>
                                     <center>
-                                        <img src='/img/draw/eyebrow-powder.png' className='draw-img' alt='eyebrow-powder' /></center>
+                                        <img src='/img/draw/eyebrow-powder.webp' className='draw-img' alt='eyebrow-powder' /></center>
                                 </div>
                                 <div className='draw-img-bg'>
                                     <h6>コンボ</h6>
                                     <center>
-                                        <img src='/img/draw/Eyebrows-Powder-Shadow.png' className='draw-img' alt='powder-shadow' /></center>
+                                        <img src='/img/draw/Eyebrows-Powder-Shadow.webp' className='draw-img' alt='powder-shadow' /></center>
                                 </div>
                                 {/* <div className='draw-img-bg'>
                     <h6>ハーフ＆ハーフ</h6>
@@ -142,7 +142,7 @@ function PriceClinic() {
                             <div className='draw-img-bg-area'>
                                 <div className='draw-img-bg'>
                                     <center>
-                                        <img src='/img/draw/eyeline.png' className='draw-img' alt='eyeline' /></center>
+                                        <img src='/img/draw/eyeline.webp' className='draw-img' alt='eyeline' /></center>
                                 </div>
                             </div>
 
@@ -164,11 +164,11 @@ function PriceClinic() {
                             <div className='draw-img-bg-area'>
                                 <div className='draw-img-bg'>
                                     <center>
-                                        <img src='/img/draw/tintlip.png' className='draw-img' alt='tintlip' /></center>
+                                        <img src='/img/draw/tintlip.webp' className='draw-img' alt='tintlip' /></center>
                                 </div>
                                 <div className='draw-img-bg'>
                                     <center>
-                                        <img src='/img/draw/fulllip.png' className='draw-img' alt='fulllip' /></center>
+                                        <img src='/img/draw/fulllip.webp' className='draw-img' alt='fulllip' /></center>
                                 </div>
                             </div>
                         </td>
@@ -193,7 +193,7 @@ function PriceClinic() {
                             <div className='draw-img-bg-area'>
                                 <div className='draw-img-bg'>
                                     <center>
-                                        <img src='/img/draw/hairline.png' className='draw-img' alt='hairline' /></center>
+                                        <img src='/img/draw/hairline.webp' className='draw-img' alt='hairline' /></center>
                                 </div>
                             </div>
                         </td>

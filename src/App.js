@@ -22,18 +22,21 @@ import { QnAAcademy, QnAClinic} from './components/QnA';
 import Access from './components/Access';
 import { ReserveClinic } from './components/Reserve';
 import AboutArtist from './components/AboutArtist';
+// import { Helmet } from 'react-helmet';
 
 function App() {
 
 
   return (
     <>
-      {/* {Header()} */}
+      
+
       <div id='sefa-top'></div>
       {Header2()}
       <Routes>
         {/*--- 클리닉 페이지 ---*/}
         <Route path="/" element={<div>
+          {/* <Helmet> */}
           <MainLogo />
           <Campaign />
           <NoticesList />
@@ -50,6 +53,7 @@ function App() {
           <FlowClinic />
           <ReserveClinic/>
           <QnAClinic/>
+          {/* </Helmet> */}
         </div>}></Route>
 
         {/*--- 아카데미 페이지 ---*/}

@@ -10,7 +10,7 @@ function AboutArtist() {
       <div className="AboutArtistPhotosContainer">
         <div className="AboutArtistPhotoContainer">
           <img
-            src="/img/artist/asami.jpg"
+            src="/img/artist/asami.webp"
             alt="About Artist 1"
             className="AboutArtistPhoto AboutArtistSpecial"
           />
@@ -20,7 +20,7 @@ function AboutArtist() {
         </div>
         <div className="AboutArtistPhotoContainer">
           <img
-            src="/img/artist/ito.jpg"
+            src="/img/artist/ito.webp"
             alt="About Artist 2"
             className="AboutArtistPhoto"
           />
@@ -30,7 +30,7 @@ function AboutArtist() {
         </div>
         <div className="AboutArtistPhotoContainer">
           <img
-            src="/img/artist/otsuka.jpg"
+            src="/img/artist/otsuka.webp"
             alt="About Artist 3"
             className="AboutArtistPhoto"
           />
@@ -40,7 +40,7 @@ function AboutArtist() {
         </div>
         <div className="AboutArtistPhotoContainer">
           <img
-            src="/img/artist/okubo.jpg"
+            src="/img/artist/okubo.webp"
             alt="About Artist 4"
             className="AboutArtistPhoto"
           />
@@ -50,7 +50,7 @@ function AboutArtist() {
         </div>
         <div className="AboutArtistPhotoContainer">
           <img
-            src="/img/artist/kano.jpg"
+            src="/img/artist/kano.webp"
             alt="About Artist 5"
             className="AboutArtistPhoto"
           />
@@ -60,7 +60,7 @@ function AboutArtist() {
         </div>
         <div className="AboutArtistPhotoContainer">
           <img
-            src="/img/artist/sora.jpg"
+            src="/img/artist/sora.webp"
             alt="About Artist 6"
             className="AboutArtistPhoto"
           />

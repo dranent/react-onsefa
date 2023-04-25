@@ -26,7 +26,7 @@ function PriceClinic() {
                                 <button className='tooltip-btn'>モニターとは?</button>
                             </Tooltip>
                             <div className="price-container">
-                                <img src='/img/price/hokuro.png' className='price-img' alt='3part-img' /></div>
+                                <img src='/img/price/hokuro.webp' className='price-img' alt='3part-img' /></div>
                         </td>
                         
                         <td className='campaign-price'>10,000(税込)</td>
@@ -39,7 +39,7 @@ function PriceClinic() {
                                 <button className='tooltip-btn'>モニターとは?</button>
                             </Tooltip>
                             <div className="price-container">
-                                <img src='/img/price/3part.png' className='price-img' alt='3part-img' /></div>
+                                <img src='/img/price/3part.webp' className='price-img' alt='3part-img' /></div>
                         </td>
                         <td className='campaign-price'>15,000(税込)</td>
                         <td className='campaign-price'>初めての方におすすめ！</td>
@@ -50,7 +50,7 @@ function PriceClinic() {
                                 <button className='tooltip-btn'>モニターとは?</button>
                             </Tooltip>
                             <div className="price-container">
-                                <img src='/img/price/2part.png' className='price-img' alt='3part-img' /></div>
+                                <img src='/img/price/2part.webp' className='price-img' alt='3part-img' /></div>
                         </td>
 
                         <td className='campaign-price'>25,000(税込)</td>
@@ -63,7 +63,7 @@ function PriceClinic() {
                                 <button className='tooltip-btn'>モニターとは?</button>
                             </Tooltip>
                             <div className="price-container">
-                                <img src='/img/price/1part.png' className='price-img' alt='3part-img' /></div>
+                                <img src='/img/price/1part.webp' className='price-img' alt='3part-img' /></div>
                         </td>
 
                         <td className='campaign-price'>33,000(税込)</td>
@@ -76,7 +76,7 @@ function PriceClinic() {
                                 <button className='tooltip-btn'>モニターとは?</button>
                             </Tooltip>
                             <div className="price-container">
-                                <img src='/img/price/1part.png' className='price-img' alt='3part-img' /></div>
+                                <img src='/img/price/1part.webp' className='price-img' alt='3part-img' /></div>
                         </td>
                         <td className='campaign-price'>67,500(税込)</td>
                         <td className='list-price'>75,000(税込)</td>

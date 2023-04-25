@@ -43,7 +43,7 @@ function App() {
           </div>
           <PriceClinic />
           <div className='text-center marginTop'>
-            <img className='triangl' src='/img/doctor.jpg' alt='triangl'></img>
+            <img className='triangl' src='/img/doctor.webp' alt='triangl'></img>
           </div>
           <AboutArtist/>
           <GalleryClinic />

@@ -69,9 +69,9 @@ function GalleryClinic () {
           <div>
             <img className='case-gallery-img' src='/img/case-gallery/case8.webp' alt='オンクリニック症例写真8'></img>
           </div>
-          <div>
+          {/* <div>
             <img className='case-gallery-img' src='/img/case-gallery/case9.webp' alt='オンクリニック症例写真9'></img>
-          </div>
+          </div> */}
           <div>
             <img className='case-gallery-img' src='/img/case-gallery/case10.webp' alt='オンクリニック症例写真10'></img>
           </div>
@@ -84,9 +84,9 @@ function GalleryClinic () {
           <div>
             <img className='case-gallery-img' src='/img/case-gallery/case13.webp' alt='オンクリニック症例写真13'></img>
           </div>
-          <div>
+          {/* <div>
             <img className='case-gallery-img' src='/img/case-gallery/case14.webp' alt='オンクリニック症例写真14'></img>
-          </div>
+          </div> */}
           <div>
             <img className='case-gallery-img' src='/img/case-gallery/case15.webp' alt='オンクリニック症例写真15'></img>
           </div>

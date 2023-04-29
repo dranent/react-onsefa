@@ -45,7 +45,7 @@ function AboutArtist() {
             className="AboutArtistPhoto"
           />
           <div className="AboutArtistTextContainer">
-            <span>Okubo</span>
+            <span>Miyu</span>
           </div>
         </div>
         <div className="AboutArtistPhotoContainer">

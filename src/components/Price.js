@@ -116,9 +116,12 @@ function PriceClinic() {
 
                     <tr>
                         <td>
-                            <h4 className='another-hospital-txt'>他院の施術リタッチ(1回価格)</h4>
+                            <h4 className='another-hospital-txt'>他院の施術リタッチ(モニター1回価格)</h4>
                             <Tooltip text='他院にて施術された方で、軽い修正や色を足したい方の特別１回メンテナンスメニューです。'>
                                 <button className='tooltip-btn'>他院のリタッチとは?</button>
+                            </Tooltip>
+                            <Tooltip text={monitorPrice}>
+                                <button className='tooltip-btn'>モニターとは?</button>
                             </Tooltip>
                         </td>
                         <td className='campaign-price'>28,000(税込)</td>
@@ -127,9 +130,12 @@ function PriceClinic() {
                     </tr>
                     <tr>
                         <td>
-                            <h4 className='another-hospital-txt'>他院の施術修正(1回価格)</h4>
+                            <h4 className='another-hospital-txt'>他院の施術修正(モニター1回価格)</h4>
                             <Tooltip text='他院で施術してデザインの変更または色改善をしたい方の1回料金です。'>
                                 <button className='tooltip-btn'>他院の修正とは?</button>
+                            </Tooltip>
+                            <Tooltip text={monitorPrice}>
+                                <button className='tooltip-btn'>モニターとは?</button>
                             </Tooltip>
                         </td>
 
@@ -138,14 +144,16 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
-                        <td><h6>アイラインモニター(2回セット価格)</h6>
+                        <td><h6>アイライン(モニター2回セット価格)</h6>
                             <div className='draw-img-bg-area'>
                                 <div className='draw-img-bg'>
                                     <center>
                                         <img src='/img/draw/eyeline.webp' className='draw-img' alt='eyeline' /></center>
                                 </div>
                             </div>
-
+                            <Tooltip text={monitorPrice}>
+                                <button className='tooltip-btn'>モニターとは?</button>
+                            </Tooltip>
 
                         </td>
                         <td className='campaign-price'>54,000(税込)</td>
@@ -160,7 +168,7 @@ function PriceClinic() {
                         <td className='list-price'>120,000(税込)</td>
                     </tr>
                     <tr>
-                        <td><h6>リップお試し(1回価格)</h6>
+                        <td><h6>リップお試し(モニター1回価格)</h6>
                             <div className='draw-img-bg-area'>
                                 <div className='draw-img-bg'>
                                     <center>
@@ -171,16 +179,25 @@ function PriceClinic() {
                                         <img src='/img/draw/fulllip.webp' className='draw-img' alt='fulllip' /></center>
                                 </div>
                             </div>
+                            <Tooltip text={monitorPrice}>
+                                <button className='tooltip-btn'>モニターとは?</button>
+                            </Tooltip>
                         </td>
                         <td className='campaign-price'>33,000(税込)</td>
                         <td className='campaign-price'>初めての方におすすめ！</td>
 
                     </tr>
                     <tr>
-                        <td>リップモニター(2回セット価格)</td>
+                        <td>リップ(モニター2回セット価格)
+                        <Tooltip text={monitorPrice}>
+                                <button className='tooltip-btn'>モニターとは?</button>
+                            </Tooltip>
+
+                        </td>
 
                         <td className='campaign-price'>67,500(税込)</td>
                         <td className='list-price'>75,000(税込)</td>
+                        
                     </tr>
                     <tr>
                         <td>リップ(2回セット価格)</td>
@@ -209,7 +226,11 @@ function PriceClinic() {
                         <td className='list-price'>170,000(税込)</td>
                     </tr>
                     <tr>
-                        <td>眉毛 + アイライン SETモニター(2回セット価格)</td>
+                        <td>眉毛 + アイライン SETモニター(2回セット価格)
+                        <Tooltip text={monitorPrice}>
+                                <button className='tooltip-btn'>モニターとは?</button>
+                            </Tooltip>
+                        </td>
                         <td className='campaign-price'>117,000(税込)</td>
                         <td className='list-price'>130,000(税込)</td>
 

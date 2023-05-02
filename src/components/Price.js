@@ -54,7 +54,7 @@ function PriceClinic() {
                         </td>
 
                         <td className='campaign-price'>25,000(税込)</td>
-                        <td className='list-price'>27,000(税込)</td>
+                        <td className='list-price'>35,000(税込)</td>
                     </tr>
 
                     <tr>

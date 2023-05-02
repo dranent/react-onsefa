@@ -13,7 +13,13 @@ const Tooltip = ({ text, children }) => {
   // };
 
   const handleClick = () => {
-    setShow(true);
+    if (!show) { 
+      setShow(true) 
+    }
+    else {
+      setShow(false);
+    }
+
   }
   // const handleTouchStart = () => {
   //   setShow(true);
@@ -28,10 +34,10 @@ const Tooltip = ({ text, children }) => {
       <div
         className="icon"
         onClick={handleClick}
-        // onMouseEnter={handleMouseEnter}
-        // onMouseLeave={handleMouseLeave}
-        // onTouchStart={handleTouchStart}
-        // onTouchEnd={handleTouchEnd}
+      // onMouseEnter={handleMouseEnter}
+      // onMouseLeave={handleMouseLeave}
+      // onTouchStart={handleTouchStart}
+      // onTouchEnd={handleTouchEnd}
       >
         {children}
       </div>

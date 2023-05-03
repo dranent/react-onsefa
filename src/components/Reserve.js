@@ -477,35 +477,56 @@ function ReserveClinic() {
                     <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu2" value="1部位 (モニター1回価格) 2分割" />
                       <label htmlFor="kibou-sizyutsu2">1部位 (モニター1回価格) 2分割</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu3" value="眉毛(モニター2回セット価格)" />
-                      <label htmlFor="kibou-sizyutsu3">眉毛(モニター2回セット価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu3" value="眉毛(モニター1回価格)" />
+                      <label htmlFor="kibou-sizyutsu3">眉毛(モニター1回価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu12" value="眉毛お試し(モニター1回価格)" />
-                      <label htmlFor="kibou-sizyutsu12">眉毛お試し(モニター1回価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu4" value="眉毛(1回価格)" />
+                      <label htmlFor="kibou-sizyutsu4">眉毛(1回価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu4" value="眉毛 (2回セット価格)" />
-                      <label htmlFor="kibou-sizyutsu4">眉毛 (2回セット価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu5" value="眉毛(モニター2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu5">眉毛(モニター2回セット価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu5" value="他院の施術リタッチ(モニター1回価格)" />
-                      <label htmlFor="kibou-sizyutsu5">他院の施術リタッチ(モニター1回価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu6" value="眉毛お試し(モニター1回価格)" />
+                      <label htmlFor="kibou-sizyutsu6">眉毛お試し(モニター1回価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu6" value="他院の施術修正(モニター1回価格)" />
-                      <label htmlFor="kibou-sizyutsu6">他院の施術修正(モニター1回価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu7" value="眉毛 (2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu7">眉毛 (2回セット価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu7" value="アイライン(モニター2回セット価格)" />
-                      <label htmlFor="kibou-sizyutsu7">アイライン(モニター2回セット価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu8" value="他院の施術リタッチ(モニター1回価格)" />
+                      <label htmlFor="kibou-sizyutsu8">他院の施術リタッチ(モニター1回価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu8" value="アイライン(2回セット価格)" />
-                      <label htmlFor="kibou-sizyutsu8">アイライン(2回セット価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu9" value="他院の施術修正(モニター1回価格)" />
+                      <label htmlFor="kibou-sizyutsu9">他院の施術修正(モニター1回価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu9" value="リップお試し(モニター1回価格)" />
-                      <label htmlFor="kibou-sizyutsu9">リップお試し(モニター1回価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu10" value="アイライン(モニター2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu10">アイライン(モニター2回セット価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu10" value="リップ(モニター2回セット価格)" />
-                      <label htmlFor="kibou-sizyutsu10">リップ(モニター2回セット価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu11" value="アイライン(2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu11">アイライン(2回セット価格)</label>
                     </li>
-                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu11" value="リップ(2回セット価格)" />
-                      <label htmlFor="kibou-sizyutsu11">リップ(2回セット価格)</label>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu12" value="リップ(モニター1回価格)" />
+                      <label htmlFor="kibou-sizyutsu12">リップ(モニター1回価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu13" value="リップ(1回価格)" />
+                      <label htmlFor="kibou-sizyutsu13">リップ(1回価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu14" value="リップ(モニター2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu14">リップ(モニター2回セット価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu15" value="リップ(2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu15">リップ(2回セット価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu16" value="SMP(モニター直径10cm 1回価格)" />
+                      <label htmlFor="kibou-sizyutsu16">SMP(モニター直径10cm 1回価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu17" value="SMP(直径10cm 1回価格)" />
+                      <label htmlFor="kibou-sizyutsu17">SMP(直径10cm 1回価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu18" value="ヘアライン(モニター2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu18">ヘアライン(モニター2回セット価格)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu19" value="ヘアライン(2回セット価格)" />
+                      <label htmlFor="kibou-sizyutsu19">ヘアライン(2回セット価格)</label>
                     </li>
                   </ul>
                 </td>

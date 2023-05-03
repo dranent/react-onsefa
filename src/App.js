@@ -11,32 +11,27 @@ import TicketContainer from './curriculum.js'
 import NoticesList from './notice';
 import { Routes, Route } from 'react-router-dom'
 import Campaign from './components/Campaign';
-// import LineButton from './components/LineButton';
 import { DefineClinic, DefineAcademy } from './components/Define';
 import MainLogo from './components/MainLogo';
-import { PriceClinic, PriceAcademy  } from './components/Price'
+import { PriceClinic, PriceAcademy } from './components/Price'
 import FlowClinic from './components/Flow';
 import GalleryClinic from './components/Gallery';
 import { CEOProfile } from './components/Profile';
-import { QnAAcademy, QnAClinic} from './components/QnA';
+import { QnAAcademy, QnAClinic } from './components/QnA';
 import Access from './components/Access';
 import { ReserveClinic } from './components/Reserve';
 import AboutArtist from './components/AboutArtist';
-// import { Helmet } from 'react-helmet';
+// import Mens from './components/mens';
+import Menu from './components/menu';
 
 function App() {
-
-
   return (
     <>
-      
-
       <div id='sefa-top'></div>
-      {Header2()}
       <Routes>
         {/*--- 클리닉 페이지 ---*/}
         <Route path="/" element={<div>
-          {/* <Helmet> */}
+          {Header2()}
           <MainLogo />
           <Campaign />
           <NoticesList />
@@ -44,21 +39,24 @@ function App() {
           <div className='text-center marginTop'>
             <img className='triangl' src='/img/triangle3point.png' alt='triangl'></img>
           </div>
+          <Menu/>
           <PriceClinic />
           <div className='text-center marginTop'>
             <img className='triangl' src='/img/doctor.webp' alt='triangl'></img>
           </div>
-          <AboutArtist/>
+          <AboutArtist />
           <GalleryClinic />
           <FlowClinic />
-          <ReserveClinic/>
-          <QnAClinic/>
-          {/* </Helmet> */}
+          <ReserveClinic />
+          <QnAClinic />
+          <Access />
+          <Footer />
         </div>}></Route>
 
         {/*--- 아카데미 페이지 ---*/}
-        <Route path="/academy" element={
+        <Route path="/academy/" element={
           <div>
+            {Header2()}
             <DefineAcademy />
             <CEOProfile />
             <div className='ticket-area' id='ticket-area'>
@@ -66,28 +64,27 @@ function App() {
                 <img src='/img/チケットシステム2.png' alt='' className='ticket-area-img' width={950} />
               </center>
             </div>
-            <TicketContainer/>
-            <PriceAcademy/>
-            <QnAAcademy/>
-            {/* <LineButton/> */}
+            <TicketContainer />
+            <PriceAcademy />
+            <QnAAcademy />
+            <Access />
+            <Footer />
           </div>}>
         </Route>
+        {/* 멘즈 페이지  */}
+        {/* <Route path='/mens/' element={
+          <div>
+            <Mens/>
+          </div>
+        }
+        >
+        </Route> */}
       </Routes>
-
-
-
-      <Access/>
-
-      <Footer/>
       <div className='bottom-margin'>
         <h6> </h6>
       </div>
-
-
     </>
   );
 }
-
-
 
 export default App;

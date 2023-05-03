@@ -583,6 +583,14 @@ function ReserveClinic() {
                 <td>
                   <textarea name="comment" rows="5" className="wide"></textarea></td>
               </tr>
+              <tr>
+                <th>
+                  クーポンコード
+                </th>
+                <td>
+                  <input name="coupon" id="coupon" type="text" className="age validate[required]" /></td>
+              </tr>
+
             </tbody>
           </Table>
           <div className="form-privacy">

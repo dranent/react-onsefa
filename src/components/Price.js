@@ -8,7 +8,7 @@ function PriceClinic() {
         <div className="price-table" id='price'>
             <div>
                 <h4>ON CLINIC 施術料金表</h4>
-                <h6>単位:円(税込)</h6>
+                <h6>単位:円(税込)   ※ 33,000以下の施術はキャンペーン適用外となります。</h6>
             </div>
             <Table responsive striped bordered>
                 <tbody>

@@ -41,7 +41,7 @@
     ・現 SEFA ACADEMY院長\n
     ・2023年ヨロッパ進出準備中`;
 
-    const monitorPrice = `SNSや公式サイトに目元の写真や動画を使用する目的としてご協力頂くお値段になります。
+    const monitorPrice = `SNSや公式サイトに施術部位の写真や動画を使用する目的としてご協力頂くお値段になります。
     `;
 export {monitorPrice, introEx, ceoName, ceoCv, define, defineIntroduction, defineSefa, defineIntroductionSefa
         , profileContent, profileName, otherClinic};

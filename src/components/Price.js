@@ -1,7 +1,7 @@
 import { Table } from 'react-bootstrap';
 import Tooltip from '../components/tooltip';
 import { monitorPrice } from '../StringData';
-import TryFilterButton from '../instagram.js';
+// import TryFilterButton from '../instagram.js';
 
 function PriceClinic() {
     return (
@@ -61,7 +61,7 @@ function PriceClinic() {
                                 <img src='/img/price/1part.webp' className='price-img' alt='3part-img' /></div>
                         </td>
 
-                        <td className='campaign-price'>初めての方におすすめ！<br />お試し価格<br />33,000(税込)</td>
+                        <td className='campaign-price'>初めての方におすすめ！<br />お試し価格<br />38,000(税込)</td>
                         <td className='list-price'>45,000(税込)</td>
                     </tr>
 
@@ -86,7 +86,7 @@ function PriceClinic() {
                     <tr>
                         <td><h6>眉毛 (2回セット価格)</h6>
                             <div className='draw-img-bg-area'>
-                                <div className='draw-img-bg'>
+                                {/* <div className='draw-img-bg'>
                                     <h6>ナチュラル</h6>
                                     <center>
                                         <img src='/img/draw/eyebrows-shadow.webp' className='draw-img' alt='eyebrows-shadow' />
@@ -102,7 +102,7 @@ function PriceClinic() {
                                     <h6>コンボ</h6>
                                     <center>
                                         <img src='/img/draw/Eyebrows-Powder-Shadow.webp' className='draw-img' alt='powder-shadow' /></center>
-                                </div>
+                                </div> */}
                             </div>
                         </td>
 
@@ -117,7 +117,7 @@ function PriceClinic() {
                                 <button className='tooltip-btn'>他院のリタッチとは?</button>
                             </Tooltip>
                         </td>
-                        <td className='campaign-price'>28,000(税込)</td>
+                        <td className='campaign-price'>38,000(税込)</td>
                         <td className='list-price'>45,000(税込)</td>
 
                     </tr>
@@ -129,7 +129,7 @@ function PriceClinic() {
                             </Tooltip>
                         </td>
 
-                        <td className='campaign-price'>38,000(税込)</td>
+                        <td className='campaign-price'>48,000(税込)</td>
                         <td className='list-price'>75,000(税込)</td>
                     </tr>
 
@@ -170,7 +170,7 @@ function PriceClinic() {
                                 </div>
                             </div>
                         </td>
-                        <td className='campaign-price'>初めての方におすすめ！<br/>お試し価格<br />33,000(税込)</td>
+                        <td className='campaign-price'>初めての方におすすめ！<br/>お試し価格<br />38,000(税込)</td>
                         <td className='list-price'>45,000(税込)</td>
 
                     </tr>

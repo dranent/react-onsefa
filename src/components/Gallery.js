@@ -5,12 +5,12 @@ function GalleryClinic () {
     var settings = {
         dots: false,
         infinite: true,
-        centerMode: true,
+        centerMode: false,
         centerPadding: '60px',
         slidesToShow: 6,
         slidesToScroll: 6,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         responsive: [
           {
             breakpoint: 1024,

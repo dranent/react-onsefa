@@ -23,17 +23,17 @@ function Header2() {
     }, [location.pathname]);
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed='top'>
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed='top' >
             <Container className="container-width">
                 {/* <Image src="/sefa-logo.svg" width={"100px"}></Image> */}
                 <Navbar.Brand href="/" className={onClinicBrandClass}>On Clinic</Navbar.Brand>&　
                 <Navbar.Brand href="/academy/" className={sefaAcademyBrandClass}>Sefa Academy</Navbar.Brand>
-                <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+                {/* <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
                     <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
                 </a>
                 <a href="https://www.instagram.com/onclinic_mens/" target="_blank" rel="noreferrer noopener">
                     <img src="/img/instar-icon-mens.svg" alt="Instagram button" id="instagram-mens-btn" />
-                </a>
+                </a> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

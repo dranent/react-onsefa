@@ -23,7 +23,7 @@ function Footer() {
     if (reserveElement) {
       reserveElement.scrollIntoView({ behavior: "smooth" });
     } else {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
 
@@ -31,7 +31,7 @@ function Footer() {
 
   return (
     <div className="footer">
-      <button className="BackToTopButton" onClick={scrollTop} style={{display: showScroll ? 'flex' : 'none'} }>
+      <button className="BackToTopButton" onClick={scrollTop} style={{ display: showScroll ? 'flex' : 'none' }}>
         <img src="/img/arrow-up.svg" alt="to the top Button" />
       </button>
       <div className="ButtonContainer">
@@ -40,12 +40,23 @@ function Footer() {
           <span className="WebBookingText">WEB 予約</span>
         </button>
         <button className="LineConsultationButton" onClick={() => {
-              window.location.href = 'https://lin.ee/87QWTkV';
-            }}>
+          window.location.href = 'https://lin.ee/87QWTkV';
+        }}>
           <img className="LineConsultationIcon" src="/img/line.svg" alt="Line Consultation Icon" />
           <span className="LineConsultationText">LINE 相談</span>
         </button>
+
+        <div className="insta-area">
+        <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+          <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
+        </a>
+        <a href="https://www.instagram.com/onclinic_mens/" target="_blank" rel="noreferrer noopener">
+          <img src="/img/instar-icon-mens.svg" alt="Instagram button" id="instagram-mens-btn" />
+        </a>
       </div>
+
+      </div>
+
       <div className="TextContainer">
         <span className="LeftText">アートメイクに関する質問にスタッフが直接お答えします！</span>
         {/* <span className="RightText"></span> */}

@@ -1,27 +1,27 @@
-.AboutArtist {
+.AboutMenu {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
-    padding-left: 20%;
-    padding-right: 20%;
+    /* padding-left: 20%; */
+    /* padding-right: 20%; */
     /* background-color: #f2f2f2; */
 }
 
-.AboutArtistHeader {
+.AboutMenuHeader {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-.AboutArtistPhotosContainer {
+.AboutMenuPhotosContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
-.AboutArtistPhotoContainer {
+.AboutMenuPhotoContainer {
     padding: 2em;
     width: 20%;
     text-align: center;
@@ -29,7 +29,7 @@
     position: relative;
 }
 
-.AboutArtistPhotoContainer:nth-child(1) .AboutArtistOverlay {
+.AboutMenuPhotoContainer:nth-child(1) .AboutMenuOverlay {
     background-color: rgba(51, 51, 51, 0.5);
     border-radius: 50%;
     width: 100%;
@@ -44,15 +44,15 @@
     transition: opacity 0.3s ease;
 }
 
-.AboutArtistPhotoContainer:hover .AboutArtistOverlay {
+.AboutMenuPhotoContainer:hover .AboutMenuOverlay {
     opacity: 1;
 }
 
-.AboutArtistSpecial {
+.AboutMenuSpecial {
     border: 4px solid #FFD700;
 }
 
-.AboutArtistPhoto {
+.AboutMenuPhoto {
     width: 100%;
     border-radius: 50%;
     display: block;
@@ -61,12 +61,12 @@
     box-shadow: 0px 0px 5px rgb(134, 134, 134);
 }
 
-.AboutArtistPhoto:hover {
+.AboutMenuPhoto:hover {
     transform: scale(1.1);
     z-index: 1;
 }
 
-.AboutArtistPhoto:before {
+.AboutMenuPhoto:before {
     content: "";
     position: absolute;
     top: 0;
@@ -77,24 +77,24 @@
     opacity: 0;
     transition: all 0.5s ease;
 }
-.AboutArtistPhoto:hover:before {
+.AboutMenuPhoto:hover:before {
     opacity: 1;
   }
 
 
-.AboutArtistTextContainer {
+.AboutMenuTextContainer {
     margin-top: 10px;
 }
 
 @media (max-width: 767px) {
-    .AboutArtistPhotoContainer {
+    .AboutMenuPhotoContainer {
         width: 50%;
     }
-    .AboutArtist {
+    .AboutMenu {
         padding-left: 0;
         padding-right: 0;
     }
-    .AboutArtistPhotoContainer {
+    .AboutMenuPhotoContainer {
         padding: 1em;
         margin-bottom: 0;
     }

@@ -31,13 +31,16 @@
     ・2019年大阪女学院大学「国際協力専門」卒業\n
     ・2019年韓国と日本でアートメイクスタート\n
     ・カンナム DVORA Beauty Clinic卒業\n
-    ・DVORA JAPAN 代表\n
     ・MBC Academy Beauty School 卒業\n
     ・韓国半永久化粧アカデミー多数卒業(DVORA, Meijiu, ImBeauty 等)\n
     ・2021年日本でアートメイクアカデミー設立\n
     ・2021年箕面クリニックでドクターと看護師アートメイク教育開始\n
     ・大阪美容クリニックでDVORA JAPAN生徒多数活動中\n
+    ・DVORA JAPAN設立\n
+    ・ON Clinic OPEN\n
+    ・SEFA Artmake Academy設立\n
     ・2023年 銀座 ON CLINIC OPEN\n
+    ・現 DVORA JAPAN代表\n
     ・現 SEFA ACADEMY院長\n
     ・2023年ヨロッパ進出準備中`;
 

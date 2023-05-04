@@ -37,9 +37,8 @@
     ・2021年箕面クリニックでドクターと看護師アートメイク教育開始\n
     ・大阪美容クリニックでDVORA JAPAN生徒多数活動中\n
     ・DVORA JAPAN設立\n
-    ・ON Clinic OPEN\n
-    ・SEFA Artmake Academy設立\n
     ・2023年 銀座 ON CLINIC OPEN\n
+    ・SEFA Artmake Academy設立\n
     ・現 DVORA JAPAN代表\n
     ・現 SEFA ACADEMY院長\n
     ・2023年ヨロッパ進出準備中`;

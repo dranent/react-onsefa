@@ -31,7 +31,7 @@ function Access() {
                                 <td key={3}>木</td>
                                 <td key={4}>金</td>
                                 <td key={5}>土</td>
-                                <td key={6}>日/祝</td>
+                                <td key={6}>日</td>
                             </tr>
                             <tr>
                                 <td>11:00 - 20:00</td>

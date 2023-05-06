@@ -32,7 +32,9 @@
     ・2019年韓国と日本でアートメイクスタート\n
     ・カンナム DVORA Beauty Clinic卒業\n
     ・MBC Academy Beauty School 卒業\n
-    ・韓国半永久化粧アカデミー多数卒業(DVORA, Meijiu, ImBeauty 等)\n
+    ・韓国半永久化粧 DVORA アカデミー多数卒業\n
+    ・韓国半永久化粧 Meijiu アカデミー多数卒業\n
+    ・韓国半永久化粧 ImBeauty アカデミー多数卒業\n
     ・2021年日本でアートメイクアカデミー設立\n
     ・2021年箕面クリニックでドクターと看護師アートメイク教育開始\n
     ・大阪美容クリニックでDVORA JAPAN生徒多数活動中\n

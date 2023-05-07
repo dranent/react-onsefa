@@ -135,12 +135,16 @@ function PriceClinic() {
 
                     <tr>
                         <td><h6>アイライン(モニター2回セット価格)</h6>
-                            <div className='draw-img-bg-area'>
+                            {/* <div className='draw-img-bg-area'>
                                 <div className='draw-img-bg'>
                                     <center>
                                         <img src='/img/draw/eyeline.webp' className='draw-img' alt='eyeline' /></center>
                                 </div>
-                            </div>
+                            </div> */}
+
+                            <div className="price-container">
+                                <img src='/img/draw/eyeline.webp' className='price-img' alt='3part-img' width={170} /></div>
+                        
 
                         </td>
                         <td className='campaign-price'>54,000(税込)</td>
@@ -159,16 +163,10 @@ function PriceClinic() {
                         <Tooltip text='お試し価格は初めてアートメイクをされる方にお勧めするメニューです。お一人様初回限りの価格です。'>
                                 <button className='tooltip-btn'>お試し価格は?</button>
                             </Tooltip>
-                            <div className='draw-img-bg-area'>
-                                <div className='draw-img-bg'>
-                                    <center>
-                                        <img src='/img/draw/tintlip.webp' className='draw-img' alt='tintlip' /></center>
-                                </div>
-                                <div className='draw-img-bg'>
-                                    <center>
-                                        <img src='/img/draw/fulllip.webp' className='draw-img' alt='fulllip' /></center>
-                                </div>
-                            </div>
+
+                            <div className="price-container">
+                                <img src='/img/draw/LIP.webp' className='price-img' alt='3part-img' /></div>
+                        
                         </td>
                         <td className='campaign-price'>初めての方におすすめ！<br/>お試し価格<br />38,000(税込)</td>
                         <td className='list-price'>45,000(税込)</td>
@@ -219,12 +217,9 @@ function PriceClinic() {
                     </tr>
                     <tr>
                         <td><h6>ヘアライン(モニター2回セット価格)</h6>
-                            <div className='draw-img-bg-area'>
-                                <div className='draw-img-bg'>
-                                    <center>
-                                        <img src='/img/draw/hairline.webp' className='draw-img' alt='hairline' /></center>
-                                </div>
-                            </div>
+                        <div className="price-container">
+                                <img src='/img/draw/hairline.webp' className='price-img' alt='3part-img' width={170} /></div>
+                        
                         </td>
 
                         <td className='campaign-price'>76,500(税込)</td>

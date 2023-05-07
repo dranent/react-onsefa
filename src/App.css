@@ -595,8 +595,8 @@ a {
   height: 12px;
   background: #F87DA9;
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 3px;
+  left: 3px;
   border-radius: 100%;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
@@ -711,17 +711,17 @@ input:valid {
 }
 
 .draw-img {
-  max-width: 80px;
+  max-width: 150px;
   flex: 1;
   box-sizing: border-box;
+  border-radius: 20%;
 }
 
 .draw-img-bg {
   background-color: rgba(230, 224, 224, 0.289);
-  border-radius: 20%;
   align-items: center;
-  margin: .5em;
-  padding: .5em;
+  /* margin: .5em;
+  padding: .5em; */
 }
 
 .draw-img-bg-area {
@@ -1090,7 +1090,7 @@ input:valid {
     width: 50%;
   } */
   .price-img {
-    max-width: 140px;
+    max-width: 100px;
   }
 
 
@@ -1432,6 +1432,11 @@ input:valid {
     padding: 1em;
   }
 
+  .table {
+    table-layout: fixed;
+  }
+
+
   .reserve table td {
     display: block;
     margin-top: 0;
@@ -1471,6 +1476,7 @@ input:valid {
     width: 100%;
     max-width: 100%;
     overflow-x: auto;
+    
   }
 
   .triangl {

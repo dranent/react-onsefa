@@ -58,7 +58,7 @@ function Footer() {
       </div>
 
       <div className="TextContainer">
-        <span className="LeftText">アートメイクに関する質問にスタッフが直接お答えします！</span>
+        <span className="LeftText"><h6>アートメイクに関する質問にスタッフが直接お答えします！</h6></span>
         {/* <span className="RightText"></span> */}
       </div>
     </div>

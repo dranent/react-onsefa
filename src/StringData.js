@@ -30,8 +30,7 @@
     ・2017年PHD協会CHIANGMAIボランティア活動\n
     ・2019年大阪女学院大学「国際協力専門」卒業\n
     ・2019年韓国と日本でアートメイクスタート\n
-    ・カンナム DVORA Beauty Clinic卒業\n
-    ・MBC Academy Beauty School 卒業\n
+    ・韓国MBC Academy Beauty School 卒業\n
     ・韓国半永久化粧 DVORA アカデミー卒業\n
     ・韓国半永久化粧 Meijiu アカデミー卒業\n
     ・韓国半永久化粧 ImBeauty アカデミー卒業\n

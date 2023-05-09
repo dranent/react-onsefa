@@ -143,7 +143,7 @@ function PriceClinic() {
                             </div> */}
 
                             <div className="price-container">
-                                <img src='/img/draw/eyeline.webp' className='price-img' alt='3part-img' width={170} /></div>
+                                <img src='/img/draw/eyeline.webp' className='price-img' alt='3part-img' /></div>
                         
 
                         </td>

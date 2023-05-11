@@ -58,7 +58,12 @@
   align-items: center;
   width: 100%;
 }
-
+@media only screen and (max-width: 375px) {
+  .background-image {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+}
 .mens-main-bg2 {
   background-image: url(../../public/img/mens/main-bg2.png);
   background-attachment: fixed;

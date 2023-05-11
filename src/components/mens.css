@@ -61,18 +61,23 @@
 @media screen and (max-width: 768px) {
   .mens-main-bg {
     background-image: url(../../public/img/mens/main-bg-mobile.webp) !important;
+    height: fit-content;
   }
   .mens-main-bg2 {
     background-image: url(../../public/img/mens/main-bg2-mobile.webp) !important;
+    height: fit-content;
   }
   .mens-main-bg3 {
     background-image: url(../../public/img/mens/main-bg3-mobile.webp) !important;
+    height: fit-content;
   }
   .mens-main-bg4 {
     background-image: url(../../public/img/mens/main-bg4-mobile.webp) !important;
+    height: fit-content;
   }
   .mens-main-bg5 {
     background-image: url(../../public/img/mens/main-bg5-mobile.webp) !important;
+    height: fit-content;
   }
 }
 .mens-main-bg2 {

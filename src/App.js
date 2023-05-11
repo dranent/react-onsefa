@@ -18,11 +18,12 @@ import FlowClinic from './components/Flow';
 import GalleryClinic from './components/Gallery';
 import { CEOProfile } from './components/Profile';
 import { QnAAcademy, QnAClinic } from './components/QnA';
-import Access from './components/Access';
+import { Access } from './components/Access';
 import { ReserveClinic } from './components/Reserve';
 import AboutArtist from './components/AboutArtist';
-// import Mens from './components/mens';
+import Mens from './components/mens';
 import Menu from './components/menu';
+import ReservationMens from './components/ReserveMens';
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
       <div id='sefa-top'></div>
       <Routes>
         {/*--- 클리닉 페이지 ---*/}
+        <Route path='*' element={<div>
+          {Header2()}
+        </div>}></Route>
+
         <Route path="/" element={<div>
           {Header2()}
           <MainLogo />
@@ -39,7 +44,7 @@ function App() {
           <div className='text-center marginTop'>
             <img className='triangl' src='/img/triangle3point.png' alt='triangl'></img>
           </div>
-          <Menu/>
+          <Menu />
           <PriceClinic />
           <div className='text-center marginTop'>
             <img className='triangl' src='/img/doctor.webp' alt='triangl'></img>
@@ -51,6 +56,9 @@ function App() {
           <QnAClinic />
           <Access />
           <Footer />
+          <div className='bottom-margin'>
+            <h6> </h6>
+          </div>
         </div>}></Route>
 
         {/*--- 아카데미 페이지 ---*/}
@@ -69,20 +77,28 @@ function App() {
             <QnAAcademy />
             <Access />
             <Footer />
+            <div className='bottom-margin'>
+              <h6> </h6>
+            </div>
           </div>}>
         </Route>
         {/* 멘즈 페이지  */}
-        {/* <Route path='/mens/' element={
+        <Route path='/mens/' element={
           <div>
             <Mens/>
           </div>
         }
         >
-        </Route> */}
+        </Route>
+        
+        <Route path='/mens/res/' element={
+            <>
+            <ReservationMens/>
+            </>
+          }></Route>
+
       </Routes>
-      <div className='bottom-margin'>
-        <h6> </h6>
-      </div>
+
     </>
   );
 }

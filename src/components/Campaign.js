@@ -12,7 +12,7 @@ function Campaign() {
 
             <center className='campaign-banner-box-title '>
 
-                <a className='campaign-banner-box' href="https://www.instagram.com/onclinic_mens/">
+                <a className='campaign-banner-box' href="/mens/">
                     <img className='campaign-banner' src='img/campaign/banner6.webp' alt='grand_open_banner'></img>
                 </a>
             </center>

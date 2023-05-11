@@ -1,0 +1,124 @@
+/* .mens-main-bg5 {
+    background-image: url('../../public/img/mens/main-bg5.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  } */
+.checkbox-label {
+    display: flex !important;
+    flex-direction: row;
+    align-items: baseline;
+}
+.checkbox-label > input:checked {
+    background-color: white;
+}
+.checkbox-label > input {
+    margin-right: 5px;
+}
+
+.mens-dailog-wrap {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mens-dailog-wrap h4 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.mens-dailog-wrap label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mens-dailog-wrap input[type="text"],
+.mens-dailog-wrap input[type="email"] {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mens-dailog-wrap input[type="text"]:focus,
+.mens-dailog-wrap input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.mens-res-btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+.mens-res-btn-wrap button {
+    margin: 10px;  
+}
+
+.mens-res-btn-continue {
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mens-res-btn-continue:hover {
+    background-color: #3e8e41;
+}
+
+.mens-res-btn-back {
+    background-color: #4c60af;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mens-res-btn-back:hover {
+    background-color: #232752;
+}
+
+
+.custom-radio-button {
+    position: relative !important;
+    left: 0px !important;
+    position: absolute;
+    /* opacity: 0; */
+    cursor: pointer;
+}
+
+.custom-radio-button::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .custom-radio-button:checked::before {
+    background-color: #999;
+    transform: translateX(0px);
+    background-color: #920000;
+  }
+
+  .custom-radio-button:hover + .radio::before {
+    background-color: #ccc;
+  }

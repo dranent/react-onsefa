@@ -48,7 +48,7 @@
 } */
 
 .mens-main-bg {
-  background-image: url('../../public/img/mens/main-bg.png');
+  background-image: url(../../public/img/mens/main-bg.webp);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -60,7 +60,7 @@
 }
 
 .mens-main-bg2 {
-  background-image: url('../../public/img/mens/main-bg2.png');
+  background-image: url(../../public/img/mens/main-bg2.png);
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
@@ -71,7 +71,7 @@
   width: 100%;
 }
 .mens-main-bg3 {
-  background-image: url('../../public/img/mens/main-bg3.png');
+  background-image: url(../../public/img/mens/main-bg3.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -83,7 +83,7 @@
   width: 100%;
 }
 .mens-main-bg4 {
-  background-image: url('../../public/img/mens/main-bg4.png');
+  background-image: url(../../public/img/mens/main-bg4.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -95,7 +95,7 @@
   width: 100%;
 }
 .mens-main-bg5 {
-  background-image: url('../../public/img/mens/main-bg5.png');
+  background-image: url(../../public/img/mens/main-bg5.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;

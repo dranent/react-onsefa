@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Dialog from '@mui/material/Dialog';
-import AppBar from '@mui/material/AppBar';
-import { unstable_createMuiStrictModeTheme } from '@mui/material/styles';
+// import AppBar from '@mui/material/AppBar';
+// import { unstable_createMuiStrictModeTheme } from '@mui/material/styles';
 import LinearProgressWithLabel from './LinearProgressWithLabel';
 import { StyledEngineProvider } from '@mui/material/styles';
 
-const theme = unstable_createMuiStrictModeTheme();
+// const theme = unstable_createMuiStrictModeTheme();
 
 export class FormUserDetails2 extends Component {
     continue = e => {

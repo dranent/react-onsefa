@@ -67,7 +67,7 @@ function Mens() {
           </Animator>
         </ScrollPage>
 
-        <ScrollPage>
+        {/* <ScrollPage>
           <Animator animation={batch(Fade(), Sticky())}>
             <div className='mens-define'>
               <h5>専用に開発されたマイクロニードルとインクを用いて、<br />
@@ -76,7 +76,7 @@ function Mens() {
                 Scalp Micro Pigmentationの頭文字を取りSMPと呼ばれています。</h5>
             </div>
           </Animator>
-        </ScrollPage>
+        </ScrollPage> */}
 
 
         <ScrollPage>

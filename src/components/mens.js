@@ -6,7 +6,7 @@ import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import './mens-price.css';
 // import { width } from '@mui/system';
-import { QnAClinic } from './QnA';
+import { QnAClinicForMen } from './QnA';
 import { AccessMens } from './Access';
 
 
@@ -235,7 +235,7 @@ function Mens() {
         <div className='mens-main-bg5'>
 
 
-          <QnAClinic />
+          <QnAClinicForMen />
           <AccessMens />
 
 

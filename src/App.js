@@ -24,6 +24,7 @@ import AboutArtist from './components/AboutArtist';
 import Mens from './components/mens';
 import Menu from './components/menu';
 import ReservationMens from './components/ReserveMens';
+import { ReserveAcademy } from './components/ReserveAcademy';
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
             <TicketContainer />
             <PriceAcademy />
             <QnAAcademy />
+            <ReserveAcademy/>
             <Access />
             <Footer />
             <div className='bottom-margin'>

@@ -3,7 +3,7 @@ import DatePicker from 'react-datepicker';
 import { Table } from 'react-bootstrap';
 import { ja } from "date-fns/esm/locale";
 import { BsCalendarCheck } from "react-icons/bs";
-import ReservationButton from '../components/ReservationButton';
+import { ReservationButton } from '../components/ReservationButton';
 import React, { useState, useRef } from "react";
 
 function ReserveClinic() {

@@ -1097,7 +1097,13 @@ input:valid {
     max-width: 100px;
   }
 
-
+  ul {
+    display: grid;
+    gap: 1rem;
+    font-size: .9rem;
+    list-style: none;
+    padding: 0;
+  }
   
 }
 

@@ -206,6 +206,10 @@ function ReserveClinic() {
                       <input name="category" type="radio" id="category2" value="2回目以降" className="label-radio" />
                       <label htmlFor="category2" className='label-radio-text'>2回目以降</label>
                     </li>
+                    <li className='u-radio'>
+                      <input name="category" type="radio" id="category3" value="同一メニューのリタッチ" className="label-radio" />
+                      <label htmlFor="category3" className='label-radio-text'>同一メニューのリタッチ</label>
+                    </li>
                   </ul>
                 </td>
               </tr>
@@ -561,8 +565,8 @@ function ReserveClinic() {
                     {/* <li className="u-check"><input name="conf[]" type="checkbox" id="conf6" value="アーティストを指名したい（アーティスト名を備考欄にご記入ください。指名料：1500円）" />
                       <label htmlFor="conf6">アーティストを指名したい（アーティスト名を備考欄にご記入ください。指名料：1500円）</label>
                     </li> */}
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf7" value="ユベラ・トコフェロール(ビタミンE)服用注" />
-                      <label htmlFor="conf7">ユベラ・トコフェロール(ビタミンE)服用注</label>
+                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf7" value="ユベラ・トコフェロール(ビタミンE)服用中" />
+                      <label htmlFor="conf7">ユベラ・トコフェロール(ビタミンE)服用中</label>
                     </li>
                     <li className="u-check"><input name="conf[]" type="checkbox" id="conf8" value="持病、皮膚疾患、アレルギー体質" />
                       <label htmlFor="conf8">持病、皮膚疾患、アレルギー体質</label>
@@ -611,6 +615,14 @@ function ReserveClinic() {
                 <td>
                   <input name="coupon" id="coupon" type="text" className="age validate[required]" /></td>
               </tr>
+              <tr>
+                <th>
+                  紹介者のお名前(インスタグラム アカウント名等)
+                </th>
+                <td>
+                  <input name="syoukai" id="syoukai" type="text" className="age validate[required]" /></td>
+              </tr>
+
 
             </tbody>
           </Table>

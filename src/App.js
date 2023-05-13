@@ -55,6 +55,17 @@ function App() {
           <FlowClinic />
           <ReserveClinic />
           <QnAClinic />
+          <DefineAcademy />
+            <CEOProfile />
+            <div className='ticket-area' id='ticket-area'>
+              <center>
+                <img src='/img/チケットシステム2.png' alt='' className='ticket-area-img' width={950} />
+              </center>
+            </div>
+            <TicketContainer />
+            <PriceAcademy />
+            <QnAAcademy />
+            <ReserveAcademy/>
           <Access />
           <Footer />
           <div className='bottom-margin'>

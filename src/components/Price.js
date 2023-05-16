@@ -134,13 +134,20 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
+                        <td>アイライン(モニター1回価格)</td>
+                        <td className='campaign-price'>初めての方におすすめ！お試し価格
+                        <br></br>33,000(税込)</td>
+                        <td className='list-price'>40,000(税込)</td>
+                    </tr>
+
+                    <tr>
+                        <td>アイライン(1回価格)</td>
+                        <td className='campaign-price'>40,000(税込)</td>
+                        <td className='list-price'>55,000(税込)</td>
+                    </tr>
+
+                    <tr>
                         <td><h6>アイライン(モニター2回セット価格)</h6>
-                            {/* <div className='draw-img-bg-area'>
-                                <div className='draw-img-bg'>
-                                    <center>
-                                        <img src='/img/draw/eyeline.webp' className='draw-img' alt='eyeline' /></center>
-                                </div>
-                            </div> */}
 
                             <div className="price-container">
                                 <img src='/img/draw/eyeline.webp' className='price-img' alt='3part-img' /></div>

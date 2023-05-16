@@ -502,6 +502,12 @@ function ReserveClinic() {
                     <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu9" value="他院の施術修正(モニター1回)" />
                       <label htmlFor="kibou-sizyutsu9">他院の施術修正(モニター1回)</label>
                     </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu20" value="アイライン(モニター1回)" />
+                      <label htmlFor="kibou-sizyutsu20">アイライン(モニター1回)</label>
+                    </li>
+                    <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu21" value="アイライン(ー1回)" />
+                      <label htmlFor="kibou-sizyutsu21">アイライン(ー1回)</label>
+                    </li>
                     <li className="u-check"><input name="kibou-sizyutsu[]" type="checkbox" id="kibou-sizyutsu10" value="アイライン(モニター2回セット)" />
                       <label htmlFor="kibou-sizyutsu10">アイライン(モニター2回セット)</label>
                     </li>
@@ -565,9 +571,9 @@ function ReserveClinic() {
                     {/* <li className="u-check"><input name="conf[]" type="checkbox" id="conf6" value="アーティストを指名したい（アーティスト名を備考欄にご記入ください。指名料：1500円）" />
                       <label htmlFor="conf6">アーティストを指名したい（アーティスト名を備考欄にご記入ください。指名料：1500円）</label>
                     </li> */}
-                    <li className="u-check"><input name="conf[]" type="checkbox" id="conf7" value="ユベラ・トコフェロール(ビタミンE)服用中" />
+                    {/* <li className="u-check"><input name="conf[]" type="checkbox" id="conf7" value="ユベラ・トコフェロール(ビタミンE)服用中" />
                       <label htmlFor="conf7">ユベラ・トコフェロール(ビタミンE)服用中</label>
-                    </li>
+                    </li> */}
                     <li className="u-check"><input name="conf[]" type="checkbox" id="conf8" value="持病、皮膚疾患、アレルギー体質" />
                       <label htmlFor="conf8">持病、皮膚疾患、アレルギー体質</label>
                     </li>

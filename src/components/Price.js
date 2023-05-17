@@ -53,7 +53,7 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
-                        <td>眉毛(モニター1回価格)
+                        <td>眉毛(モニター1回価格)お試し
                         <Tooltip text='お試し価格は初めてアートメイクをされる方にお勧めするメニューです。お一人様初回限りの価格です。'>
                                 <button className='tooltip-btn'>お試し価格は?</button>
                             </Tooltip>
@@ -61,7 +61,7 @@ function PriceClinic() {
                                 <img src='/img/price/1part.webp' className='price-img' alt='3part-img' /></div>
                         </td>
 
-                        <td className='campaign-price'>初めての方におすすめ！<br />お試し価格<br />38,000(税込)</td>
+                        <td className='campaign-price'>初めての方におすすめ！<br />38,000(税込)</td>
                         <td className='list-price'>45,000(税込)</td>
                     </tr>
 
@@ -134,8 +134,8 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
-                        <td>アイライン(モニター1回価格)</td>
-                        <td className='campaign-price'>初めての方におすすめ！お試し価格
+                        <td>アイライン(モニター1回価格)お試し</td>
+                        <td className='campaign-price'>初めての方におすすめ！
                         <br></br>33,000(税込)</td>
                         <td className='list-price'>40,000(税込)</td>
                     </tr>
@@ -166,7 +166,7 @@ function PriceClinic() {
                         <td className='list-price'>120,000(税込)</td>
                     </tr>
                     <tr>
-                        <td><h6>リップ(モニター1回価格)</h6>
+                        <td><h6>リップ(モニター1回価格)お試し</h6>
                         <Tooltip text='お試し価格は初めてアートメイクをされる方にお勧めするメニューです。お一人様初回限りの価格です。'>
                                 <button className='tooltip-btn'>お試し価格は?</button>
                             </Tooltip>
@@ -175,12 +175,12 @@ function PriceClinic() {
                                 <img src='/img/draw/LIP.webp' className='price-img' alt='3part-img' /></div>
                         
                         </td>
-                        <td className='campaign-price'>初めての方におすすめ！<br/>お試し価格<br />38,000(税込)</td>
+                        <td className='campaign-price'>初めての方におすすめ！<br/>38,000(税込)</td>
                         <td className='list-price'>45,000(税込)</td>
 
                     </tr>
                     <tr>
-                        <td><h6>リップ(1回価格)</h6>
+                        <td><h6>リップ(モニター1回価格)</h6>
                         </td>
                         <td className='campaign-price'>45,000(税込)</td>
                         <td className='list-price'>65,000(税込)</td>

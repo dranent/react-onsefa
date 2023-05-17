@@ -66,7 +66,7 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
-                        <td>眉毛(1回価格)
+                        <td>眉毛(モニター1回価格)
                         </td>
                         <td className='campaign-price'>45,000(税込)</td>
                         <td className='list-price'>65,000(税込)</td>
@@ -141,7 +141,7 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
-                        <td>アイライン(1回価格)</td>
+                        <td>アイライン(モニター1回価格)</td>
                         <td className='campaign-price'>40,000(税込)</td>
                         <td className='list-price'>55,000(税込)</td>
                     </tr>

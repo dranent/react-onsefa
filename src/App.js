@@ -25,6 +25,7 @@ import Mens from './components/mens';
 import Menu from './components/menu';
 import ReservationMens from './components/ReserveMens';
 import { ReserveAcademy } from './components/ReserveAcademy';
+import { Influencer } from './components/influencer';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           </div>
           <AboutArtist />
           <GalleryClinic />
+          <Influencer/>
           <FlowClinic />
           <ReserveClinic />
           <QnAClinic />

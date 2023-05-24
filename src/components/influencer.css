@@ -1,0 +1,43 @@
+.influencer-area {
+    margin-top: 3em;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.more-button {
+    background-color: #6868689c;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    margin-top: 20px;
+    box-shadow: #6868689c 10px 10px 10px;
+  }
+  
+  .more-button:hover {
+    opacity: 0.8;
+  }
+  
+  .fade-in {
+    animation: fade-in 0.3s ease-in-out;
+}
+  
+.card-container {
+    opacity: 0;
+    transition: opacity 2.0s ease-in-out;
+  }
+  
+  .card-container.show-cards {
+    opacity: 1;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

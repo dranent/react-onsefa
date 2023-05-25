@@ -1,4 +1,4 @@
-function LineButton () {
+export default function LineButton () {
     return (
         <div>
         <center>
@@ -6,11 +6,12 @@ function LineButton () {
             <div onClick={() => {
               window.location.href = 'https://lin.ee/87QWTkV';
             }}>
-              <img src='/img/LINE_Brand_icon.png' className='line-icon' alt='line-icon'></img>
-              <h4 className='line_txt'>LINE相談はこちら</h4>
+              <img src='/img/line.svg' className='line-icon' alt='line-icon'></img>
+              <center><h4 className='line_txt'>VIP 相談</h4></center>
             </div>
           </div>
         </center>
         </div>
     ); 
 }
+

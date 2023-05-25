@@ -1,0 +1,117 @@
+.vip-price {
+    background-color: #f9f6f6;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 5em;
+  }
+  
+  .vip-title {
+    font-size: 32px;
+    text-align: center;
+    color: #292929;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .vip-grade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vip-grade h6 {
+    font-size: 16px;
+    color: #2d2d2d;
+    margin-top: 10px;
+  }
+  .vip-grade > div {
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: gradient-animation 1s linear infinite;
+  }
+  
+  .vip-gold {
+    background-image: linear-gradient(to right, #ffd700, #eb7878);
+    color: #292929;
+  }
+  
+  .vip-platinum {
+    background-image: linear-gradient(to right, #d3d3d3, #08f4b9);
+    color: #292929;
+  }
+  
+  .vip-diamond {
+    background-image: linear-gradient(to right, #d9affa, #7d86fe);
+    color: #292929;
+  }
+  
+  
+  .vip-grade h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+.vip-gold h2 {
+  color: #ffd700; /* 골드 등급에 대한 텍스트 색상 */
+  font-weight: bold;
+}
+
+.vip-platinum h2 {
+  color: #0892f4; /* 플래티넘 등급에 대한 텍스트 색상 */
+  font-weight: bold;
+}
+
+.vip-diamond h2 {
+  color: #6616ef; /* 다이아몬드 등급에 대한 텍스트 색상 */
+  font-weight: bold;
+  text-shadow: 0px 0px 10px #fefefe;
+
+}
+
+  .vip-grade p {
+    font-size: 20px;
+    color: #fcfcfc;
+  }
+  
+  /* 모바일 버전에 대한 스타일 */
+  @media (max-width: 600px) {
+    .vip-grade > div {
+      max-width: 300px;
+    }
+  
+    .vip-title {
+      font-size: 24px;
+    }
+  
+    .vip-grade h2 {
+      font-size: 20px;
+    }
+  
+    .vip-grade p {
+      font-size: 18px;
+    }
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+      background-position: 100% 50%;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      background-position: 0% 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+  

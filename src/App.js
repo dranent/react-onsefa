@@ -26,6 +26,7 @@ import Menu from './components/menu';
 import ReservationMens from './components/ReserveMens';
 import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
+import VIPPrice from './components/vip-price';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
           </div>
           <Menu />
           <PriceClinic />
+          <VIPPrice/>
           <div className='text-center marginTop'>
             <img className='triangl' src='/img/doctor.webp' alt='triangl'></img>
           </div>

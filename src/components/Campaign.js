@@ -19,17 +19,19 @@ function Campaign() {
 
             <center className='campaign-banner-box-title '>
 
+<a className='campaign-banner-box' href="https://lin.ee/87QWTkV">
+    <img className='campaign-banner' src='img/campaign/banner7.webp' alt='5peroff_banner'></img>
+</a>
+</center>
+
+            <center className='campaign-banner-box-title '>
+
                 <a className='campaign-banner-box' href="#price">
                     <img className='campaign-banner' src='img/campaign/banner1.webp' alt='5peroff_banner'></img>
                 </a>
             </center>
 
-            <center className='campaign-banner-box-title '>
-
-                <a className='campaign-banner-box' href="#price">
-                    <img className='campaign-banner' src='img/campaign/banner2.webp' alt='5peroff_banner'></img>
-                </a>
-            </center>
+ 
 
             <center className='campaign-banner-box-title '>
 

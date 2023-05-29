@@ -27,6 +27,7 @@ import ReservationMens from './components/ReserveMens';
 import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
 import VIPPrice from './components/vip-price';
+import YouTubePlayer from './components/YouTubePlayer';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/" element={<div>
           {Header2()}
           <MainLogo />
+          <YouTubePlayer/>
           <Campaign />
           <NoticesList />
           <DefineClinic />

@@ -12,7 +12,7 @@ export function Access() {
                     <h4>On Clinic & Sefa Artmake Academy</h4>
                     <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6>
                     <h6>営業時間 </h6>
-                    <h6>日月火水木：11:00-20:00</h6>
+                    <h6>日火水木：11:00-20:00</h6>
                     <h6>金土：10:00-20:00</h6>
                     <h2>
                         <AiFillPhone />
@@ -35,7 +35,7 @@ export function Access() {
                             </tr>
                             <tr>
                                 <td>11:00 - 20:00</td>
-                                <td key={0}>●</td>
+                                <td key={0}>X</td>
                                 <td key={1}>●</td>
                                 <td key={2}>●</td>
                                 <td key={3}>●</td>
@@ -46,7 +46,7 @@ export function Access() {
                             </tr>
                             <tr>
                                 <td>10:00 - 20:00</td>
-                                <td key={0}></td>
+                                <td key={0}>X</td>
                                 <td key={1}></td>
                                 <td key={2}></td>
                                 <td key={3}></td>
@@ -88,7 +88,7 @@ export function AccessMens() {
                     <h4>On Clinic & Sefa Artmake Academy</h4>
                     <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6>
                     <h6>営業時間 </h6>
-                    <h6>日月火水木：11:00-20:00</h6>
+                    <h6>日火水木：11:00-20:00</h6>
                     <h6>金土：10:00-20:00</h6>
                     <h2>
                         <AiFillPhone />

@@ -428,9 +428,10 @@ a {
   background-color: #FFF;
   position: relative;
   display: inline-block;
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   background-repeat: no-repeat;
+  margin-bottom: 3em;
 }
 
 .main-logo-area {
@@ -1391,9 +1392,6 @@ input:valid {
     padding: 5em 10em 10em;
   }
 }
-
-
-
 
 @media only screen and (max-width: 600px) {
   .main-logo {

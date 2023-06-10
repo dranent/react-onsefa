@@ -1,0 +1,17 @@
+.directors-area {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.directors {
+    width: 50%;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .directors {
+        padding: 2px;
+    }
+}

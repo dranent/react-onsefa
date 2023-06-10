@@ -28,6 +28,7 @@ import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
 import VIPPrice from './components/vip-price';
 import YouTubePlayer from './components/YouTubePlayer';
+import Directors from './components/Directors.js'
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/" element={<div>
           {Header2()}
           <MainLogo />
+          <Directors/>
           <YouTubePlayer/>
           <Campaign />
           <NoticesList />
@@ -62,7 +64,7 @@ function App() {
           <ReserveClinic />
           <QnAClinic />
           <DefineAcademy />
-            <CEOProfile />
+            {/* <CEOProfile /> */}
             <div className='ticket-area' id='ticket-area'>
               <center>
                 <img src='/img/チケットシステム2.png' alt='' className='ticket-area-img' width={950} />

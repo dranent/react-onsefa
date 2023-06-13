@@ -54,9 +54,9 @@ function App() {
           <Menu />
           <PriceClinic />
           <VIPPrice/>
-          <div className='text-center marginTop'>
+          {/* <div className='text-center marginTop'>
             <img className='triangl' src='/img/doctor.webp' alt='triangl'></img>
-          </div>
+          </div> */}
           <AboutArtist />
           <GalleryClinic />
           <Influencer/>

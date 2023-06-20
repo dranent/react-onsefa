@@ -28,7 +28,8 @@ import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
 import VIPPrice from './components/vip-price';
 import YouTubePlayer from './components/YouTubePlayer';
-import Directors from './components/Directors.js'
+import Directors from './components/Directors.js';
+import Partner from './components/Partner.js';
 
 function App() {
   return (
@@ -118,7 +119,15 @@ function App() {
             </>
           }></Route>
 
+        <Route path='/partner/' element={
+                    <>
+                    <Partner/>
+                    </>
+                  }></Route>
+
       </Routes>
+
+      
 
     </>
   );

@@ -50,16 +50,6 @@ function AboutArtist() {
         </div>
         <div className="AboutArtistPhotoContainer">
           <img
-            src="/img/artist/kano.webp"
-            alt="About Artist 5"
-            className="AboutArtistPhoto"
-          />
-          <div className="AboutArtistTextContainer">
-            <span>Kano</span>
-          </div>
-        </div>
-        <div className="AboutArtistPhotoContainer">
-          <img
             src="/img/artist/sora.webp"
             alt="About Artist 6"
             className="AboutArtistPhoto"

@@ -26,7 +26,7 @@ function Header2() {
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed='top' >
             <Container className="container-width">
                 {/* <Image src="/sefa-logo.svg" width={"100px"}></Image> */}
-                <Navbar.Brand href="/" className={onClinicBrandClass}>On Clinic</Navbar.Brand>&　
+                <Navbar.Brand href="/" className={onClinicBrandClass}>On Artmake</Navbar.Brand>&　
                 <Navbar.Brand href="https://www.xenaclinic.co.kr/" className={sefaAcademyBrandClass}>ジェナダイエット</Navbar.Brand>
                 
                 {/* <Navbar.Brand href="/mens/" className="navbar-formen">for men</Navbar.Brand> */}
@@ -40,7 +40,7 @@ function Header2() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/">Top</Nav.Link>
-                        <Nav.Link href="/#define">ON Clinicについて</Nav.Link>
+                        <Nav.Link href="/#define">ON Artmakeについて</Nav.Link>
                         
                         {/* <Nav.Link href="#artist">アーティスト</Nav.Link> */}
                         <Nav.Link href="#price">料金表</Nav.Link>

@@ -7,7 +7,7 @@ function PriceClinic() {
     return (
         <div className="price-table" id='price'>
             <div>
-                <h4>ON CLINIC 施術料金表</h4>
+                <h4>ON ARTMAKE 施術料金表</h4>
                 <h6>単位:円(税込)   ※ 33,000以下の施術はキャンペーン適用外となります。</h6>
                 <Tooltip text={monitorPrice}>
                     <button className='tooltip-btn'>モニターとは?</button>

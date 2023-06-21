@@ -181,7 +181,7 @@ function ReserveClinic() {
                   <ul className='list-inline'>
                     <li className='u-radio'>
                       <input name="res_category" type="radio" id="res_category1" value="Clinic" className="label-radio" />
-                      <label htmlFor="res_category1" className='label-radio-text'>Clinic</label>
+                      <label htmlFor="res_category1" className='label-radio-text'>Artmake</label>
                     </li>
                     <li className='u-radio'>
                       <input name="res_category" type="radio" id="res_category2" value="Academy" className="label-radio" />
@@ -646,7 +646,7 @@ function ReserveClinic() {
           <div className="form-privacy">
             <h3 className="form-privacy_title">プライバシーポリシー</h3>
             <div className="form-privacy_inner scroll">
-              <p>On Clinic 銀座医院（以下「当クリニック」といいます。）は、お客様のプライバシー・個人情報（以下、個人情報と称します）を保護し、ご提供いただいた個人情報の取扱いについて、最大限の注意を払います。個人情報の利用には利用目的を特定し、特定された目的以外の利用はいたしません。</p>
+              <p>On Artmake 銀座医院（以下「当クリニック」といいます。）は、お客様のプライバシー・個人情報（以下、個人情報と称します）を保護し、ご提供いただいた個人情報の取扱いについて、最大限の注意を払います。個人情報の利用には利用目的を特定し、特定された目的以外の利用はいたしません。</p>
               <dl>
                 <dt>方針1</dt>
                 <dd>すべての事業で取扱う個人情報及び従業者等の個人情報の取扱いに関し、個人情報の取扱いに関する法令、国が定める指針その他の規範を遵守致します。</dd>
@@ -664,7 +664,7 @@ function ReserveClinic() {
                 <dd>施術前後の写真撮影や施術中の動画撮影、およびWEBサイト、雑誌広、SNS広告の公開のご協力を頂けることを条件に、 モニター価格で治療をお受けいただけます。</dd>
               </dl>
               <p>個人情報の取扱いに関するご相談・苦情について<br />当クリニックの個人情報の取扱いに関するご相談や苦情等のお問い合わせについては、 下記の窓口までご連絡ください。</p>
-              <p>［お問い合わせ先］<br />On Clinic<br />電話：03-5579-9319　受付時間：日火水木11:00～20:00、金土10:00～20:00</p>
+              <p>［お問い合わせ先］<br />On Artmake<br />電話：03-5579-9319　受付時間：日火水木11:00～20:00、金土10:00～20:00</p>
             </div>
           </div>
           <div className="form-privacy">

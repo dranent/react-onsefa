@@ -5,7 +5,7 @@ function FlowClinic () {
       <div className='u-layout__inner'>
 
         <div className='flow-title'>
-          <h4>On Clinic 施術の流れ</h4>
+          <h4>On Artmake 施術の流れ</h4>
         </div>
 
         <div className='flow-div'>

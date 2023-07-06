@@ -27,7 +27,7 @@ import ReservationMens from './components/ReserveMens';
 import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
 import VIPPrice from './components/vip-price';
-import YouTubePlayer from './components/YouTubePlayer';
+// import YouTubePlayer from './components/YouTubePlayer';
 import Directors from './components/Directors.js';
 import Partner from './components/Partner.js';
 
@@ -45,7 +45,7 @@ function App() {
           {Header2()}
           <MainLogo />
           <Directors/>
-          <YouTubePlayer/>
+          {/* <YouTubePlayer/> */}
           <Campaign />
           <NoticesList />
           <DefineClinic />

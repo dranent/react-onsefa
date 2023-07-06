@@ -41,7 +41,7 @@ function Campaign() {
             </center>
 
             <div className="reservation-message black-text">
-                <p>ご一緒にオープンイベントにどうぞ！</p>
+                {/* <p>ご一緒にオープンイベントにどうぞ！</p> */}
                 <p>ご予約はお早めに！</p>
                 {/* <Treatment></Treatment> */}
             </div>

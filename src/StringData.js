@@ -6,16 +6,16 @@
 
     const ceoCv = `・DVORA BEAUTY CLINIC出身 \n・前DVORA JAPAN代表 \n・現Sefa beauty academy代表`;
 
-    const define = `ON Clinicは\n“Just for you” を目指すクリニックです。`;
-    const defineIntroduction = `ON Clinicは韓国技術を基盤としたアートメイク専門クリニックです。こだわりPOINTは日本人にあったデザインやオリジナル色素を使用しお客様のニーズに合わせた技術をご提供いたします。
-    他クリニックとの差別化を図って東洋人の肌に合うオリジナル色素を大切に選んでおります。最新技術と最新マシーンを使って痛みやダウンタイムを最小限にし、定着をより良くさせて頂きます。`;
+    const define = `ON Clinicは\n“Just for you” を目指すアートメイクです。`;
+    const defineIntroduction = `ON Clinicは韓国技術を基盤としたアートメイク専門アートメイクです。こだわりPOINTは日本人にあったデザインやオリジナル色素を使用しお客様のニーズに合わせた技術をご提供いたします。
+    他アートメイクとの差別化を図って東洋人の肌に合うオリジナル色素を大切に選んでおります。最新技術と最新マシーンを使って痛みやダウンタイムを最小限にし、定着をより良くさせて頂きます。`;
 
     const defineSefa = `Sefa Artmake Academyは\n“ONLY FOR YOU”`;
     const defineIntroductionSefa = `SEFA ARTMAKE ACADEMYでは受講生ひとりひとりの希望とお悩みに答えれるよう構築されております。
     「SEFA Curriculum」をベースに初心者から経験者までわかりやすく指導を行い、練習します。
     「ちゃんとできてるのかな」「これで合ってるのかな」「もっと教えてもらいたい」「スキルアップしたい」方はお任せください！
     SEFAでは韓国最新技術を日本人に合う形で投入し教育を実施いたします。
-    独自チケット制度で受けたい項目を気楽に選択でき、クリニック内で行う「Demonstration」もいつでも見守りの元できます。
+    独自チケット制度で受けたい項目を気楽に選択でき、アートメイク内で行う「Demonstration」もいつでも見守りの元できます。
     本アカデミーは「Original」マシーン、ニードル、色素等の販売を通して皆さんのアートメイクキャリアを応援します。`;
 
     const otherClinic = `これからアートメイク運営を考えている病院に出張教育可能です。\n

@@ -29,14 +29,14 @@ function Mens() {
         <ScrollPage >
           <Animator animation={ZoomInScrollOut}>
 
-            <span style={{ fontSize: "10vw" }}>ON Clinic</span>
+            <span style={{ fontSize: "10vw" }}>ON Artmake</span>
           </Animator>
         </ScrollPage>
 
         <div className='mens-main-bg2'></div>
         <ScrollPage>
           <Animator animation={FadeUp}>
-            <span style={{ fontSize: "12vw" }}>ARTMAKE</span>
+            <span style={{ fontSize: "12vw" }}>For men</span>
           </Animator>
         </ScrollPage>
 
@@ -59,7 +59,7 @@ function Mens() {
 
         <ScrollPage>
           <Animator animation={batch(Fade(), Sticky())}>
-            <span style={{ fontSize: "4vw" }}>ON Clinic for menは男性のために</span>
+            <span style={{ fontSize: "4vw" }}>ON Artmake for menは男性のために</span>
             <br />
             <span style={{ fontSize: "5vw" }}>
               施術をさせていただいてます。
@@ -123,7 +123,7 @@ function Mens() {
 
         <div className="price-table" id='price'>
           <div>
-            <h4>ON CLINIC FOR MEN 施術料金表</h4>
+            <h4>ON ARTMAKE FOR MEN 施術料金表</h4>
             <h6>単位:円(税込)</h6>
           </div>
           <div>

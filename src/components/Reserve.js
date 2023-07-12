@@ -203,12 +203,15 @@ function ReserveClinic() {
                       <label htmlFor="category1" className='label-radio-text'>初めて</label>
                     </li>
                     <li className='u-radio'>
-                      <input name="category" type="radio" id="category2" value="2回目以降" className="label-radio" />
-                      <label htmlFor="category2" className='label-radio-text'>2回目以降</label>
+                      <input name="category" type="radio" id="category2" value="リタッチ(同部位)" className="label-radio" />
+                      <label htmlFor="category2" className='label-radio-text'>リタッチ(同部位)</label>
                     </li>
                     <li className='u-radio'>
-                      <input name="category" type="radio" id="category3" value="同一メニューのリタッチ" className="label-radio" />
-                      <label htmlFor="category3" className='label-radio-text'>同一メニューのリタッチ</label>
+                      <input name="category" type="radio" id="category3" value="その他" className="label-radio" />
+                      <label htmlFor="category3" className='label-radio-text'>その他
+          
+                      </label>
+                      <input name="sonota" id="sonota" type="text" className="sonota" placeholder="" />            
                     </li>
                   </ul>
                 </td>

@@ -147,6 +147,7 @@ to {
 .notice {
   text-align: center;
   margin: 10px 0;
+  margin-bottom: 5em;
 }
 
 .notice::before {
@@ -183,6 +184,10 @@ to {
   text-decoration: none;
 }
 
+.sonota {
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 600px) {
   .notices-container {
     font-size: 16px;
@@ -195,6 +200,10 @@ to {
   .notices-list li {
     font-size: 16px;
     line-height: 1.5;
+  }
+
+  .sonota {
+    margin-left: 10px;
   }
 }
 

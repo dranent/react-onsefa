@@ -4,8 +4,8 @@ const NoticesList = () => {
 
     const notices = [
         {
-            text: 'GLAMで紹介していただきました。',
-            url: 'https://www.glam.jp/artmake/area/tokyo',
+            text: '',
+            url: '',
         },
         // {
         //     text: 'React Nativeアプリがリリースされました。',

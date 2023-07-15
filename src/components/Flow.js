@@ -21,7 +21,7 @@ function FlowClinic () {
             <h5 className='flow-step'>STEP 2</h5>
             <img src='/img/on-flow/問診.webp' alt='' className='img-boder img-resize' />
             <h6 className='flow-text'>
-            問診、同意書、診察
+            問診、同意書
             </h6>
           </div>
 
@@ -29,7 +29,7 @@ function FlowClinic () {
             <h5 className='flow-step'>STEP 3</h5>
             <img src='/img/on-flow/カウンセリング.webp' alt='' className='img-boder img-resize' />
             <h6 className='flow-text'>
-              カウンセリング
+              カウンセリング、デザイン
             </h6>
           </div>
 
@@ -37,25 +37,25 @@ function FlowClinic () {
         <div className='flow-div'>
           <div className='flow-contents'>
             <h5 className='flow-step'>STEP 4</h5>
-            <img src='/img/on-flow/デザイン.webp' alt='' className='img-boder img-resize' />
+            <img src='/img/on-flow/決済.webp' alt='' className='img-boder img-resize' />
             <h6 className='flow-text'>
-            デザイン
+            決済
             </h6>
           </div>
 
           <div className='flow-contents'>
             <h5 className='flow-step'>STEP 5</h5>
-            <img src='/img/on-flow/施術.webp' alt='' className='img-boder img-resize' />
+            <img src='/img/on-flow/デザイン.webp' alt='' className='img-boder img-resize' />
             <h6 className='flow-text'>
-            施術
+            診察
             </h6>
           </div>
 
           <div className='flow-contents'>
             <h5 className='flow-step'>STEP 6</h5>
-            <img src='/img/on-flow/決済.webp' alt='' className='img-boder img-resize' />
+            <img src='/img/on-flow/施術.webp' alt='' className='img-boder img-resize' />
             <h6 className='flow-text'>
-            決済
+            麻酔、施術
             </h6>
           </div>
 

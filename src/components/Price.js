@@ -54,7 +54,7 @@ function PriceClinic() {
 
                     <tr>
                         <td>眉毛(モニター1回価格)お試し
-                        <Tooltip text='お試し価格は初めてアートメイクをされる方にお勧めするメニューです。お一人様初回限りの価格です。'>
+                            <Tooltip text='お試し価格は初めてアートメイクをされる方にお勧めするメニューです。お一人様初回限りの価格です。'>
                                 <button className='tooltip-btn'>お試し価格は?</button>
                             </Tooltip>
                             <div className="price-container">
@@ -136,7 +136,7 @@ function PriceClinic() {
                     <tr>
                         <td>アイライン(モニター1回価格)お試し</td>
                         <td className='campaign-price'>初めての方におすすめ！
-                        <br></br>33,000(税込)</td>
+                            <br></br>33,000(税込)</td>
                         <td className='list-price'>40,000(税込)</td>
                     </tr>
 
@@ -151,7 +151,7 @@ function PriceClinic() {
 
                             <div className="price-container">
                                 <img src='/img/draw/eyeline.webp' className='price-img' alt='3part-img' /></div>
-                        
+
 
                         </td>
                         <td className='campaign-price'>54,000(税込)</td>
@@ -167,15 +167,15 @@ function PriceClinic() {
                     </tr>
                     <tr>
                         <td><h6>リップ(モニター1回価格)お試し</h6>
-                        <Tooltip text='お試し価格は初めてアートメイクをされる方にお勧めするメニューです。お一人様初回限りの価格です。'>
+                            <Tooltip text='お試し価格は初めてアートメイクをされる方にお勧めするメニューです。お一人様初回限りの価格です。'>
                                 <button className='tooltip-btn'>お試し価格は?</button>
                             </Tooltip>
 
                             <div className="price-container">
                                 <img src='/img/draw/LIP.webp' className='price-img' alt='3part-img' /></div>
-                        
+
                         </td>
-                        <td className='campaign-price'>初めての方におすすめ！<br/>38,000(税込)</td>
+                        <td className='campaign-price'>初めての方におすすめ！<br />38,000(税込)</td>
                         <td className='list-price'>45,000(税込)</td>
 
                     </tr>
@@ -224,9 +224,9 @@ function PriceClinic() {
                     </tr>
                     <tr>
                         <td><h6>ヘアライン(モニター2回セット価格)</h6>
-                        <div className="price-container">
+                            <div className="price-container">
                                 <img src='/img/draw/hairline.webp' className='price-img' alt='3part-img' width={170} /></div>
-                        
+
                         </td>
 
                         <td className='campaign-price'>76,500(税込)</td>
@@ -257,6 +257,40 @@ function PriceClinic() {
             </Table>
 
             <h6>OPEN CAMPAIGN 価格の有効期間 : 2023年3月20日~2024年3月19日</h6>
+
+
+            <Table responsive striped bordered style={{marginTop : 20 }}>
+                <tbody>
+
+                    <tr>
+                        <td><h6>麻酔料金(代別)</h6></td>
+                        <td>価格</td>
+                    </tr>
+                    <tr>
+                        <td><h5>クリーム表面麻酔</h5></td>
+                    </tr>
+                    <tr>
+                        <td><h6>眉、リップ</h6></td>
+                        <td>3,300円(税込)</td>
+                    </tr>
+                    <tr>
+                       <td><h6>ヘアライン</h6></td> 
+                       <td>5,500円(税込)</td>
+                    </tr>
+                    <tr>
+                        <td colSpan={2}>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h5>ブロック注射</h5></td>
+                    </tr>
+                    <tr>
+                        <td><h6>一箇所</h6></td>
+                        <td>5,500円(税込)</td>
+                    </tr>
+                </tbody>
+            </Table>
         </div>
     )
 }

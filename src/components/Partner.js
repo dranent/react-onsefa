@@ -33,7 +33,7 @@ const Partner = () => {
 
                 <p>
                     お問い合わせ先<br /><br/>
-                    株式会社SEFA ON CLINIC <br />
+                    株式会社SEFA ON Artmake <br />
                     担当　竹安<br />
                     <a href="tel:08071856458">080-7185-6458</a><br/>
                    sefa.takeyasu@gmail.com<br />

@@ -37,6 +37,7 @@
     "react-scroll": "^1.8.8",
     "react-scroll-motion": "^0.3.2",
     "react-scroll-snap": "^1.0.0",
+    "react-select": "^5.7.4",
     "react-simple-image-slider": "^2.4.1",
     "react-slick": "^0.29.0",
     "react-snap": "^1.23.0",

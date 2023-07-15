@@ -14,6 +14,40 @@ function PriceClinic() {
                 </Tooltip>
                 <br></br>
             </div>
+
+            <Table responsive striped bordered style={{marginTop : 20 }}>
+                <tbody>
+
+                    <tr>
+                        <td><h6>麻酔料金(代別)</h6></td>
+                        <td>価格</td>
+                    </tr>
+                    <tr>
+                        <td><h5>クリーム表面麻酔</h5></td>
+                    </tr>
+                    <tr>
+                        <td><h6>眉、リップ</h6></td>
+                        <td>3,300円(税込)</td>
+                    </tr>
+                    <tr>
+                       <td><h6>ヘアライン</h6></td> 
+                       <td>5,500円(税込)</td>
+                    </tr>
+                    <tr>
+                        <td colSpan={2}>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h5>ブロック注射</h5></td>
+                    </tr>
+                    <tr>
+                        <td><h6>一箇所</h6></td>
+                        <td>5,500円(税込)</td>
+                    </tr>
+                </tbody>
+            </Table>
+
             <Table responsive striped bordered>
                 <tbody>
 
@@ -259,38 +293,7 @@ function PriceClinic() {
             <h6>OPEN CAMPAIGN 価格の有効期間 : 2023年3月20日~2024年3月19日</h6>
 
 
-            <Table responsive striped bordered style={{marginTop : 20 }}>
-                <tbody>
 
-                    <tr>
-                        <td><h6>麻酔料金(代別)</h6></td>
-                        <td>価格</td>
-                    </tr>
-                    <tr>
-                        <td><h5>クリーム表面麻酔</h5></td>
-                    </tr>
-                    <tr>
-                        <td><h6>眉、リップ</h6></td>
-                        <td>3,300円(税込)</td>
-                    </tr>
-                    <tr>
-                       <td><h6>ヘアライン</h6></td> 
-                       <td>5,500円(税込)</td>
-                    </tr>
-                    <tr>
-                        <td colSpan={2}>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><h5>ブロック注射</h5></td>
-                    </tr>
-                    <tr>
-                        <td><h6>一箇所</h6></td>
-                        <td>5,500円(税込)</td>
-                    </tr>
-                </tbody>
-            </Table>
         </div>
     )
 }

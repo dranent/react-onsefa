@@ -4,8 +4,8 @@ const NoticesList = () => {
 
     const notices = [
         {
-            text: '',
-            url: '',
+            text: '8月から施術場所が変わります。詳しいはこちら',
+            url: '#access',
         },
         // {
         //     text: 'React Nativeアプリがリリースされました。',

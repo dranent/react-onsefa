@@ -30,7 +30,7 @@ export class FormUserDetails4 extends Component {
                         >
                             <LinearProgressWithLabel value={70} />
                             <div className='mens-dailog-wrap'>
-                                <h4>ON Clinic for men ご予約</h4>
+                                <h4>ON Artmake for men ご予約</h4>
                                 <div className="checkbox-group">
                                     <p>確認事項</p>
                                     <p>あてはまるものにチェックしてください</p>

@@ -45,7 +45,7 @@ export class FormUserDetails5 extends Component {
                         >
                             <LinearProgressWithLabel value={90} />
                             <div className='mens-dailog-wrap'>
-                                <h4>ON Clinic for men ご予約</h4>
+                                <h4>ON Artmake for men ご予約</h4>
                                 <div className='mens-hope-day-time'>
                                     <p>予約内容</p>
 

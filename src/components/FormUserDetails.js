@@ -26,7 +26,7 @@ export class FormUserDetails extends Component {
             >
               <LinearProgressWithLabel value={0} />
               <div className='mens-dailog-wrap'>
-                <h4>ON Clinic for men ご予約</h4>
+                <h4>ON Artmake for men ご予約</h4>
                 <label htmlFor="surname">姓</label>
                 <input type="text" id="surname" className="mens-surname" required onChange={handleChange('firstName')} value={values.firstName}/>
                 <label htmlFor="given-name">名</label>

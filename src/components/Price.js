@@ -302,7 +302,7 @@ function PriceAcademy() {
     return (
         <div className="price-table" id='price'>
             <div>
-                <h4>SEFA Artmake Academy 料金表</h4>
+                <h4>SEIWA Artmake Academy 料金表</h4>
                 <h6>(単位:円(税込))</h6>
             </div>
             <Table responsive striped bordered>

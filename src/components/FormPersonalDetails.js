@@ -31,7 +31,7 @@ export class FormUserDetails2 extends Component {
                         >
                             <LinearProgressWithLabel value={30} />
                             <div className='mens-dailog-wrap'>
-                                <h4>ON Clinic for men ご予約</h4>
+                                <h4>ON Artmake for men ご予約</h4>
                                 <label htmlFor="birthday">生年月日</label>
                                 <div className="mens-birthday">
                                     <select id="birthday-year" name="birthday-year" onChange={handleChange('birthdayYear')} value={values.birthdayYear}>

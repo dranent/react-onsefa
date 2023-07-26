@@ -9,7 +9,7 @@ export function Access() {
             <Container className='text-center access' id='access'>
                 <Row>
                     <h4>ACCESS</h4>
-                    <h4>On Artmake & Sefa Artmake Academy</h4>
+                    <h4>On Artmake & SEIWA Artmake Academy</h4>
                     {/* <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6> */}
                     <h6>営業時間 </h6>
                     <h6>水木金土日：10:00-19:00</h6>
@@ -105,7 +105,7 @@ export function AccessMens() {
             <Container className='text-center access' id='access'>
                 <Row>
                     <h4>ACCESS</h4>
-                    <h4>On Clinic & Sefa Artmake Academy</h4>
+                    <h4>On Artmake & SEIWA Artmake Academy</h4>
                     {/* <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6> */}
                     <h6>営業時間 </h6>
                     <h6>水木金土日：10:00-19:00</h6>

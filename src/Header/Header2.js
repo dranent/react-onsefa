@@ -50,7 +50,7 @@ function Header2() {
                         <Nav.Link href="#reserve" >予約</Nav.Link>
                         <Nav.Link href="#qna-a" >よくある質問</Nav.Link>
                         <Nav.Link href="#access">ACCESS</Nav.Link>
-                        <Nav.Link href="/academy/">SEIWAについて</Nav.Link>
+                        <Nav.Link href="/academy/">SEFAについて</Nav.Link>
                         {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">

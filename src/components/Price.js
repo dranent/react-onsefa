@@ -54,12 +54,12 @@ function PriceClinic() {
                     <tr>
                         <td><h6>施術メニュー</h6></td>
 
-                        <td className='campaign-price'>OPEN CAMPAIGN 価格</td>
+                        <td className='campaign-price'>CAMPAIGN 価格</td>
                         <td>定価</td>
                     </tr>
 
                     <tr>
-                        <td>ホクロ (モニター1回価格)
+                        <td>ホクロ (モニター1箇所) 
                             <div className="price-container">
                                 <img src='/img/price/hokuro.webp' className='price-img' alt='3part-img' /></div>
                         </td>
@@ -69,25 +69,25 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
-                        <td>1部位 (モニター1回価格) 3分割
+                        <td>1部位 (モニター1回) 3分割 メンテナンスのみ予約可能
                             <div className="price-container">
                                 <img src='/img/price/3part.webp' className='price-img' alt='3part-img' /></div>
                         </td>
-                        <td className='campaign-price'>15,000(税込)</td>
-                        <td className='campaign-price'>初めての方におすすめ！</td>
+                        <td className='campaign-price'>20,000(税込)</td>
+                        <td className='list-price'>25,000(税込)</td>
                     </tr>
                     <tr>
-                        <td>1部位 (モニター1回価格) 2分割
+                        <td>1部位 (モニター1回) 2分割 メンテナンスすのみ予約可能
                             <div className="price-container">
                                 <img src='/img/price/2part.webp' className='price-img' alt='3part-img' /></div>
                         </td>
 
-                        <td className='campaign-price'>25,000(税込)</td>
+                        <td className='campaign-price'>30,000(税込)</td>
                         <td className='list-price'>35,000(税込)</td>
                     </tr>
 
                     <tr>
-                        <td>眉毛(モニター1回価格)お試し
+                        <td>眉毛(モニター1回)お試し
                             <Tooltip text='お試し価格は初めてアートメイクをされる方にお勧めするメニューです。お一人様初回限りの価格です。'>
                                 <button className='tooltip-btn'>お試し価格は?</button>
                             </Tooltip>
@@ -100,7 +100,7 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
-                        <td>眉毛(モニター1回価格)
+                        <td>眉毛(モニター1回)
                         </td>
                         <td className='campaign-price'>45,000(税込)</td>
                         <td className='list-price'>65,000(税込)</td>
@@ -109,7 +109,7 @@ function PriceClinic() {
 
 
                     <tr>
-                        <td>眉毛(モニター2回セット価格)
+                        <td>眉毛(モニター2回セット)
                             <div className="price-container">
                                 <img src='/img/price/1part.webp' className='price-img' alt='3part-img' /></div>
                         </td>
@@ -118,7 +118,7 @@ function PriceClinic() {
 
                     </tr>
                     <tr>
-                        <td><h6>眉毛 (2回セット価格)</h6>
+                        <td><h6>眉毛 (2回セット)</h6>
                             <div className='draw-img-bg-area'>
                                 {/* <div className='draw-img-bg'>
                                     <h6>ナチュラル</h6>
@@ -146,7 +146,7 @@ function PriceClinic() {
 
                     <tr>
                         <td>
-                            <h4 className='another-hospital-txt'>他院の施術リタッチ(モニター1回価格)</h4>
+                            <h4 className='another-hospital-txt'>他院の施術リタッチ(モニター1回)</h4>
                             <Tooltip text='他院にて施術された方で、軽い修正や色を足したい方の特別１回メンテナンスメニューです。お一人様初回限りの価格です。'>
                                 <button className='tooltip-btn'>他院のリタッチとは?</button>
                             </Tooltip>
@@ -157,7 +157,7 @@ function PriceClinic() {
                     </tr>
                     <tr>
                         <td>
-                            <h4 className='another-hospital-txt'>他院の施術修正(モニター1回価格)</h4>
+                            <h4 className='another-hospital-txt'>他院の施術修正(モニター1回)</h4>
                             <Tooltip text='他院で施術してデザインの変更または色改善をしたい方の1回料金です。お一人様初回限りの価格です。'>
                                 <button className='tooltip-btn'>他院の修正とは?</button>
                             </Tooltip>
@@ -168,20 +168,20 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
-                        <td>アイライン(モニター1回価格)お試し</td>
+                        <td>アイライン(モニター1回)お試し</td>
                         <td className='campaign-price'>初めての方におすすめ！
                             <br></br>33,000(税込)</td>
                         <td className='list-price'>40,000(税込)</td>
                     </tr>
 
                     <tr>
-                        <td>アイライン(モニター1回価格)</td>
+                        <td>アイライン(モニター1回)</td>
                         <td className='campaign-price'>40,000(税込)</td>
                         <td className='list-price'>55,000(税込)</td>
                     </tr>
 
                     <tr>
-                        <td><h6>アイライン(モニター2回セット価格)</h6>
+                        <td><h6>アイライン(モニター2回セット)</h6>
 
                             <div className="price-container">
                                 <img src='/img/draw/eyeline.webp' className='price-img' alt='3part-img' /></div>
@@ -194,13 +194,13 @@ function PriceClinic() {
 
                     </tr>
                     <tr>
-                        <td>アイライン(2回セット価格)</td>
+                        <td>アイライン(2回セット)</td>
 
                         <td className='campaign-price'>80,000(税込)</td>
                         <td className='list-price'>120,000(税込)</td>
                     </tr>
                     <tr>
-                        <td><h6>リップ(モニター1回価格)お試し</h6>
+                        <td><h6>リップ(モニター1回)お試し</h6>
                             <Tooltip text='お試し価格は初めてアートメイクをされる方にお勧めするメニューです。お一人様初回限りの価格です。'>
                                 <button className='tooltip-btn'>お試し価格は?</button>
                             </Tooltip>
@@ -214,14 +214,14 @@ function PriceClinic() {
 
                     </tr>
                     <tr>
-                        <td><h6>リップ(モニター1回価格)</h6>
+                        <td><h6>リップ(モニター1回)</h6>
                         </td>
                         <td className='campaign-price'>45,000(税込)</td>
                         <td className='list-price'>65,000(税込)</td>
 
                     </tr>
                     <tr>
-                        <td>リップ(モニター2回セット価格)
+                        <td>リップ(モニター2回セット)
 
                         </td>
 
@@ -230,13 +230,13 @@ function PriceClinic() {
 
                     </tr>
                     <tr>
-                        <td>リップ(2回セット価格)</td>
+                        <td>リップ(2回セット)</td>
                         <td className='campaign-price'>100,000(税込)</td>
                         <td className='list-price'>150,000(税込)</td>
 
                     </tr>
                     <tr>
-                        <td><h6>SMP(モニター直径10cm 1回価格)</h6>
+                        <td><h6>SMP(モニター直径10cm 1回)</h6>
                             <div className='draw-img-bg-area'>
                                 <div className='draw-img-bg'>
                                     <center>
@@ -250,14 +250,14 @@ function PriceClinic() {
                         <td className='list-price'>180,000(税込)</td>
                     </tr>
                     <tr>
-                        <td>SMP(直径10cm 1回価格)</td>
+                        <td>SMP(直径10cm 1回)</td>
 
 
                         <td className='campaign-price'>200,000(税込)</td>
                         <td className='list-price'>250,000(税込)</td>
                     </tr>
                     <tr>
-                        <td><h6>ヘアライン(モニター2回セット価格)</h6>
+                        <td><h6>ヘアライン(モニター2回セット)</h6>
                             <div className="price-container">
                                 <img src='/img/draw/hairline.webp' className='price-img' alt='3part-img' width={170} /></div>
 
@@ -267,21 +267,21 @@ function PriceClinic() {
                         <td className='list-price'>85,000(税込)</td>
                     </tr>
                     <tr>
-                        <td>ヘアライン(2回セット価格)</td>
+                        <td>ヘアライン(2回セット)</td>
 
 
                         <td className='campaign-price'>120,000(税込)</td>
                         <td className='list-price'>170,000(税込)</td>
                     </tr>
                     <tr>
-                        <td>眉毛 + アイライン SETモニター(2回セット価格)
+                        <td>眉毛 + アイライン SETモニター(2回セット)
                         </td>
                         <td className='campaign-price'>117,000(税込)</td>
                         <td className='list-price'>130,000(税込)</td>
 
                     </tr>
                     <tr>
-                        <td><h6>眉毛 + アイライン SET(2回セット価格)</h6></td>
+                        <td><h6>眉毛 + アイライン SET(2回セット)</h6></td>
 
                         <td className='campaign-price'>180,000(税込)</td>
                         <td className='list-price'>260,000(税込)</td>
@@ -290,7 +290,7 @@ function PriceClinic() {
                 </tbody>
             </Table>
 
-            <h6>OPEN CAMPAIGN 価格の有効期間 : 2023年3月20日~2024年3月19日</h6>
+            <h6>CAMPAIGN 価格の有効期間 : 2023年3月20日~2024年3月19日</h6>
 
 
 
@@ -302,7 +302,7 @@ function PriceAcademy() {
     return (
         <div className="price-table" id='price'>
             <div>
-                <h4>SEIWA Artmake Academy 料金表</h4>
+                <h4>SEFA Artmake Academy 料金表</h4>
                 <h6>(単位:円(税込))</h6>
             </div>
             <Table responsive striped bordered>

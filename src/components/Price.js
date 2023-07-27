@@ -309,40 +309,40 @@ function PriceAcademy() {
                 <tbody>
 
                     <tr>
-                        <td><h6>チケット数</h6></td>
-                        <td >価格</td>
-                        <td className='campaign-price'>OPEN CAMPAIGN 価格</td>
+                        <td><h6>授業名</h6></td>
+                        <td>時間 x 回数</td>
+                        <td className='campaign-price'>価格</td>
                     </tr>
                     <tr>
-                        <td><h6>1数</h6>
+                        <td><h6>眉毛(NATURAL,SHADOW,COMBOの中で１種類)</h6>
                         </td>
-                        <td className='list-price-academy'>30,000</td>
-                        <td></td>
+                        <td className='list-price-academy'>2時間 x ４回</td>
+                        <td className='campaign-price'>150,000</td>
                     </tr>
                     <tr>
-                        <td><h6>6数</h6></td>
-                        <td className='list-price-academy'>180,000</td>
-                        <td className='campaign-price'>171,000(5%OFF)</td>
+                        <td><h6>リップ</h6></td>
+                        <td className='list-price-academy'>2時間 x ４回</td>
+                        <td className='campaign-price'>250,000</td>
                     </tr>
                     <tr>
-                        <td><h6>18数</h6></td>
-                        <td className='list-price'>460,000</td>
-                        <td className='campaign-price'>414,000(10%OFF)</td>
+                        <td><h6>ヘアライン</h6></td>
+                        <td className='list-price'>2時間 x ４回</td>
+                        <td className='campaign-price'>350,000</td>
                     </tr>
                     <tr>
-                        <td><h6>24数</h6></td>
-                        <td className='list-price'>720,000</td>
-                        <td className='campaign-price'>612,000(15%OFF)</td>
+                        <td><h6>アイライン</h6></td>
+                        <td className='list-price'>2時間 x ４回</td>
+                        <td className='campaign-price'>150,000</td>
                     </tr>
                     <tr>
-                        <td><h6>36数</h6></td>
-                        <td className='list-price'>1,080,000</td>
-                        <td className='campaign-price'>864,000(20%OFF)</td>
+                        <td><h6>SMP</h6></td>
+                        <td className='list-price'>2時間 x ４回</td>
+                        <td className='campaign-price'>400,000</td>
                     </tr>
                     <tr>
-                        <td><h6>48数</h6></td>
-                        <td className='list-price'>1,440,000</td>
-                        <td className='campaign-price'>1,080,000(25%OFF)</td>
+                        <td colSpan={3}><h6>モニター施術見守りはクリニックにて可能です。モニター施術見守りをご希望に方は追加料金がかかります。</h6></td>
+                        {/* <td className='list-price'>1,440,000</td>
+                        <td className='campaign-price'></td> */}
                     </tr>
                 </tbody>
             </Table>

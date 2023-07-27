@@ -12,7 +12,7 @@ export function Access() {
                     <h4>On Artmake & SEFA Artmake Academy</h4>
                     {/* <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6> */}
                     <h6>営業時間 </h6>
-                    <h6>水木金土日：10:00-19:00</h6>
+                    <h6>月火水木金土日：10:00-19:00</h6>
                     {/* <h6>金土：10:00-20:00</h6> */}
                     <h2>
                         <AiFillPhone />
@@ -35,8 +35,8 @@ export function Access() {
                             </tr>
                             <tr>
                                 <td>10:00 - 19:00</td>
-                                <td key={0}>X</td>
-                                <td key={1}>X</td>
+                                <td key={0}>●</td>
+                                <td key={1}>●</td>
                                 <td key={2}>●</td>
                                 <td key={3}>●</td>
                                 <td key={4}>●</td>
@@ -108,7 +108,7 @@ export function AccessMens() {
                     <h4>On Artmake & SEFA Artmake Academy</h4>
                     {/* <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6> */}
                     <h6>営業時間 </h6>
-                    <h6>水木金土日：10:00-19:00</h6>
+                    <h6>月火水木金土日：10:00-19:00</h6>
                     {/* <h6>：10:00-20:00</h6> */}
                     <h2>
                         <AiFillPhone />
@@ -130,9 +130,9 @@ export function AccessMens() {
                                 <td key={6}>日</td>
                             </tr>
                             <tr>
-                                <td>11:00 - 20:00</td>
-                                <td key={0}>X</td>
-                                <td key={1}>X</td>
+                                <td>10:00 - 19:00</td>
+                                <td key={0}>●</td>
+                                <td key={1}>●</td>
                                 <td key={2}>●</td>
                                 <td key={3}>●</td>
                                 <td key={4}>●</td>

@@ -7,7 +7,7 @@ import Footer from './Footer/Footer.js'
 import 'react-datepicker/dist/react-datepicker.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import TicketContainer from './curriculum.js'
+// import TicketContainer from './curriculum.js'
 import NoticesList from './notice';
 import { Routes, Route } from 'react-router-dom'
 import Campaign from './components/Campaign';
@@ -16,7 +16,7 @@ import MainLogo from './components/MainLogo';
 import { PriceClinic, PriceAcademy } from './components/Price'
 import FlowClinic from './components/Flow';
 import GalleryClinic from './components/Gallery';
-import { CEOProfile } from './components/Profile';
+// import { CEOProfile } from './components/Profile';
 import { QnAAcademy, QnAClinic } from './components/QnA';
 import { Access } from './components/Access';
 import { ReserveClinic } from './components/Reserve';
@@ -66,12 +66,12 @@ function App() {
           <QnAClinic />
           <DefineAcademy />
             {/* <CEOProfile /> */}
-            <div className='ticket-area' id='ticket-area'>
+            {/* <div className='ticket-area' id='ticket-area'>
               <center>
                 <img src='/img/チケットシステム2.png' alt='' className='ticket-area-img' width={950} />
               </center>
-            </div>
-            <TicketContainer />
+            </div> */}
+            {/* <TicketContainer /> */}
             <PriceAcademy />
             <QnAAcademy />
             <ReserveAcademy/>
@@ -83,7 +83,7 @@ function App() {
         </div>}></Route>
 
         {/*--- 아카데미 페이지 ---*/}
-        <Route path="/academy/" element={
+        {/* <Route path="/academy/" element={
           <div>
             {Header2()}
             <DefineAcademy />
@@ -103,7 +103,7 @@ function App() {
               <h6> </h6>
             </div>
           </div>}>
-        </Route>
+        </Route> */}
         {/* 멘즈 페이지  */}
         <Route path='/mens/' element={
           <div>

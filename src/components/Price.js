@@ -27,11 +27,11 @@ function PriceClinic() {
                     </tr>
                     <tr>
                         <td><h6>眉、リップ</h6></td>
-                        <td>3,300円(税込)</td>
+                        <td>1,100円(税込)</td>
                     </tr>
                     <tr>
                        <td><h6>ヘアライン</h6></td> 
-                       <td>5,500円(税込)</td>
+                       <td>3,300円(税込)</td>
                     </tr>
                     <tr>
                         <td colSpan={2}>
@@ -326,21 +326,21 @@ function PriceAcademy() {
                     </tr>
                     <tr>
                         <td><h6>ヘアライン</h6></td>
-                        <td className='list-price'>2時間 x ４回</td>
+                        <td className='list-price-academy'>2時間 x ４回</td>
                         <td className='campaign-price'>350,000</td>
                     </tr>
                     <tr>
                         <td><h6>アイライン</h6></td>
-                        <td className='list-price'>2時間 x ４回</td>
+                        <td className='list-price-academy'>2時間 x ４回</td>
                         <td className='campaign-price'>150,000</td>
                     </tr>
                     <tr>
                         <td><h6>SMP</h6></td>
-                        <td className='list-price'>2時間 x ４回</td>
+                        <td className='list-price-academy'>2時間 x ４回</td>
                         <td className='campaign-price'>400,000</td>
                     </tr>
                     <tr>
-                        <td colSpan={3}><h6>モニター施術見守りはクリニックにて可能です。モニター施術見守りをご希望に方は追加料金がかかります。</h6></td>
+                        <td colSpan={3}><h6>モニター施術見守りはクリニックにて可能です。モニター施術見守りをご希望に方は追加料金がかかります。出張料は別途です。</h6></td>
                         {/* <td className='list-price'>1,440,000</td>
                         <td className='campaign-price'></td> */}
                     </tr>

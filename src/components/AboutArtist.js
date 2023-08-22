@@ -20,6 +20,16 @@ function AboutArtist() {
         </div>
         <div className="AboutArtistPhotoContainer">
           <img
+            src="/img/artist/okubo.webp"
+            alt="About Artist 4"
+            className="AboutArtistPhoto"
+          />
+          <div className="AboutArtistTextContainer">
+            <span>Miyu</span>
+          </div>
+        </div>
+        <div className="AboutArtistPhotoContainer">
+          <img
             src="/img/artist/ito.webp"
             alt="About Artist 2"
             className="AboutArtistPhoto"
@@ -29,16 +39,7 @@ function AboutArtist() {
           </div>
         </div>
  
-        <div className="AboutArtistPhotoContainer">
-          <img
-            src="/img/artist/okubo.webp"
-            alt="About Artist 4"
-            className="AboutArtistPhoto"
-          />
-          <div className="AboutArtistTextContainer">
-            <span>Miyu</span>
-          </div>
-        </div>
+
 
       </div>
     </div>

@@ -1,7 +1,6 @@
 import { Table } from 'react-bootstrap';
 import Tooltip from '../components/tooltip';
 import { monitorPrice } from '../StringData';
-// import TryFilterButton from '../instagram.js';
 
 function PriceClinic() {
     return (

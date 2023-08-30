@@ -59,7 +59,7 @@ function Header2() {
             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">
-              Separated link
+              Separated linkf
             </NavDropdown.Item>
           </NavDropdown> */}
                     </Nav>

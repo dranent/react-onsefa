@@ -21,15 +21,12 @@ import { QnAAcademy, QnAClinic } from './components/QnA';
 import { Access } from './components/Access';
 import { ReserveClinic } from './components/Reserve';
 import AboutArtist from './components/AboutArtist';
-import Mens from './components/mens';
+// import Mens from './components/mens';
 import Menu from './components/menu';
-import ReservationMens from './components/ReserveMens';
 import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
 import VIPPrice from './components/vip-price';
-// import YouTubePlayer from './components/YouTubePlayer';
 import Directors from './components/Directors.js';
-import Partner from './components/Partner.js';
 
 function App() {
   return (
@@ -84,18 +81,18 @@ function App() {
 
         {/*--- 아카데미 페이지 ---*/}
         {/* <Route path="/academy/" element={
-          <div>
-            {Header2()}
-            <DefineAcademy />
-            <CEOProfile />
-            <div className='ticket-area' id='ticket-area'>
+          <div> */}
+            {/* {Header2()} */}
+            {/* <DefineAcademy /> */}
+            {/* <CEOProfile /> */}
+            {/* <div className='ticket-area' id='ticket-area'>
               <center>
                 <img src='/img/チケットシステム2.png' alt='' className='ticket-area-img' width={950} />
               </center>
-            </div>
-            <TicketContainer />
-            <PriceAcademy />
-            <QnAAcademy />
+            </div> */}
+            {/* <TicketContainer /> */}
+            {/* <PriceAcademy /> */}
+            {/* <QnAAcademy />
             <ReserveAcademy/>
             <Access />
             <Footer />
@@ -105,25 +102,14 @@ function App() {
           </div>}>
         </Route> */}
         {/* 멘즈 페이지  */}
-        <Route path='/mens/' element={
+        {/* <Route path='/mens/' element={
           <div>
             <Mens/>
           </div>
         }
         >
-        </Route>
+        </Route> */}
         
-        <Route path='/mens/res/' element={
-            <>
-            <ReservationMens/>
-            </>
-          }></Route>
-
-        <Route path='/partner/' element={
-                    <>
-                    <Partner/>
-                    </>
-                  }></Route>
 
       </Routes>
 

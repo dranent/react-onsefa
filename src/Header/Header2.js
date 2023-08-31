@@ -6,19 +6,16 @@ function Header2() {
 
     const location = useLocation();
     const [onClinicBrandClass, setOnClinicBrandClass] = useState('');
-    const [sefaAcademyBrandClass, setSefaAcademyBrandClass] = useState('');
+    // const [sefaAcademyBrandClass, setSefaAcademyBrandClass] = useState('');
   
     useEffect(() => {
       // Update the brandClass states based on the current path
       if (location.pathname === '/') {
         setOnClinicBrandClass('nav-bg');
-        setSefaAcademyBrandClass('opacity');
-      } else if (location.pathname === '/academy/') {
-        setOnClinicBrandClass('opacity');
-        setSefaAcademyBrandClass('nav-bg');
-      } else {
+        // setSefaAcademyBrandClass('opacity');
+       } else {
         setOnClinicBrandClass('');
-        setSefaAcademyBrandClass('');
+        // setSefaAcademyBrandClass('');
       }
     }, [location.pathname]);
 
@@ -26,8 +23,8 @@ function Header2() {
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed='top' >
             <Container className="container-width">
                 {/* <Image src="/sefa-logo.svg" width={"100px"}></Image> */}
-                <Navbar.Brand href="/" className={onClinicBrandClass}>On Artmake</Navbar.Brand>&　
-                <Navbar.Brand href="https://www.xenaclinic.co.kr/" className={sefaAcademyBrandClass}>ジェナダイエット</Navbar.Brand>
+                <Navbar.Brand href="/" className={onClinicBrandClass}>On Artmake</Navbar.Brand>
+                {/* <Navbar.Brand href="https://www.xenaclinic.co.kr/" className={sefaAcademyBrandClass}>ジェナダイエット</Navbar.Brand> */}
                 
                 {/* <Navbar.Brand href="/mens/" className="navbar-formen">for men</Navbar.Brand> */}
                 {/* <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">

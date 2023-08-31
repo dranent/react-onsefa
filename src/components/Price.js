@@ -14,7 +14,7 @@ function PriceClinic() {
                 <br></br>
             </div>
 
-            <Table responsive striped bordered style={{marginTop : 20 }}>
+            <Table responsive striped bordered style={{ marginTop: 20 }}>
                 <tbody>
 
                     <tr>
@@ -29,8 +29,8 @@ function PriceClinic() {
                         <td>1,100円(税込)</td>
                     </tr>
                     <tr>
-                       <td><h6>ヘアライン</h6></td> 
-                       <td>3,300円(税込)</td>
+                        <td><h6>ヘアライン</h6></td>
+                        <td>3,300円(税込)</td>
                     </tr>
                     <tr>
                         <td colSpan={2}>
@@ -58,7 +58,7 @@ function PriceClinic() {
                     </tr>
 
                     <tr>
-                        <td>ホクロ (モニター1箇所) 
+                        <td>ホクロ (モニター1箇所)
                             <div className="price-container">
                                 <img src='/img/price/hokuro.webp' className='price-img' alt='3part-img' /></div>
                         </td>
@@ -339,9 +339,7 @@ function PriceAcademy() {
                         <td className='campaign-price'>400,000</td>
                     </tr>
                     <tr>
-                        <td colSpan={3}><h6>モニター施術見守りはクリニックにて可能です。モニター施術見守りをご希望に方は追加料金がかかります。出張料は別途です。</h6></td>
-                        {/* <td className='list-price'>1,440,000</td>
-                        <td className='campaign-price'></td> */}
+                        <td colSpan={3}><h6>モニター施術見守りはクリニックにて可能です。モニター施術見守りをご希望に方は追加料金がかかります。</h6></td>
                     </tr>
                 </tbody>
             </Table>

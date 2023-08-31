@@ -44,17 +44,6 @@ export function Access() {
                                 <td key={6}>●</td>
 
                             </tr>
-                            {/* <tr>
-                                <td>10:00 - 19:00</td>
-                                <td key={0}>X</td>
-                                <td key={1}></td>
-                                <td key={2}></td>
-                                <td key={3}></td>
-                                <td key={4}>●</td>
-                                <td key={5}>●</td>
-                                <td key={6}></td>
-
-                            </tr> */}
                         </tbody>
                     </Table>
                 </div>
@@ -79,7 +68,9 @@ export function Access() {
                 <h5>クリニック名 : KARIS beauty clinic<br></br>
                     住所 : 東京都 渋谷区 代々木2-7-3第七荒井ビル8階<br></br>
                     最寄り駅 : 新宿駅(南口より徒歩3分)</h5>
-                    <div className="google-maps">
+
+                    <a href='https://goo.gl/maps/zvf5QCXk3Erfj9Fx5' className='google-map-link'>GOOGLE MAP LINK</a>
+                    {/* <div className="google-maps">
                         <iframe
                             title='googlemaps'
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.569469518101!2d139.6969954119593!3d35.68760157247086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d777b399cc3%3A0x6b038310881e9b22!2sKARIS%20beauty%20clinic!5e0!3m2!1sja!2sjp!4v1688445754536!5m2!1sja!2sjp"
@@ -91,7 +82,7 @@ export function Access() {
                             aria-hidden="false"
                             tabIndex="0"
                         ></iframe>
-                    </div>
+                    </div> */}
                 </div>
             </Container>
         </div>
@@ -108,7 +99,7 @@ export function AccessMens() {
                     <h4>On Artmake & SEFA Artmake Academy</h4>
                     {/* <h6>〒104-0061 東京都中央区銀座1-5-13 ZX銀座ビル4F</h6> */}
                     <h6>営業時間 </h6>
-                    <h6>月火水木金土日：10:00-19:00</h6>
+                    <h6>水木金土日：10:00-19:00</h6>
                     {/* <h6>：10:00-20:00</h6> */}
                     <h2>
                         <AiFillPhone />

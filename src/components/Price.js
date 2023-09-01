@@ -26,11 +26,11 @@ function PriceClinic() {
                     </tr>
                     <tr>
                         <td><h6>眉、リップ</h6></td>
-                        <td>1,100円(税込)</td>
+                        <td>1回 1,100円(税込)</td>
                     </tr>
                     <tr>
                         <td><h6>ヘアライン</h6></td>
-                        <td>3,300円(税込)</td>
+                        <td>1回 3,300円(税込)</td>
                     </tr>
                     <tr>
                         <td colSpan={2}>
@@ -42,7 +42,7 @@ function PriceClinic() {
                     </tr>
                     <tr>
                         <td><h6>一箇所</h6></td>
-                        <td>5,500円(税込)</td>
+                        <td>1回 5,500円(税込)</td>
                     </tr>
                 </tbody>
             </Table>

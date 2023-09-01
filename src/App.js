@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 // import TicketContainer from './curriculum.js'
 import NoticesList from './notice';
 import { Routes, Route } from 'react-router-dom'
-import Campaign from './components/Campaign';
+// import Campaign from './components/Campaign';
 import { DefineClinic, DefineAcademy } from './components/Define';
 import MainLogo from './components/MainLogo';
 import { PriceClinic, PriceAcademy } from './components/Price'
@@ -43,7 +43,7 @@ function App() {
           <MainLogo />
           <Directors/>
           {/* <YouTubePlayer/> */}
-          <Campaign />
+          {/* <Campaign /> */}
           <NoticesList />
           <DefineClinic />
           <div className='text-center marginTop'>

@@ -50,9 +50,9 @@ function Footer() {
         <a href="https://www.instagram.com/sefa_artmake_on/" target="_blank" rel="noreferrer noopener">
           <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
         </a>
-        <a href="https://www.instagram.com/onartmake_mens/" target="_blank" rel="noreferrer noopener">
+        {/* <a href="https://www.instagram.com/onartmake_mens/" target="_blank" rel="noreferrer noopener">
           <img src="/img/instar-icon-mens.svg" alt="Instagram button" id="instagram-mens-btn" />
-        </a>
+        </a> */}
       </div>
 
       </div>

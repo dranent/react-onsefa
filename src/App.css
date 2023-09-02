@@ -438,13 +438,14 @@ a {
 }
 
 .main-logo {
-  background-color: #FFF;
-  position: relative;
+  /* position: relative;
   display: inline-block;
   max-width: 100%;
   height: auto;
   background-repeat: no-repeat;
   margin-bottom: 3em;
+  background: '../images/ONARTMAKE.jpg'; */
+  /* background-image: url(/public/img/ONARTMAKE.jpg); */
 }
 
 .main-logo-area {
@@ -1408,7 +1409,7 @@ input:valid {
 
 @media only screen and (max-width: 600px) {
   .main-logo {
-    margin-top: 3em;
+    background-image: url(../public/img/ONARTMAKE540x860.jpg) !important;
   }
   .campaign,
   .notice-signboard {

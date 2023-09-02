@@ -47,10 +47,10 @@ function Footer() {
         </button>
 
         <div className="insta-area">
-        <a href="https://www.instagram.com/onclinic_sefa/" target="_blank" rel="noreferrer noopener">
+        <a href="https://www.instagram.com/sefa_artmake_on/" target="_blank" rel="noreferrer noopener">
           <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
         </a>
-        <a href="https://www.instagram.com/onclinic_mens/" target="_blank" rel="noreferrer noopener">
+        <a href="https://www.instagram.com/onartmake_mens/" target="_blank" rel="noreferrer noopener">
           <img src="/img/instar-icon-mens.svg" alt="Instagram button" id="instagram-mens-btn" />
         </a>
       </div>

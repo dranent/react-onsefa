@@ -76,7 +76,7 @@ function PriceClinic() {
                         <td className='list-price'>25,000(税込)</td>
                     </tr>
                     <tr>
-                        <td>1部位 (モニター1回) 2分割 メンテナンスすのみ予約可能
+                        <td>1部位 (モニター1回) 2分割
                             <div className="price-container">
                                 <img src='/img/price/2part.webp' className='price-img' alt='3part-img' /></div>
                         </td>

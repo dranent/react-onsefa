@@ -30,12 +30,12 @@ function AboutArtist() {
         </div>
         <div className="AboutArtistPhotoContainer">
           <img
-            src="/img/artist/ito.webp"
+            src="/img/artist/natsumi.webp"
             alt="About Artist 2"
             className="AboutArtistPhoto"
           />
           <div className="AboutArtistTextContainer">
-            <span>Ito</span>
+            <span>Natsumi</span>
           </div>
         </div>
  

@@ -71,11 +71,11 @@ function ReserveClinic() {
   const sendEmail = (e) => {
     e.preventDefault();
     // form 유효성 검사 start 
-    if (form.current.res_category.value === '') {
-      alert('予約区分を選択して下さい。');
-      setIsConfirm(false);
-      return false;
-    }
+    // if (form.current.res_category.value === '') {
+    //   alert('予約区分を選択して下さい。');
+    //   setIsConfirm(false);
+    //   return false;
+    // }
     if (form.current.category.value === '') {
       alert('来院を選択して下さい。');
       setIsConfirm(false);
@@ -198,7 +198,7 @@ function ReserveClinic() {
         <Table>
           <tbody>
 
-            <tr>
+            {/* <tr>
               <th>
                 予約区分
                 <span className='must-icon must-pos'></span>
@@ -215,7 +215,7 @@ function ReserveClinic() {
                   </li>
                 </ul>
               </td>
-            </tr>
+            </tr> */}
 
             <tr>
               <th>

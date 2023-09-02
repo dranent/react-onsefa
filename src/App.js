@@ -25,8 +25,8 @@ import AboutArtist from './components/AboutArtist';
 import Menu from './components/menu';
 import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
-import VIPPrice from './components/vip-price';
-import Directors from './components/Directors.js';
+// import VIPPrice from './components/vip-price';
+// import Directors from './components/Directors.js';
 
 function App() {
   return (
@@ -41,7 +41,7 @@ function App() {
         <Route path="/" element={<div>
           {Header2()}
           <MainLogo />
-          <Directors/>
+          {/* <Directors/> */}
           {/* <YouTubePlayer/> */}
           {/* <Campaign /> */}
           <NoticesList />
@@ -51,7 +51,7 @@ function App() {
           </div>
           <Menu />
           <PriceClinic />
-          <VIPPrice/>
+          {/* <VIPPrice/> */}
           {/* <div className='text-center marginTop'>
             <img className='triangl' src='/img/doctor.webp' alt='triangl'></img>
           </div> */}

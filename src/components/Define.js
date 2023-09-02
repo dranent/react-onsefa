@@ -6,7 +6,7 @@ function DefineClinic() {
             <h4 className='display-enter'>
                 {define}
             </h4>
-            <h6 className='define-introduction'>
+            <h6 className='define-introduction display-enter'>
                 {defineIntroduction}
             </h6>
         </div>

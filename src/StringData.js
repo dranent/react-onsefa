@@ -7,8 +7,8 @@
     const ceoCv = `・DVORA BEAUTY CLINIC出身 \n・前DVORA JAPAN代表 \n・現SEFA beauty academy代表`;
 
     const define = `ON Artmakeは\n“Just for you” を目指すアートメイクです。`;
-    const defineIntroduction = `ON Artmakeは韓国技術を基盤としたアートメイク専門アートメイクです。こだわりPOINTは日本人にあったデザインやオリジナル色素を使用しお客様のニーズに合わせた技術をご提供いたします。
-    他アートメイクとの差別化を図って東洋人の肌に合うオリジナル色素を大切に選んでおります。最新技術と最新マシーンを使って痛みやダウンタイムを最小限にし、定着をより良くさせて頂きます。`;
+    const defineIntroduction = `ON Artmakeは韓国技術を基盤としたアートメイク専門店です。韓国アートメイク専門講師が看護師アーティストを教育し、クリニックと提携をして施術をさせていただきます。
+    \nこだわりPOINTは日本人にあったデザインやオリジナル色素を使用しお客様のニーズに合わせた技術をご提供いたします。他アートメイクとの差別化を図って東洋人の肌に合うオリジナル色素を大切に選んでおります。最新技術と最新マシーンを使って痛みやダウンタイムを最小限にし、定着をより良くさせて頂きます。`;
 
     const defineSefa = `SEFA Artmake Academyは\n“ONLY FOR YOU”`;
     const defineIntroductionSefa = `SEFA ARTMAKE ACADEMYでは受講生ひとりひとりの希望とお悩みに答えれるよう構築されております。

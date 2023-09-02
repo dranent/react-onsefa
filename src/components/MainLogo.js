@@ -7,16 +7,23 @@ function MainLogo() {
 
         <ResponsiveImage>
           <ResponsiveImageSize
+            className='ResponsiveImageSize-mainlogo'
             default
             minWidth={0}
-            path={'./img/ONARTMAKE540x860.jpg'}
+            path={'./img/ONARTMAKE.svg'}
+            background={true}
+
           />
           <ResponsiveImageSize
+            className='ResponsiveImageSize2'
             minWidth={768}
-            path={'./img/ONARTMAKE540x860.jpg'}
+            background={true}
+            path={'./img/ONARTMAKE.svg'}
           />
           <ResponsiveImageSize
+            className='ResponsiveImageSize3'
             minWidth={1100}
+            background={true}
             path={'./img/ONARTMAKE.jpg'}
           />
         </ResponsiveImage>

@@ -437,15 +437,8 @@ a {
   padding: 20em;
 }
 
-.main-logo {
-  /* position: relative;
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  margin-bottom: 3em;
-  background: '../images/ONARTMAKE.jpg'; */
-  /* background-image: url(/public/img/ONARTMAKE.jpg); */
+.ResponsiveImageSize-mainlogo{
+  width: 380px;
 }
 
 .main-logo-area {

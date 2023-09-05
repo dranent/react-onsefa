@@ -19,12 +19,13 @@ import GalleryClinic from './components/Gallery';
 // import { CEOProfile } from './components/Profile';
 import { QnAAcademy, QnAClinic } from './components/QnA';
 import { Access } from './components/Access';
-import { ReserveClinic } from './components/Reserve';
+// import { ReserveClinic } from './components/Reserve';
 import AboutArtist from './components/AboutArtist';
 // import Mens from './components/mens';
 import Menu from './components/menu';
 import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
+import ReservationRenewal from './components/ReservationRenewal';
 // import VIPPrice from './components/vip-price';
 // import Directors from './components/Directors.js';
 
@@ -59,7 +60,7 @@ function App() {
           <GalleryClinic />
           <Influencer/>
           <FlowClinic />
-          <ReserveClinic />
+          {/* <ReserveClinic /> */}
           <QnAClinic />
           <DefineAcademy />
             {/* <CEOProfile /> */}
@@ -78,6 +79,16 @@ function App() {
             <h6> </h6>
           </div>
         </div>}></Route>
+
+        {/* 예약페이지 */}
+        <Route path="/res/" element={
+          <div>
+           {Header2()}
+           <ReservationRenewal/>
+          </div>
+        }
+        >
+        </Route>
 
         {/*--- 아카데미 페이지 ---*/}
         {/* <Route path="/academy/" element={

@@ -1,0 +1,120 @@
+/* ReservationRenewal.css */
+
+.reservation-container {
+    padding-top: 5em;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    /* 배경색 추가 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 그림자 효과 추가 */
+}
+
+.reservation-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.date-selection,
+.customer-info {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.SendButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+}
+
+.SendButton {
+    display: block;
+    margin: 0 auto;
+}
+
+/* 라벨 뒤에 "必須" 표시 */
+.required::after {
+    content: " *";
+    /* 필수 표시 */
+    color: red;
+    /* 텍스트 색상 설정 */
+}
+
+/* ReservationRenewal.css */
+
+
+
+/* 모바일 화면 크기에 대한 스타일 */
+@media (max-width: 768px) {
+    .reservation-container {
+        max-width: 100%;
+        padding-top: 5em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .reservation-container h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    select {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .SendButton {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+}

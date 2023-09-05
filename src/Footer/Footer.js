@@ -35,7 +35,7 @@ function Footer() {
         <img src="/img/arrow-up.svg" alt="to the top Button" />
       </button>
       <div className="ButtonContainer">
-        <button className="WebBookingButton" onClick={() => scrollTop("reserve")} >
+        <button className="WebBookingButton" onClick={() => window.location.href = '/res/'} >
           <img className="WebBookingIcon" src="/img/calendar.svg" alt="Web Booking Icon" />
           <span className="WebBookingText">WEB 予約</span>
         </button>

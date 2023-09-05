@@ -1,0 +1,41 @@
+/* ConfirmationPage.css */
+
+.confirmation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-info {
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-info p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .confirmation-button {
+    text-align: center;
+  }
+  
+  .confirmation-button button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  

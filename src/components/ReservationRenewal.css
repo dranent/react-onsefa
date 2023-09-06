@@ -34,6 +34,7 @@ label {
 input[type="text"],
 input[type="number"],
 input[type="date"],
+input[type="tel"],
 select {
     width: 100%;
     padding: 10px;
@@ -117,6 +118,7 @@ textarea {
     input[type="text"],
     input[type="number"],
     input[type="date"],
+    input[type="tel"],
     select {
         padding: 8px;
         font-size: 14px;

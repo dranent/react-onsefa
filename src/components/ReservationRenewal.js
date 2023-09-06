@@ -166,7 +166,7 @@ function ReservationRenewal() {
                         />
                         <label className='required'>電話番号(「−」無し): </label>
                         <input
-                            type="number"
+                            type="tel"
                             name="phoneNumber"
                             value={formData.phoneNumber}
                             onChange={handleInputChange}

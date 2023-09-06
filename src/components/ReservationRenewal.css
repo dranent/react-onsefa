@@ -53,6 +53,15 @@ textarea {
     font-size: 16px;
 }
 
+.checkbox-container label {
+    display: flex;
+    align-items: center;
+}
+.checkbox-container input[type="checkbox"] {
+    margin-right: 8px; /* 체크박스와 텍스트 사이의 간격 조절 */
+}
+
+
 .SendButton {
     background-color: #007BFF;
     color: #fff;
@@ -79,7 +88,12 @@ textarea {
     color: red;
     /* 텍스트 색상 설정 */
 }
-
+.required-checkbox::before {
+    content: " *";
+    /* 필수 표시 */
+    color: red;
+    /* 텍스트 색상 설정 */
+}
 /* ReservationRenewal.css */
 
 

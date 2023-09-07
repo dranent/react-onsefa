@@ -326,7 +326,7 @@ function PriceAcademy() {
                     <tr>
                         <td><h6>ヘアライン</h6></td>
                         <td className='list-price-academy'>2時間 x ４回</td>
-                        <td className='campaign-price'>350,000</td>
+                        <td className='campaign-price'>250,000</td>
                     </tr>
                     <tr>
                         <td><h6>アイライン</h6></td>

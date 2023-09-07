@@ -26,7 +26,7 @@ import Menu from './components/menu';
 import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
 import ReservationRenewal from './components/ReservationRenewal';
-import Privacy from './components/privacy';
+// import Privacy from './components/privacy';
 // import VIPPrice from './components/vip-price';
 // import Directors from './components/Directors.js';
 
@@ -74,7 +74,7 @@ function App() {
             <PriceAcademy />
             <QnAAcademy />
             <ReserveAcademy/>
-            <Privacy/>
+            {/* <Privacy/> */}
           <Access />
           <Footer />
           <div className='bottom-margin'>

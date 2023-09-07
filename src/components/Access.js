@@ -69,7 +69,7 @@ export function Access() {
                     住所 : 東京都 渋谷区 代々木2-7-3第七荒井ビル8階<br></br>
                     最寄り駅 : 新宿駅(南口より徒歩3分)</h5>
 
-                    <a href='https://goo.gl/maps/zvf5QCXk3Erfj9Fx5' className='google-map-link'>GOOGLE MAP LINK</a>
+                    <a href='https://goo.gl/maps/zvf5QCXk3Erfj9Fx5' className='google-map-link'>GOOGLE MAP LINKはこちら</a>
                     {/* <div className="google-maps">
                         <iframe
                             title='googlemaps'

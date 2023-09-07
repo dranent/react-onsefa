@@ -73,7 +73,7 @@ function ReserveAcademy() {
   
     return (
         <div className='reserve' id='reserve'>
-        <h4>Contact</h4>
+        <h4>アカデミーに関するお問合せ</h4>
         <form ref={form} onSubmit={sendEmail} id='form-data' className='form-data'>
 
           <Table>

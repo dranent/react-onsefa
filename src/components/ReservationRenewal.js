@@ -5,10 +5,20 @@ import emailjs from '@emailjs/browser';
 import ReservationComplete from './ReservationComplete'; // 예약 완료 페이지 컴포넌트를 임포트
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import Select from 'react-select'
 
 function ReservationRenewal() {
 
     const form = useRef();
+
+    const options = [
+        { value: '眉毛', label: '眉毛' },
+        { value: 'リップ', label: 'リップ' },
+        { value: 'アイライン', label: 'アイライン' },
+        { value: 'ホクロ', label: 'ホクロ' },
+        { value: 'ヘアライン', label: 'ヘアライン' },
+        { value: 'SMP(頭皮)', label: 'SMP(頭皮)' },
+    ];
 
     const [formData, setFormData] = useState({
         firstChoiceDate: '',
@@ -20,7 +30,6 @@ function ReservationRenewal() {
         fullName: '',
         phoneNumber: '',
         emailAddress: '',
-        selectedTreatment: '',
         consultation: '',
         validationError: '',
         showConfirmationPage: false, // 초기에는 입력 폼을 표시합니다.
@@ -61,7 +70,6 @@ function ReservationRenewal() {
             form.current.fullName.value === '' ||
             form.current.phoneNumber.value === '' ||
             form.current.emailAddress.value === '' ||
-            form.current.selectedTreatment.value === '' ||
             form.current.cancelChangePolicy.checked === false ||
             form.current.spamMailPolicy.checked === false
         ) {
@@ -89,6 +97,12 @@ function ReservationRenewal() {
     // const handleEditButtonClick = () => {
     //     setFormData({ ...formData, showConfirmationPage: false });
     // };
+
+    const [selectedOptions, setSelectedOptions] = useState([]);
+
+    const handleSelectChange = (selected) => {
+        setSelectedOptions(selected);
+    };
 
     return (
         <div className="reservation-container">
@@ -178,21 +192,15 @@ function ReservationRenewal() {
                             value={formData.emailAddress}
                             onChange={handleInputChange}
                         />
-                        <label className='required'>ご希望施術メニュー: </label>
-                        <select
+                        <label>ご希望施術メニュー: </label>
+                        <Select
                             name="selectedTreatment"
-                            value={formData.selectedTreatment}
-                            onChange={handleInputChange}
-                        >
-                            <option value="">ご希望施術メニューを選択</option>
-                            <option value="眉毛">眉毛</option>
-                            <option value="リップ">リップ</option>
-                            <option value="アイライン">アイライン</option>
-                            <option value="ホクロ">ホクロ</option>
-                            <option value="ヘアライン">ヘアライン</option>
-                            <option value="SMP(頭皮)">SMP(頭皮)</option>
+                            value={selectedOptions}
+                            options={options}
+                            onChange={handleSelectChange}
+                            isMulti // 다중 선택을 허용하려면 isMulti 속성 추가
+                        />
 
-                        </select>
                         <label>ご相談内容: </label>
                         <textarea
                             rows="2" // 5줄로 설정

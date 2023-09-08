@@ -7,10 +7,10 @@ const NoticesList = () => {
             text: '8月から施術場所が変わります。詳しいはこちら',
             url: '#access',
         },
-        // {
-        //     text: 'React Nativeアプリがリリースされました。',
-        //     url: 'https://github.com/example/react-native-app',
-        // },
+        {
+            text: 'ON Artmakeは6月から「K-Beauty専門家連合会」と協力しています。',
+            url: 'https://github.com/example/react-native-app',
+        },
         // {
         //     text: '新商品のご紹介。',
         //     url: 'https://example.com/new-products',

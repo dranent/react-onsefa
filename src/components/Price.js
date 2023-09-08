@@ -143,7 +143,7 @@ function PriceClinic() {
                         <td className='list-price'>150,000(税込)</td>
                     </tr>
 
-                    <tr>
+                    {/* <tr>
                         <td>
                             <h4 className='another-hospital-txt'>他院の施術リタッチ(モニター1回)</h4>
                             <Tooltip text='他院にて施術された方で、軽い修正や色を足したい方の特別１回メンテナンスメニューです。お一人様初回限りの価格です。'>
@@ -153,7 +153,7 @@ function PriceClinic() {
                         <td className='campaign-price'>38,000(税込)</td>
                         <td className='list-price'>45,000(税込)</td>
 
-                    </tr>
+                    </tr> */}
                     <tr>
                         <td>
                             <h4 className='another-hospital-txt'>他院の施術修正(モニター1回)</h4>

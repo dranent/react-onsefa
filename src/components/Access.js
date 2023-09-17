@@ -16,7 +16,7 @@ export function Access() {
                     {/* <h6>金土：10:00-20:00</h6> */}
                     <h2>
                         <AiFillPhone />
-                        <a href="tel:0355799319">03-5579-9319</a>
+                        <a href="tel:08071856458">080-7185-6458</a>
                     </h2>
                 </Row>
 
@@ -103,7 +103,7 @@ export function AccessMens() {
                     {/* <h6>：10:00-20:00</h6> */}
                     <h2>
                         <AiFillPhone />
-                        <a href="tel:0355799319" className='text-white'>03-5579-9319</a>
+                        <a href="tel:08071856458" className='text-white'>080-7185-6458</a>
                     </h2>
                 </Row>
 

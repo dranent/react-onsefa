@@ -35,6 +35,7 @@ function ReservationRenewal() {
         showConfirmationPage: false, // 초기에는 입력 폼을 표시합니다.
         cancelChangePolicy: '',
         spamMailPolicy: '',
+        birthday: '',
     });
 
     const handleInputChange = (event) => {
@@ -192,6 +193,16 @@ function ReservationRenewal() {
                             value={formData.emailAddress}
                             onChange={handleInputChange}
                         />
+                        <label>生年月日: </label>
+                        <input
+                            type="number"
+                            name="birthday"
+                            value={formData.birthday}
+                            onChange={handleInputChange}
+                            placeholder='例：19990101'
+                        />
+
+
                         <label>ご希望施術メニュー: </label>
                         <Select
                             name="selectedTreatment"

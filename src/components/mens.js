@@ -253,12 +253,12 @@ function Mens() {
           <Row>
             <Col className="text-center">
               <div className="button-container">
-                <button className="button-pulse" onClick={() => {
+                {/* <button className="button-pulse" onClick={() => {
                   window.location.href = 'tel:080-7185-6458';
                 }}>
-                  <span className="button-text">電話で予約</span>
+                  <span className="button-text">電話で予約</span> */}
 
-                </button>
+                {/* </button> */}
                 <button className="button-pulse" onClick={() => {
                   window.location.href = 'https://lin.ee/87QWTkV';
                 }}>

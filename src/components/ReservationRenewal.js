@@ -210,6 +210,7 @@ function ReservationRenewal() {
                             options={options}
                             onChange={handleSelectChange}
                             isMulti // 다중 선택을 허용하려면 isMulti 속성 추가
+                            placeholder='施術メニューを選択'
                         />
 
                         <label>ご相談内容: </label>

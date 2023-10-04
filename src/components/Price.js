@@ -47,6 +47,31 @@ function PriceClinic() {
                 </tbody>
             </Table>
 
+            <Table responsive striped bordered style={{ marginTop: 20 }} id='trainee'>
+                <tbody>
+
+                    <tr>
+                        <td><h6>研修生モニター2回価格(税込)</h6></td>
+                        <td>価格</td>
+                    </tr>
+
+                    <tr>
+                        <td><h6>パウダー眉毛</h6></td>
+                        <td>35,000円(税込)</td>
+                    </tr>
+                    <tr>
+                        <td><h6>毛並み眉毛</h6></td>
+                        <td>40,000円(税込)</td>
+                    </tr>
+
+                    <tr>
+                        <td><h6>コンボ・ミックス眉毛</h6></td>
+                        <td>45,000円(税込)</td>
+                    </tr>
+                </tbody>
+            </Table>
+
+
             <Table responsive striped bordered>
                 <tbody>
 

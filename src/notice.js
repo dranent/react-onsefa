@@ -9,12 +9,12 @@ const NoticesList = () => {
         },
         {
             text: 'ON Artmakeは6月から「K-Beauty専門家連合会」と協力しています。',
-            url: 'https://github.com/example/react-native-app',
+            url: '#access',
         },
-        // {
-        //     text: '新商品のご紹介。',
-        //     url: 'https://example.com/new-products',
-        // },
+        {
+            text: '研修生モニターを予約開始！（）',
+            url: '#trainee',
+        },
     ];
 
     return (

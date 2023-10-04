@@ -47,7 +47,7 @@ function Footer() {
         </button>
 
         <div className="insta-area">
-        <a href="https://www.instagram.com/on_artmake_sefa/" target="_blank" rel="noreferrer noopener">
+        <a href="https://www.instagram.com/on_artmake/" target="_blank" rel="noreferrer noopener">
           <img src="/img/instar-icon.svg" alt="Instagram button" id="instagram-btn" />
         </a>
         {/* <a href="https://www.instagram.com/onartmake_mens/" target="_blank" rel="noreferrer noopener">

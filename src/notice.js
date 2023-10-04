@@ -12,7 +12,7 @@ const NoticesList = () => {
             url: '#access',
         },
         {
-            text: '研修生モニターを予約開始！（）',
+            text: '研修生モニターを予約開始！',
             url: '#trainee',
         },
     ];

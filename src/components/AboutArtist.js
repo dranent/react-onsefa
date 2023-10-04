@@ -10,7 +10,7 @@ function AboutArtist() {
       </div>
       <div className="AboutArtistPhotosContainer">
         <div className="AboutArtistPhotoContainer">
-          <a href="https://www.instagram.com/sefa_artmake_on/">
+          <a href="https://www.instagram.com/on_artmake_sefa/">
             <img
               src="/img/artist/asami.webp"
               alt="About Artist 1"

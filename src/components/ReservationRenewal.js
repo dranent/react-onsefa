@@ -28,6 +28,7 @@ function ReservationRenewal() {
         secondSelectedTime: '',
         thirdSelectedTime: '',
         fullName: '',
+        huriName: '',
         phoneNumber: '',
         emailAddress: '',
         consultation: '',
@@ -177,6 +178,13 @@ function ReservationRenewal() {
                             type="text"
                             name="fullName"
                             value={formData.fullName}
+                            onChange={handleInputChange}
+                        />
+                        <label className='required'>お名前(フリガナ): </label>
+                        <input
+                            type="text"
+                            name="huriName"
+                            value={formData.huriName}
                             onChange={handleInputChange}
                         />
                         <label className='required'>電話番号(「−」無し): </label>

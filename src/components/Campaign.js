@@ -19,10 +19,10 @@ function Campaign() {
 
             <center className='campaign-banner-box-title '>
 
-<a className='campaign-banner-box' href="https://lin.ee/87QWTkV">
-    <img className='campaign-banner' src='img/campaign/banner7.webp' alt='5peroff_banner'></img>
-</a>
-</center>
+                <a className='campaign-banner-box' href="https://lin.ee/87QWTkV">
+                    <img className='campaign-banner' src='img/campaign/banner7.webp' alt='5peroff_banner'></img>
+                </a>
+            </center>
 
             <center className='campaign-banner-box-title '>
 
@@ -31,7 +31,7 @@ function Campaign() {
                 </a>
             </center>
 
- 
+
 
             <center className='campaign-banner-box-title '>
 

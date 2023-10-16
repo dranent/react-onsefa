@@ -26,6 +26,8 @@ import Menu from './components/menu';
 import { ReserveAcademy } from './components/ReserveAcademy';
 import { Influencer } from './components/influencer';
 import ReservationRenewal from './components/ReservationRenewal';
+import LpIndex from './components/LP/LpIndex';
+import Thanks from './components/Thanks.js';
 // import Privacy from './components/privacy';
 // import VIPPrice from './components/vip-price';
 // import Directors from './components/Directors.js';
@@ -91,6 +93,24 @@ function App() {
         }
         >
         </Route>
+
+        {/* LP 페이지 */}
+        <Route path="/lp/" element={
+          <div>
+            <LpIndex/>
+          </div>
+        }
+        >
+        </Route>
+        {/* LP 예약확인 페이지 */}
+        <Route path="/lp/thanks/" element={
+          <div>
+           <Thanks/>
+          </div>
+        }
+        >
+        </Route>
+
 
         {/*--- 아카데미 페이지 ---*/}
         {/* <Route path="/academy/" element={

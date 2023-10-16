@@ -747,7 +747,7 @@ input:valid {
 
 .price-img {
   border-radius: 10%;
-  max-width: 300px;
+  /* max-width: 300px; */
 
   margin: 10px;
 }

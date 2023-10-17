@@ -8,9 +8,46 @@ import 'react-datepicker/dist/react-datepicker.css';
 import React, { useEffect, useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
+import Slider from "react-slick";
 
 function LpIndex() {
     const navigate = useNavigate();
+
+
+    var settings = {
+        dots: false,
+        infinite: true,
+        centerMode: false,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+
 
     useEffect(() => {
         (function (w, d, s, l, i) {
@@ -91,18 +128,18 @@ function LpIndex() {
 
         //     return false;
         // } else {
-            // setShowCompletePage(true);
-            emailjs.sendForm('service_o0z19lh', 'template_j7f29u8', form.current, 'GFIJ3U6YfAu9Ogia3')
-                .then((result) => {
-                    alert('ご予約をお受け付け完了致しました。');
-                    navigate('/lp/thanks');
+        // setShowCompletePage(true);
+        emailjs.sendForm('service_o0z19lh', 'template_j7f29u8', form.current, 'GFIJ3U6YfAu9Ogia3')
+            .then((result) => {
+                alert('ご予約をお受け付け完了致しました。');
+                navigate('/lp/thanks');
 
-                    // setShowCompletePage(true);
-                    // console.log(result.text);
-                }, (error) => {
-                    alert('error');
-                    // console.log(error.text);
-                });
+                // setShowCompletePage(true);
+                // console.log(result.text);
+            }, (error) => {
+                alert('error');
+                // console.log(error.text);
+            });
         // }
     };
 
@@ -131,7 +168,7 @@ function LpIndex() {
 
     useEffect(() => {
         // 상태 업데이트가 완료된 후에 실행할 작업
-        console.log('상태 업데이트가 완료되었습니다.', formData);
+        // console.log('상태 업데이트가 완료되었습니다.', formData);
     }, [formData]); // formData 상태가 변경될 때마다 이 작업을 실행
 
 
@@ -411,6 +448,50 @@ function LpIndex() {
 
 
             {/* case */}
+
+            <center>
+                <div>
+                    <section className="case_inner">
+                        <h2 className="p-en-title ">
+                            <span className="en"><em>-</em>Instagram</span>
+                            <span className="jp">ナチュラルな仕上がりで、顔立ちもアップ！</span>
+                        </h2>
+
+                    </section>
+                    <Slider {...settings}>
+                        <div>
+                            <a href="https://www.instagram.com/p/Cww-ZdcSELx/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                                target="_blank" rel="noreferrer">
+                                <img src="/img/top/insta_slide_0825_1.jpg" alt="オンクリニック症例写真1" />
+                            </a></div>
+                        <div>
+                        <a href="https://www.instagram.com/p/CxniKkESDNV/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                            target="_blank" rel="noreferrer">
+                            <img src="/img/top/insta_slide_0825_2.jpg" alt="オンクリニック症例写真2" />
+                        </a></div>
+                        <div>
+                        <a href="https://www.instagram.com/reel/Cxe1EpxyOM5/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                            target="_blank" rel="noreferrer">
+                            <img src="/img/top/insta_slide_0825_3.jpg" alt="オンクリニック症例写真3" />
+                        </a></div>
+                        <div>
+                        <a href="https://www.instagram.com/p/CwXslVsS-kD/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                            target="_blank" rel="noreferrer">
+                            <img src="/img/top/insta_slide_0825_4.jpg" alt="オンクリニック症例写真4" />
+                        </a></div>
+                        <div>
+                        <a href="https://www.instagram.com/p/CwXslVsS-kD/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                            target="_blank" rel="noreferrer">
+                            <img src="/img/top/insta_slide_0825_5.jpg" alt="オンクリニック症例写真5" />
+                        </a></div>
+                        <div>
+                        <a href="https://www.instagram.com/p/CxI3iwmSDKD/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                            target="_blank" rel="noreferrer">
+                            <img src="/img/top/insta_slide_0825_6.jpg" alt="オンクリニック症例写真6" />
+                        </a></div>
+                    </Slider>
+                </div>
+            </center>
 
 
             {/* <div id="case" className="case">
@@ -1252,7 +1333,7 @@ function LpIndex() {
                                 </p>
                             </div>
                             <div className="form-consent">
-                                <label>
+                                <label className="lp_submit_label">
                                     <input
                                         name="policy"
                                         type="checkbox"
@@ -1266,16 +1347,31 @@ function LpIndex() {
                             </div>
                             <div className="form-button">
                                 {/* <input type="hidden" name="内容を送信する" value="内容を送信する" /> */}
-                                <input id="submit" type="submit" 
-                                value="内容を送信する" 
-                                className="button button-send" 
-                                disabled={!formData.policy} // policy가 체크되지 않았을 때 버튼을 비활성화
+                                <input id="submit" type="submit"
+                                    value="内容を送信する"
+                                    className="button button-send"
+                                    disabled={!formData.policy} // policy가 체크되지 않았을 때 버튼을 비활성화
                                 />
                             </div>
                         </form>
                     </div>
                 </section>
             </div>
+            <footer className="lp_footer">
+                Copyright@ 御アートメイク（KARIS Beauty Clinic） all rights reserved. </footer>
+            <ul className="lp_footer-fixed-button">
+                <li className="lp_buttons lp_buttons--mail">
+                    <a href="#form">WEB予約</a>
+                </li>
+                <li className="lp_buttons lp_buttons--line">
+                    <a href="https://lin.ee/CWXo7Q3" target="_blank" rel="noreferrer">LINE 予約・相談</a>
+                </li>
+            </ul>
+            <p className="pagetop">
+                <a href="#header">
+                    <img src="/img/common/pagetop.png" alt="ページ先頭へ" />
+                </a>
+            </p>
 
 
         </>

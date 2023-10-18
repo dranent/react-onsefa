@@ -553,6 +553,7 @@
   }
   .worry-list {
     margin-bottom: 4rem;
+    gap: 0;
   }
   .worry-list_item {
     width: 22.5%;
@@ -873,6 +874,7 @@
   }
   .about_tech-list {
     margin-bottom: 4rem;
+    gap: 0;
   }
 
   .mix_txt {

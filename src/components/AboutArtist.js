@@ -24,7 +24,7 @@ function AboutArtist() {
         </div>
 
         <div className="AboutArtistPhotoContainer">
-          <a href="https://www.instagram.com/yujin_scalp/">
+          <a href="https://www.instagram.com/queens_scalp/">
             <img
               src="/img/artist/hyunyoung.jpg"
               alt="About Artist 2"

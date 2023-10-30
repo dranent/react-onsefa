@@ -316,7 +316,7 @@ to {
 ul {
   display: flex;
   gap: 1rem;
-  font-size: .9rem;
+  /* font-size: .9rem; */
   list-style: none;
   padding: 0;
 }
@@ -1107,9 +1107,9 @@ input:valid {
   }
 
   ul {
-    display: grid;
+    /* display: grid; */
     gap: 1rem;
-    font-size: .9rem;
+    /* font-size: .9rem; */
     list-style: none;
     padding: 0;
   }

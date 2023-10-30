@@ -125,7 +125,7 @@
 }
 .form-data .list-block.harf > li {
   width: 49%;
-  margin-left: 2%;
+  /* margin-left: 2%; */
 }
 .form-data .list-block.harf > li:nth-child(2n+1) {
   margin-left: 0;
@@ -290,7 +290,7 @@ div#ui-datepicker-div {
   margin-bottom: 1em;
 }
 .form-privacy_inner .text-small {
-  font-size: .9em;
+  /* font-size: .9em; */
 }
 
 .form-consent {

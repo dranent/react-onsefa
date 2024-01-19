@@ -359,11 +359,13 @@ function PriceAcademy() {
                     </tr>
                     <tr>
                         <td><h6>コンボ</h6></td>
+                        <td>200,000</td>
+                        <td>150,000</td>
                     </tr>
                     <tr>
                         <td><h6>3種類全部</h6></td>
-                        <td>200,000</td>
-                        <td>150,000</td>
+                        <td>500,000</td>
+                        <td>400,000</td>
                     </tr>
                     <tr>
                         <td></td>

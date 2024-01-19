@@ -23,7 +23,7 @@ function AboutArtist() {
           
         </div>
 
-        <div className="AboutArtistPhotoContainer">
+        {/* <div className="AboutArtistPhotoContainer">
           <a href="https://www.instagram.com/queens_scalp/">
             <img
               src="/img/artist/hyunyoung.jpg"
@@ -35,7 +35,7 @@ function AboutArtist() {
             <span>HyunYoung (SMP)</span>
           </div>
           
-        </div>
+        </div> */}
         <div className="AboutArtistPhotoContainer">
           <a href="https://www.instagram.com/on_miyu_artmake/">
             <img

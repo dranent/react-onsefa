@@ -327,7 +327,7 @@ function PriceAcademy() {
         <div className="price-table" id='price'>
             <div>
                 <h4>SEFA Artmake Academy 料金表</h4>
-                <h6>(単位:円(税込))</h6>
+                <h6>(単位:円)</h6>
             </div>
             <Table responsive striped bordered>
                 <tbody>
@@ -344,28 +344,28 @@ function PriceAcademy() {
                     </tr>
                     
                     <tr>
-                        <td colSpan={3}><h4>眉毛（新規）</h4>
+                        <td colSpan={3}><h4>眉毛</h4>
                         </td>
                     </tr>
                     <tr>
                         <td><h6>シャドウ</h6></td>
-                        <td>200,000</td>
-                        <td>150,000</td>
+                        <td>200,000(税抜)</td>
+                        <td>150,000(税抜)</td>
                     </tr>
                     <tr>
                         <td><h6>毛並み</h6></td>
-                        <td>200,000</td>
-                        <td>150,000</td>
+                        <td>200,000(税抜)</td>
+                        <td>150,000(税抜)</td>
                     </tr>
                     <tr>
                         <td><h6>コンボ</h6></td>
-                        <td>200,000</td>
-                        <td>150,000</td>
+                        <td>200,000(税抜)</td>
+                        <td>150,000(税抜)</td>
                     </tr>
                     <tr>
                         <td><h6>3種類全部</h6></td>
-                        <td>500,000</td>
-                        <td>400,000</td>
+                        <td>500,000(税抜)</td>
+                        <td>400,000(税抜)</td>
                     </tr>
                     <tr>
                         <td></td>
@@ -379,8 +379,8 @@ function PriceAcademy() {
                     </tr>
                     <tr>
                         <td><h6>リップ</h6></td>
-                        <td>400,000</td>
-                        <td>300,000</td>
+                        <td>400,000(税抜)</td>
+                        <td>300,000(税抜)</td>
                     </tr>
                     <tr>
                         <td></td>
@@ -394,8 +394,8 @@ function PriceAcademy() {
                     </tr>
                     <tr>
                         <td><h6>ヘアライン</h6></td>
-                        <td>400,000</td>
-                        <td>300,000</td>
+                        <td>400,000(税抜)</td>
+                        <td>300,000(税抜)</td>
                     </tr>
                     <tr>
                         <td></td>
@@ -409,8 +409,8 @@ function PriceAcademy() {
                     </tr>
                     <tr>
                         <td><h6>アイライン</h6></td>
-                        <td>300,000</td>
-                        <td>200,000</td>
+                        <td>300,000(税抜)</td>
+                        <td>200,000(税抜)</td>
                     </tr>
                     <tr>
                         <td></td>
@@ -424,8 +424,8 @@ function PriceAcademy() {
                     </tr>
                     <tr>
                         <td><h6>SMP</h6></td>
-                        <td>500,000</td>
-                        <td>400,000</td>
+                        <td>500,000(税抜)</td>
+                        <td>400,000(税抜)</td>
                     </tr>
                     <tr>
                         <td></td>
@@ -439,8 +439,8 @@ function PriceAcademy() {
                     </tr>
                     <tr>
                         <td><h6>ほくろ</h6></td>
-                        <td>100,000</td>
-                        <td>50,000</td>
+                        <td>100,000(税抜)</td>
+                        <td>50,000(税抜)</td>
                     </tr>
                     <tr>
                         <td></td>
@@ -469,6 +469,10 @@ function PriceAcademy() {
                     <tr>
                         <td colSpan={3}><h6>モニター施術見守りはクリニックにて可能です。モニター施術見守りをご希望に方は追加料金がかかります。</h6></td>
                     </tr>
+                    <tr>
+                        <td colSpan={3}><h6>※スカルプエアー以外のクラスに材料は含まれておりません。</h6></td>
+                    </tr>
+                    
                 </tbody>
             </Table>
         </div>
